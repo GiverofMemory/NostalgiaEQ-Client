@@ -4,7 +4,7 @@ Client used by the Nostlagia EQ Project, which is a fully open source Classic Ev
 # Instructions for use:
 
 Download
-* Download zip archive
+* Download zip archive (click the green "code" button and select "download zip file")
 * Unzip archive into a folder
 
 Create patchme shortcut
