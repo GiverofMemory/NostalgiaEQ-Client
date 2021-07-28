@@ -11,7 +11,7 @@ Create patchme shortcut
 * Open folder and find eqgame.exe
 * Right click eqgame.exe and click "send to desktop" which creates a shortcut
 * Find the shortcut and right click it and click "properties"
-* Find the "target:" box and scroll to the end and type the word: patchme then click ok or apply.
+* Find the "target:" box and scroll to the end, click spacebar once, and type the word: patchme then click ok or apply.
 
 Play!
 * Double click the shortcut and see you in game!
