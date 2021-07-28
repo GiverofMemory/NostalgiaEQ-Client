@@ -16,6 +16,4 @@ Create patchme shortcut
 Play!
 * Double click the shortcut and see you in game!
 
-Support and Community:
-
 # Please join our discord! https://discord.gg/QCCRXrqjYU
