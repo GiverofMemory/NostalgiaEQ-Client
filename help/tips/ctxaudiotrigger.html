@@ -1,0 +1,52 @@
+<HEAD>
+<TITLE>Audio Trigger Help</TITLE>
+</HEAD>
+<BODY>
+<c "#DCF000">Audio Trigger Tips</c>
+<BR><BR>
+Audio triggers are sound effects that are played when certain patterns appear 
+in the chat window. You can make audio triggers to play any sound you want when 
+something you want to be sure not to miss appears in the chat window. This might be /tells from specific friends, certain buffs fading, or any other event you can think of that has a text message associated with it.
+<BR><BR>
+There are a couple key ideas that make up Audio Triggers.
+<BR><BR>
+Audio Triggers are a collection of text patterns associated with a sound 
+effect. The window shows a list of all active audio triggers. They are sorted by 
+priority so that the first pattern that matches text in the chat window will be 
+the one and only sound that is played. This allows patterns to be made, for 
+example, "tells you" and "yourbuddy tells you" that may have different sound 
+effects. The "Move Up" and "Move Down" commands allow you to control which patterns
+will be tested first.
+<BR><BR>
+Creating a new trigger is a simple matter of typing text in the "Patten" field, selecting a 
+sound in the "Sound" contro, and pressing "Create". 
+<BR><BR>
+The other controls include:<BR><BR>
+* Apply - changes the sound selected for the current pattern. Note that changing a pattern requires a new pattern to be made.<BR>
+* Play - plays the currently selected sound again.<BR>
+* Delete - delete the currently selected trigger.<BR>
+<BR><BR>
+<c "#DCF000">Trigger Sets</c><BR><BR>Trigger Sets aresimilar to choosing a UI skin. Each trigger set 
+represents a set of patterns associated with sounds that is&nbsp;stored on a 
+per-character basis.&nbsp;You can switch trigger sets by selecting the drop-down 
+control and selecting among the listed options. Unless you have installed custom 
+Audio Trigger sets, you will only see the "default" entry.
+<BR><BR>
+Each trigger set is stored as a folder in the AudioTrigger folder in your 
+EverQuest directory which can contain .wav files unique to that trigger set. The 
+goal here is to provide a way for the player community to create and share their own Audio 
+Trigger sets that people find useful for different classes or playstyles, much 
+like they have done for custom UI skins.
+<BR><BR>
+An example of a useful trigger set may be a set of patterns &amp; sounds 
+configured for your specific equipment. Perhaps you have a primal spear, and you 
+want to hear a special sound effect when the effects fade off so you can be 
+reminded to be sure to equip this weapon again. You would put in "The Avatar departs." as the pattern, and select whatever sound you want to have played when this buff fades away. 
+<BR><BR>
+There are many possibilities. Due to the differences in play styles, there is no way to predict what settings people might prefer so the default settings are empty. We encourage players to discover and share ways to make this a fun part of their gameplay.
+<BR><BR>
+<c "#DCF000">Notes on customizing Audio Triggers:</c><BR><BR>
+* Any .wav files found in the folder .\AudioTriggers\shared will be made available to all Audio Trigger sets in the Sound selection control. You will probably want to put most of your custom sounds in this folder, unless you are making custom Audio Trigger sets.<BR><BR>
+* Creating a new Audio Trigger set is similar to making a new UI skin. It's not complicated but it's not built into the UI. Create a folder in .\AudioTriggers\NewTriggerSetName and put any .wav files specific to this trigger set in there, and you will be able to start using the new trigger set the next time the program is started.<BR><BR>
+* User settings for each Audio Trigger set can be found in .\userdata\AT_<c "#F000DC">TriggerSetName</c>_<c "#F000DC">CharacterName</c>_<c "#F000DC">ServerName</c>.ini. You can copy these files to other characters as needed. You will probably want to include a sample of this if you make an Audio Trigger set that you plan to share because this is what contains all the details on each specific trigger pattern and sound.<BR><BR>
+</BODY>

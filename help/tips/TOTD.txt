@@ -1,0 +1,429 @@
+###
+<c "#00CC00">
+Lost Dungeons Tip
+</c>
+Once you "Accept" and adventure, no new members may be added to your group.  So make certain that you have all of your group members in the group before you visit the Wayfarers Brotherhood to get your adventure.
+###
+<c "#00CC00">
+Gameplay Tip
+</c>
+Some spells take a while to become available to cast after you memorize them.  So if your spell gem is gray after you finish memorizing a spell (such as Divine Aura), it isn't broken, just wait a while and it will become available.
+###
+<c "#00CC00">
+Gameplay Tip
+</c>
+Remember that '/dopropertinting on' will correct some issues with the skin tinting on new player models, such as skin tinted the same color as your armor.  Type /dopropertinting and hit enter.  The next time you log in the command will take effect.  For some video cards this will not work, and may give you poor results.  If this happens, type '/dopropertinting off', exit EverQuest and then start EverQuest again.
+###
+<c "#00CC00">
+Safety Tip
+</c>
+No peeking over the big hole in Paineel.  That really is a deep, dark hole, and if you fall in, you will most likely die.  And don't think that your levitation will save you...
+###
+<c "#00CC00">
+Convenience Tip
+</c>
+Hotbuttons are a handy way to quickly access abilities and skills.  To create a hotbutton, simply left-click and hold on a skill button, inventory slot, social or spell gem.  That item will appear on your cursor.  Just move it over to one of your open hotbutton spots and click to place it there.  Then you can just press the corresponding number key to activate that skill or spell.
+###
+<c "#00CC00">
+Convenience Tip
+</c>
+It is a good idea to know your location before you die.  Noting landmarks is helpful.  But one of the best ways to do this it to try and get a /loc when you die.  This should make your corpse easier to find later.  You can even make /loc into a hotbutton so you can hit it quickly when needed.
+###
+<c "#00CC00">
+Security Tip
+</c>
+Be mindful of dropping items to the ground as some NPCs, as well as other players, can pick them up.
+###
+<c "#00CC00">
+Security Tip
+</c>
+Make sure to have sufficient inventory space to hold the items you are getting before clicking trade (or completing a quest).  Items that do not fit into your inventory will fall to the ground.
+###
+<c "#00CC00">
+Security Tip
+</c>
+Remember that all trades are final.  Make sure to check what you are giving and receiving before accepting a trade.  You can see an item's properties by right-clicking on the icon in the trade window.  Make sure the name of the item and the information displayed matches the item you want.
+###
+<c "#00CC00">
+Combat Tip
+</c>
+Make sure to /consider NPCs before attacking.  Either left-click on them and then type /con, or right-click on them.  This will give you an indication of how dangerous the opponent is.
+###
+<c "#00CC00">
+Adventure Tip
+</c>
+Use the Looking For Group tool (/lfg) to find players in your level range to adventure with!
+###
+<c "#00CC00">
+Adventure Tip
+</c>
+Take advantage of the /friend list after a good hunt, perhaps you can find those same people to group with at another time.
+###
+<c "#00CC00">
+Security Tip
+</c>
+Be careful not to leave items in world containers (forges, ovens, etc), as they may be gone when you return.
+###
+<c "#00CC00">
+Security Tip
+</c>
+Remember that the term "No Rent" means that this item will disappear from your inventory 30 minutes after logging out or losing connection.
+###
+<c "#00CC00">
+Security Tip
+</c>
+Take time to check the going rate on an item before purchasing from another player.
+###
+<c "#00CC00">
+Security Tip
+</c>
+Never, ever give out your password to anyone.  SOE employees will never ask for your password.  Keep your account secure.
+###
+<c "#00CC00">
+Security Tip
+</c>
+Never, ever give out your account name to anyone.  Don't allow your character name and account name to match.  Don't post to message boards using your account name.  Your account name is half of the security of your account.  Keep your account secure.
+###
+<c "#00CC00">
+Security Tip
+</c>
+Remember that handing items to the banker is <c "#66CCFF">not</c> the same as putting them in the bank!  Right click the banker to open up the bank interface.
+###
+<c "#00CC00">
+Safety Tip
+</c>
+When using levitation spells, make sure they are fresh before venturing over long distances at great heights, if it wears off before you finish you may be killed.
+###
+<c "#00CC00">
+Gameplay Tip
+</c>
+Make an "assist" hotkey in groups to kill faster - things die faster if everyone is killing the same one!  To use /assist, target the person you want to help.  Then /assist will switch your target to whatever that person has targeted.  You may also want toggle whether your auto-attack turns on when you assist by using "/assist on" or "/assist off".
+###
+<c "#00CC00">
+Etiquette Tip
+</c>
+Be polite when asking other players for assistance, they will appreciate it and be more likely to help you.
+###
+<c "#00CC00">
+Etiquette Tip
+</c>
+Don't loot everything that your group kills.  Everyone in the group has earned a bit of the reward, so try to make certain that everyone gets a fair share.
+###
+<c "#00CC00">
+Security Tip
+</c>
+Turn on your Destroy and Drop confirmation options, this will make it less likely to destroy or drop something important on accident.
+###
+<c "#00CC00">
+Gameplay Tip
+</c>
+Try hailing different NPCs, some may have quests to undertake.  Even some of the NPCs that you've already talked to may have something new for you. Always follow their directions carefully!
+###
+<c "#00CC00">
+Bug Tip
+</c>
+If you notice something that does not seem right, use /bug to report as many details as possible so that we may look at it. If you are in danger, use /petition as well for help (but please still use /bug afterwards to report the bug).
+###
+<c "#00CC00">
+Safety Tip
+</c>
+Use /charinfo to check your bind point before doing something risky.  Your bind point is the place in the world where you will appear after you die.
+###
+<c "#00CC00">
+Convenience Tip
+</c>
+Shift + 1
+Shift + 2 etc...
+will switch between Hotbutton pages
+###
+<c "#00CC00">
+Convenience Tip
+</c>
+You can drag any spell gem from your memorized spell list into your hotbank and then use the number keys 0-9 to cast that spell.
+###
+<c "#00CC00">
+Safety Tip
+</c>
+Soulbinders can bind your soul to most city locations, look around your town for the NPC with the title "Soulbinder".  Your bind point is the place in the world where you will appear after you die.
+###
+<c "#00CC00">
+Convenience Tip
+</c>
+There are several ways to quickly talk to another character.
+<c "#66CCFF">/ttell [text]</c> - sends the text as a tell to the character targeted (this also works if you target a PCs corpse).
+<c "#66CCFF">"r"</c> - hitting the "r" key will Reply to the last person to send you a tell.
+###
+<c "#00CC00">
+Convenience Tip
+</c>
+You can immediately stop the casting of a spell by hitting the "d" key (this makes you duck).  You should hit it twice, when you duck you stay in a ducked position until you hit "d" again.
+###
+<c "#00CC00">
+Convenience Tip
+</c>
+Press backspace to bring up your map.  You can use this map to navigate through cities or find specific NPCs and landmarks.  If you own The Legacy of Ykesha, you can use this feature in most zones and make your own maps.
+###
+<c "#00CC00">
+Convenience Tip
+</c>
+If you think you may be able to get your corpse resurrected, take care not to remove all items from your corpse or it will disappear and can't be resurrected.
+###
+<c "#00CC00">
+Gameplay Tip
+</c>
+You can decide which tradeskill interface window you see when you open your tradeskill container.  CTRL+Right-Click will open the "old" interface, while just double-clicking will open the new one.  This is the default.  You can reverse that by toggling the "Open with Ctrl-R-click" button.
+###
+<c "#00CC00">
+Gameplay Tip
+</c>
+The denizens of some areas come out only after dark.  Do not be caught unaware when an area that is tame during the day starts crawling with evil creatures at nightfall.
+###
+<c "#00CC00">
+Gameplay Tip
+</c>
+Check back with your guild trainers periodically and ensure you have learned the basics in new skills you may have acquired.  Some skills will not improve unless you train in that skill at least once.
+###
+<c "#00CC00">
+Interface Tip
+</c>
+There are keyboard commands to open and close the interface windows.
+<c "#66CCFF">ALT-Y</c> = Player Window (character name, hit point, mana and stamina bars)
+<c "#66CCFF">ALT-P</c> = Party Window (group members and their health bars)
+<c "#66CCFF">ALT-T</c> = Target Window (target's name and health bar)
+<c "#66CCFF">ALT-S</c> = Spell Window (your spell gems)
+<c "#66CCFF">ALT-B</c> = Buff Window (spells that are active on your character)
+<c "#66CCFF">ALT-H</c> = Hot Button Window (banks of hot buttons)
+<c "#66CCFF">ALT-C</c> = Chat Window (chat text window)
+<c "#66CCFF">ALT-M</c> = Main Menu Window (abilities, socials and combat abilities)
+<c "#66CCFF">ALT-F1</c> = Pet Window (pet commands and health bar)
+###
+<c "#00CC00">
+Safety Tip
+</c>
+Always make certain that the name showing in the trade window is the name of the person you are trading with.  If you see another name, cancel the trade and start over.  This will prevent you from trading with pets, NPCs or the wrong player.
+###
+<c "#00CC00">
+Safety Tip
+</c>
+Only accept complete trades.  Never give something to someone that promises to bring you his or her part of the trade later.  Just wait until 'later' to make the complete trade.
+###
+<c "#00CC00">
+Gameplay Tip
+</c>
+Once you reach level 10 your items will remain on your corpse.  Corpses with items on them only remain where they were for 7 days, so you should make sure to plan to recover your items before those 7 days have passed.  If you can not do so, your corpse will be moved to Shadowrest after the 7 days.
+###
+<c "#00CC00">
+Gameplay Tip
+</c>
+When purchasing an item, either from a player character or a non-player character, right-click and hold on the item and carefully check to make sure that your character's race, class and level can use the item.
+###
+<c "#00CC00">
+Gameplay Tip
+</c>
+NO RENT items will disappear when you log out (or are disconnected).  Some containers are no rent, and items inside the container will also disappear when the container disappears.  Check any items you are purchasing for a NO RENT flag by right-clicking and holding on the item.
+###
+<c "#00CC00">
+Gameplay Tip
+</c>
+You can easily prevent accidentally giving items to the wrong NPCs by checking the name in the trade window before clicking 'trade'.
+###
+<c "#00CC00">
+Gameplay Tip
+</c>
+When your character reaches 20th level you can give him or her a surname.  Just type /surname {name}, where {name} is the new last name for your character.  Please understand that your last name must meet the naming conventions for the game.
+###
+<c "#00CC00">
+Performance Tip
+</c>
+For some machines, turning on your Texture Cache can reduce the time it takes to zone.  To activate it, add the following line to the eqclient.ini file - TextureCache=TRUE
+###
+<c "#00CC00">
+Performance Tip
+</c>
+For some machines, not loading the social animations can improve performance.  The trade-off is that you will not see any of the social animations, such as /cheer and /wave.  To activate it, set the following line to the eqclient.ini file - LoadSocialAnimations=FALSE
+###
+<c "#00CC00">
+Etiquette Tip
+</c>
+You can use the /report {text} feature to send information to us.  /report captures the last ten lines visible in your chat window and send them to us.  The {text} parameter should be treated like a topic.  For example, if someone is verbally harassing you, scroll up your chat window so that you can see the offensive text and type /report charactername and hit enter.  If you are reporting on bad behavior or a bug that you need help with, you should follow up the /report with a /petition {detailed text} so that we will be aware of your need.
+###
+<c "#00CC00">
+Gameplay Tip
+</c>
+When using a bow make sure that you have arrows equipped in your ammo slot.  If you have a stock of the same type of arrows in a quiver it will draw from it and auto fill your ammo slot.
+###
+<c "#00CC00">
+Gameplay Tip
+</c>
+When using a quiver it will increase the speed of your archery because it is easier to draw from the bow.
+###
+<c "#00CC00">
+Gameplay Tip
+</c>
+If you aren't gaining health or mana at your normal rate, make sure that you have eaten and are not hungry or thirsty.  This will impair your ability to concentrate on the arcane and restore your mana pool.
+###
+<c "#00CC00">
+Gameplay Tip
+</c>
+Food and drinks are eaten automatically when your character gets hungry.  So all you have to do is make sure you have food and drink in your possession.  Alcohol is not a drink (not for sustenance, anyway), and will not prevent you from getting thirsty.
+###
+<c "#00CC00">
+Gameplay Tip
+</c>
+Fire Beetle eyes make excellent light sources!
+###
+<c "#00CC00">
+Etiquette Tip
+</c>
+Please remember to treat your fellow players with respect.  EverQuest is a social game, and the people you meet today may be your guild mates tomorrow.
+###
+<c "#00CC00">
+Gameplay Tip
+</c>
+Grouping with fellow players helps you to achieve levels faster and is more fun!
+###
+<c "#00CC00">
+Etiquette Tip
+</c>
+Please do not petition for hints about the game.  If you need a hint, your best bet would be to nicely ask a fellow adventurer.
+###
+<c "#00CC00">
+Gameplay Tip
+</c>
+Remember to store excess coins in the bank.  That way if you die, they will remain safe and you will not be weighted down as much.
+###
+<c "#00CC00">
+Convenience Tip
+</c>
+If you submitted a petition and have not had a response yet, do check to see if your petition is still waiting to be answered by /viewpetition   If it is no longer there, please resubmit your issue.   If you have a petition in the queue but you have resolved your issue before a GM or Guide has contacted you, please use /deletepetition so that the process will speed up for your fellow players.
+###
+<c "#00CC00">
+Gameplay Tip
+</c>
+When interacting with NPCs, make sure to read everything they have to say. You may miss something important if you do not pay close attention to them!
+###
+<c "#00CC00">
+Convenience Tip
+</c>
+When you create a character, be sure to note the name of the server you're on.  Characters only exist on one of the servers and to find that character again you will need to log in to the correct server.
+###
+<c "#00CC00">
+Gameplay Tip
+</c>
+Your buffs will begin to fade after a certain amount of time, and will flash as they are about to fade away. Keep an eye on them and refresh them when necessary.
+###
+<c "#00CC00">
+Interface Tip
+</c>
+You can use the mouse to look around! Just hold the right mouse button and move the mouse to look around you.
+###
+<c "#00CC00">
+Convenience Tip
+</c>
+To read your guild's Message of the Day, just type /guildmotd. If you are the leader or an officer, you can set the guild Message of the Day by typing /guildmotd <message>, where <message> is the message you want people to see when they log in.
+###
+<c "#00CC00">
+Interface Tip
+</c>
+Holding alt and pressing a number between 1 and 8 will cause your character to cast the spell memorized in the corresponding spell gem.
+###
+<c "#00CC00">
+Gameplay Tip
+</c>
+If you lose your corpse there are several classes that have the magical abilities to help locate it.  A Bard, Necromancer, or Shadowknight may be willing to help you if you ask politely.
+###
+<c "#00CC00">
+Convenience Tip
+</c>
+The Bazaar can be a good place to meet other players and bargain for more potent equipment.  You'll need to own the Shadows of Luclin expansion in order to access the Bazaar.
+###
+<c "#00CC00">
+Gameplay Tip
+</c>
+Some items have the magical ability to increase the power of your spells.  To see if an item improves your spells power, hold down right click on the item and look for "Focus Effect: "
+###
+<c "#00CC00">
+Gameplay Tip
+</c>
+When you cast a spell that is strengthened by an item you are wearing, the item will give off a soft glow.
+###
+<c "#00CC00">
+Gameplay Tip
+</c>
+Certain player made or vendor bought provisions bestow additional benefits, such as bonus stats or a longer duration.  In order for those food items to be in effect, they need to be the first food item in your inventory.
+###
+<c "#00CC00">
+Gameplay Tip
+</c>
+Certain creatures are resistant to some types of spells.  If your favorite spell does not appear to be working well, try something else from your repertoire.
+###
+<c "#00CC00">
+Gameplay Tip
+</c>
+You can use the sneak skill to get closer to enemies than normal before they see you, especially from behind.
+###
+<c "#00CC00">
+Performance Tip
+</c>
+In areas of dense foliage, try lowering your clip plane if your system is slowing down.  Use SHIFT and - to pull the clip plane in and SHIFT and + to push it out.
+###
+<c "#00CC00">
+Gameplay Tip
+</c>
+You can start a conversation with many NPCs just by saying hi to them.  Click on them and press "h" to hail them.
+###
+<c "#00CC00">
+Convenience Tip
+</c>
+You can join your favorite chat channels automatically when you log in by typing /autojoin <channel>. To remove an autojoined channel, simply delete the line from your eqclient.ini file.
+###
+<c "#00CC00">
+Gameplay Tip
+</c>
+Use the cartography tool to add labels for your favorite experience areas in mappable zones.
+###
+<c "#00CC00">
+Gameplay Tip
+</c>
+Some items have a recommended level.  When looking at an item with a recommended level the number in red is how the item performs for you, and the number in parenthesis is the stat for the item at or above the recommended level.
+###
+<c "#00CC00">
+Safety Tip
+</c>
+Some NPCs can see through invisibility! Be sure to consider (/con) NPCs before assuming you can pass by them safely while invisible.  An NPC that can't see you will consider you in a neutral way (because he can't see you).
+###
+<c "#00CC00">
+Safety Tip
+</c>
+You always look hidden to yourself.  Only Rogues get a message telling them when they have successfully hidden.  So don't rely on an external camera view to determine if you can be seen.
+###
+<c "#00CC00">
+Gameplay Tip
+</c>
+Some of the skills granted to certain races or classes don't improve at all, while other skills will not improve until you have reached a certain level.  For example if you have 100 swimming because you are an Iksar, your swimming will not improve before level 20.
+###
+<c "#00CC00">
+Safety Tip
+</c>
+Not everyone in every city likes you.  Be sure to consider (/con) guards before approaching them in unexplored sections of town.
+###
+<c "#00CC00">
+Safety Tip
+</c>
+When underwater, carefully watch your breath meter.  Don't let it expire or you will drown!  To catch a new breath, all you need to do is swim up to the surface (Page Up key).
+###
+<c "#00CC00">
+Gameplay Tip
+</c>
+If you are stuck in a pool or lake, look for the lowest ledge.  Then look straight up and press Space Bar to jump up and out.
+###
+<c "#00CC00">
+Safety Tip
+</c>
+Even though some monsters may look alike, be sure to read their name to tell the difference.  If they have a name, they are probably more difficult to defeat.
+###
+<c "#00CC00">
+Convenience Tip
+</c>
+Make sure to change your copper and silver into gold and platinum every time you use the bank.  Click on the money you wish to change, select the amount, and move the coin to the type you wish to make.  It will save you a great deal on weight.
+###
