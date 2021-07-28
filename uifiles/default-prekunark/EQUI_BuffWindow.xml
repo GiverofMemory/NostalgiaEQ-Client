@@ -1,0 +1,977 @@
+<?xml version = "1.0"?>
+<XML ID = "EQInterfaceDefinitionLanguage">
+	<Schema xmlns = "EverQuestData" xmlns:dt = "EverQuestDataTypes"/>
+
+<!--  ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~  -->
+<!--  "Classic UI" mod (c) Fabrice Denis (faB) 2002-2003       -->
+<!--  Based on the original EQ UI (c) Verant Interactive/Sony  -->
+<!--  Email: oukoulele@yahoo.fr                                -->
+<!--  Further modifications of this UI should include credit   -->
+<!--  to the author and a link to this UI download.            -->
+<!--  ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~  -->
+
+<!-- bottom of buff recessed box -->
+	<Ui2DAnimation item = "BW_bgbot_TX">
+		<Cycle>true</Cycle>
+		<Frames>
+			<Texture>classic_pieces03.tga</Texture>
+			<Location>
+				<X>0</X>
+				<Y>206</Y>
+			</Location>
+			<Size>
+				<CX>121</CX>
+				<CY>21</CY>
+			</Size>
+			<Hotspot>
+				<X>0</X>
+				<Y>0</Y>
+			</Hotspot>
+			<Duration>1000</Duration>
+		</Frames>
+	</Ui2DAnimation>
+	<StaticAnimation item = "BW_bgbot">
+		<ScreenID>BW_bgbot</ScreenID>
+		<Location>
+			<X>0</X>
+			<Y>289</Y>
+		</Location>
+		<Size>
+			<CX>121</CX>
+			<CY>21</CY>
+		</Size>
+		<Animation>BW_bgbot_TX</Animation>
+	</StaticAnimation>
+
+	<Button item = "BW_Buff0_Button">
+		<ScreenID>Buff0</ScreenID>
+		<!--<Font>3</Font>-->
+		<RelativePosition>true</RelativePosition>
+		<Location>
+			<X>0</X>
+			<Y>0</Y>
+		</Location>
+		<Size>
+			<CX>104</CX>
+			<CY>19</CY>
+		</Size>
+		<Style_VScroll>false</Style_VScroll>
+		<Style_HScroll>false</Style_HScroll>
+		<Style_Transparent>false</Style_Transparent>
+		<!--<TooltipReference/>   -->
+		<Style_Checkbox>false</Style_Checkbox>
+		<!--<RadioGroup/>   -->
+		<ButtonDrawTemplate>
+			<Normal>BlueIconBackground2</Normal>
+			<NormalDecal>BuffIcons</NormalDecal>
+		</ButtonDrawTemplate>
+		<!--  
+			<SoundPressed/>
+			<SoundUp/>
+			<SoundFlyby/>
+		-->
+		<DecalOffset>
+			<X>1</X>
+			<Y>0</Y>
+		</DecalOffset>
+		<DecalSize>
+			<CX>18</CX>
+			<CY>18</CY>
+		</DecalSize>
+	</Button>
+
+	<Button item = "BW_Buff1_Button">
+		<ScreenID>Buff1</ScreenID>
+		<!--<Font>3</Font>-->
+		<RelativePosition>true</RelativePosition>
+		<Location>
+			<X>0</X>
+			<Y>0</Y>
+		</Location>
+		<Size>
+			<CX>104</CX>
+			<CY>19</CY>
+		</Size>
+		<Style_VScroll>false</Style_VScroll>
+		<Style_HScroll>false</Style_HScroll>
+		<Style_Transparent>false</Style_Transparent>
+		<!--<TooltipReference/>   -->
+		<Style_Checkbox>false</Style_Checkbox>
+		<!--<RadioGroup/>   -->
+		<ButtonDrawTemplate>
+			<Normal>BlueIconBackground2</Normal>
+			<NormalDecal>BuffIcons</NormalDecal>
+		</ButtonDrawTemplate>
+		<!--  
+			<SoundPressed/>
+			<SoundUp/>
+			<SoundFlyby/>
+		-->
+		<DecalOffset>
+			<X>1</X>
+			<Y>0</Y>
+		</DecalOffset>
+		<DecalSize>
+			<CX>18</CX>
+			<CY>18</CY>
+		</DecalSize>
+	</Button>
+
+	<Button item = "BW_Buff2_Button">
+		<ScreenID>Buff2</ScreenID>
+		<!--<Font>3</Font>   -->
+		<RelativePosition>true</RelativePosition>
+		<Location>
+			<X>93</X>
+			<Y>3</Y>
+		</Location>
+		<Size>
+			<CX>104</CX>
+			<CY>19</CY>
+		</Size>
+		<Style_VScroll>false</Style_VScroll>
+		<Style_HScroll>false</Style_HScroll>
+		<Style_Transparent>false</Style_Transparent>
+		<!--<TooltipReference/>   -->
+		<Style_Checkbox>false</Style_Checkbox>
+		<RadioGroup/>
+		<ButtonDrawTemplate>
+			<Normal>RedIconBackground</Normal>
+			<NormalDecal>BuffIcons</NormalDecal>
+		</ButtonDrawTemplate>
+		<!--  
+			<SoundPressed/>
+			<SoundUp/>
+			<SoundFlyby/>
+		-->
+		<DecalOffset>
+			<X>1</X>
+			<Y>0</Y>
+		</DecalOffset>
+		<DecalSize>
+			<CX>18</CX>
+			<CY>18</CY>
+		</DecalSize>
+	</Button>
+
+	<Button item = "BW_Buff3_Button">
+		<ScreenID>Buff3</ScreenID>
+		<!--<Font>3</Font>   -->
+		<RelativePosition>true</RelativePosition>
+		<Location>
+			<X>3</X>
+			<Y>49</Y>
+		</Location>
+		<Size>
+			<CX>104</CX>
+			<CY>19</CY>
+		</Size>
+		<Style_VScroll>false</Style_VScroll>
+		<Style_HScroll>false</Style_HScroll>
+		<Style_Transparent>false</Style_Transparent>
+		<!--<TooltipReference/>   -->
+		<Style_Checkbox>false</Style_Checkbox>
+		<RadioGroup/>
+		<ButtonDrawTemplate>
+			<Normal>BlueIconBackground</Normal>
+			<NormalDecal>BuffIcons</NormalDecal>
+		</ButtonDrawTemplate>
+		<!-- Default and not used		
+			<SoundPressed/>
+			<SoundUp/>
+			<SoundFlyby/>
+		-->
+		<DecalOffset>
+			<X>1</X>
+			<Y>0</Y>
+		</DecalOffset>
+		<DecalSize>
+			<CX>18</CX>
+			<CY>18</CY>
+		</DecalSize>
+	</Button>
+
+	<Button item = "BW_Buff4_Button">
+		<ScreenID>Buff4</ScreenID>
+		<!--<Font>3</Font> Default -->
+		<RelativePosition>true</RelativePosition>
+		<Location>
+			<X>48</X>
+			<Y>49</Y>
+		</Location>
+		<Size>
+			<CX>104</CX>
+			<CY>19</CY>
+		</Size>
+		<Style_VScroll>false</Style_VScroll>
+		<Style_HScroll>false</Style_HScroll>
+		<Style_Transparent>false</Style_Transparent>
+		<TooltipReference/>
+		<Style_Checkbox>false</Style_Checkbox>
+		<!--<RadioGroup/> Default -->
+		<ButtonDrawTemplate>
+			<Normal>RedIconBackground</Normal>
+			<NormalDecal>BuffIcons</NormalDecal>
+		</ButtonDrawTemplate>
+		<!--Default
+			<SoundPressed/>
+			<SoundUp/>
+			<SoundFlyby/>
+		-->
+		<DecalOffset>
+			<X>1</X>
+			<Y>0</Y>
+		</DecalOffset>
+		<DecalSize>
+			<CX>18</CX>
+			<CY>18</CY>
+		</DecalSize>
+	</Button>
+
+	<Button item = "BW_Buff5_Button">
+		<ScreenID>Buff5</ScreenID>
+		<!--<Font>3</Font> Defautl -->
+		<RelativePosition>true</RelativePosition>
+		<Location>
+			<X>93</X>
+			<Y>49</Y>
+		</Location>
+		<Size>
+			<CX>104</CX>
+			<CY>19</CY>
+		</Size>
+		<Style_VScroll>false</Style_VScroll>
+		<Style_HScroll>false</Style_HScroll>
+		<Style_Transparent>false</Style_Transparent>
+		<!--<TooltipReference/> Default -->
+		<Style_Checkbox>false</Style_Checkbox>
+		<!--<RadioGroup/> Default -->
+		<ButtonDrawTemplate>
+			<Normal>RedIconBackground</Normal>
+			<NormalDecal>BuffIcons</NormalDecal>
+		</ButtonDrawTemplate>
+		<!-- 
+			<SoundPressed/>
+			<SoundUp/>
+			<SoundFlyby/>
+		-->
+		<DecalOffset>
+			<X>1</X>
+			<Y>0</Y>
+		</DecalOffset>
+		<DecalSize>
+			<CX>18</CX>
+			<CY>18</CY>
+		</DecalSize>
+	</Button>
+
+	<Button item = "BW_Buff6_Button">
+		<ScreenID>Buff6</ScreenID>
+		<!--<Font>3</Font> Default -->
+		<RelativePosition>true</RelativePosition>
+		<Location>
+			<X>3</X>
+			<Y>95</Y>
+		</Location>
+		<Size>
+			<CX>104</CX>
+			<CY>19</CY>
+		</Size>
+		<Style_VScroll>false</Style_VScroll>
+		<Style_HScroll>false</Style_HScroll>
+		<Style_Transparent>false</Style_Transparent>
+		<TooltipReference/>
+		<Style_Checkbox>false</Style_Checkbox>
+		<!--<RadioGroup/> Default -->
+		<ButtonDrawTemplate>
+			<Normal>BlueIconBackground</Normal>
+			<NormalDecal>BuffIcons</NormalDecal>
+		</ButtonDrawTemplate>
+		<!-- 
+			<SoundPressed/>
+			<SoundUp/>
+			<SoundFlyby/>
+		-->
+		<DecalOffset>
+			<X>1</X>
+			<Y>0</Y>
+		</DecalOffset>
+		<DecalSize>
+			<CX>18</CX>
+			<CY>18</CY>
+		</DecalSize>
+	</Button>
+
+	<Button item = "BW_Buff7_Button">
+		<ScreenID>Buff7</ScreenID>
+		<!--<Font>3</Font> Use defaults -->
+		<RelativePosition>true</RelativePosition>
+		<Location>
+			<X>48</X>
+			<Y>95</Y>
+		</Location>
+		<Size>
+			<CX>104</CX>
+			<CY>19</CY>
+		</Size>
+		<Style_VScroll>false</Style_VScroll>
+		<Style_HScroll>false</Style_HScroll>
+		<Style_Transparent>false</Style_Transparent>
+		<!--<TooltipReference/> Use defaults -->
+		<Style_Checkbox>false</Style_Checkbox>
+		<!--<RadioGroup/> Use Defaults -->
+		<ButtonDrawTemplate>
+			<Normal>RedIconBackground</Normal>
+			<NormalDecal>BuffIcons</NormalDecal>
+		</ButtonDrawTemplate>
+		<!-- Use defaults
+			<SoundPressed/>
+			<SoundUp/>
+			<SoundFlyby/>
+		-->
+		<DecalOffset>
+			<X>1</X>
+			<Y>0</Y>
+		</DecalOffset>
+		<DecalSize>
+			<CX>18</CX>
+			<CY>18</CY>
+		</DecalSize>
+	</Button>
+
+	<Button item = "BW_Buff8_Button">
+		<ScreenID>Buff8</ScreenID>
+		<!--<Font>3</Font>Defaults-->
+		<RelativePosition>true</RelativePosition>
+		<Location>
+			<X>93</X>
+			<Y>95</Y>
+		</Location>
+		<Size>
+			<CX>104</CX>
+			<CY>19</CY>
+		</Size>
+		<Style_VScroll>false</Style_VScroll>
+		<Style_HScroll>false</Style_HScroll>
+		<Style_Transparent>false</Style_Transparent>
+		<!--<TooltipReference/> Use default -->
+		<Style_Checkbox>false</Style_Checkbox>
+		<!--<RadioGroup/>Use default-->
+		<ButtonDrawTemplate>
+			<Normal>RedIconBackground</Normal>
+			<NormalDecal>BuffIcons</NormalDecal>
+		</ButtonDrawTemplate>
+		<!-- 
+			<SoundPressed/>
+			<SoundUp/>
+			<SoundFlyby/>
+		-->
+		<DecalOffset>
+			<X>1</X>
+			<Y>0</Y>
+		</DecalOffset>
+		<DecalSize>
+			<CX>18</CX>
+			<CY>18</CY>
+		</DecalSize>
+	</Button>
+
+	<Button item = "BW_Buff9_Button">
+		<ScreenID>Buff9</ScreenID>
+		<!--<Font>3</Font>Use Defaults -->
+		<RelativePosition>true</RelativePosition>
+		<Location>
+			<X>3</X>
+			<Y>141</Y>
+		</Location>
+		<Size>
+			<CX>104</CX>
+			<CY>19</CY>
+		</Size>
+		<Style_VScroll>false</Style_VScroll>
+		<Style_HScroll>false</Style_HScroll>
+		<Style_Transparent>false</Style_Transparent>
+		<!--<TooltipReference/> Use Defaults -->
+		<Style_Checkbox>false</Style_Checkbox>
+		<!--<RadioGroup/>  -->
+		<ButtonDrawTemplate>
+			<Normal>BlueIconBackground</Normal>
+			<NormalDecal>BuffIcons</NormalDecal>
+		</ButtonDrawTemplate>
+		<DecalOffset>
+			<X>1</X>
+			<Y>0</Y>
+		</DecalOffset>
+		<DecalSize>
+			<CX>18</CX>
+			<CY>18</CY>
+		</DecalSize>
+	</Button>
+
+	<Button item = "BW_Buff10_Button">
+		<ScreenID>Buff10</ScreenID>
+		<!--<Font>3</Font> -->
+		<RelativePosition>true</RelativePosition>
+		<Location>
+			<X>48</X>
+			<Y>141</Y>
+		</Location>
+		<Size>
+			<CX>104</CX>
+			<CY>19</CY>
+		</Size>
+		<Style_VScroll>false</Style_VScroll>
+		<Style_HScroll>false</Style_HScroll>
+		<Style_Transparent>false</Style_Transparent>
+		<!--<TooltipReference/>-->
+		<Style_Checkbox>false</Style_Checkbox>
+		<!--<RadioGroup/>-->
+		<ButtonDrawTemplate>
+			<Normal>RedIconBackground</Normal>
+			<NormalDecal>BuffIcons</NormalDecal>
+		</ButtonDrawTemplate>
+		<DecalOffset>
+			<X>1</X>
+			<Y>0</Y>
+		</DecalOffset>
+		<DecalSize>
+			<CX>18</CX>
+			<CY>18</CY>
+		</DecalSize>
+	</Button>
+
+	<Button item = "BW_Buff11_Button">
+		<ScreenID>Buff11</ScreenID>
+		<!--<Font>3</Font>-->
+		<RelativePosition>true</RelativePosition>
+		<Location>
+			<X>93</X>
+			<Y>141</Y>
+		</Location>
+		<Size>
+			<CX>104</CX>
+			<CY>19</CY>
+		</Size>
+		<Style_VScroll>false</Style_VScroll>
+		<Style_HScroll>false</Style_HScroll>
+		<Style_Transparent>false</Style_Transparent>
+		<!--<TooltipReference/>-->
+		<Style_Checkbox>false</Style_Checkbox>
+		<!--<RadioGroup/>-->
+		<ButtonDrawTemplate>
+			<Normal>RedIconBackground</Normal>
+			<NormalDecal>BuffIcons</NormalDecal>
+		</ButtonDrawTemplate>
+		<DecalOffset>
+			<X>1</X>
+			<Y>0</Y>
+		</DecalOffset>
+		<DecalSize>
+			<CX>18</CX>
+			<CY>18</CY>
+		</DecalSize>
+	</Button>
+
+	<Button item = "BW_Buff12_Button">
+		<ScreenID>Buff12</ScreenID>
+		<!--<Font>3</Font>-->
+		<RelativePosition>true</RelativePosition>
+		<Location>
+			<X>3</X>
+			<Y>187</Y>
+		</Location>
+		<Size>
+			<CX>104</CX>
+			<CY>19</CY>
+		</Size>
+		<Style_VScroll>false</Style_VScroll>
+		<Style_HScroll>false</Style_HScroll>
+		<Style_Transparent>false</Style_Transparent>
+		<!--<TooltipReference/>-->
+		<Style_Checkbox>false</Style_Checkbox>
+		<!--<RadioGroup/>-->
+		<ButtonDrawTemplate>
+			<Normal>BlueIconBackground</Normal>
+			<NormalDecal>BuffIcons</NormalDecal>
+		</ButtonDrawTemplate>
+		<DecalOffset>
+			<X>1</X>
+			<Y>0</Y>
+		</DecalOffset>
+		<DecalSize>
+			<CX>18</CX>
+			<CY>18</CY>
+		</DecalSize>
+	</Button>
+
+	<Button item = "BW_Buff13_Button">
+		<ScreenID>Buff13</ScreenID>
+		<!--<Font>3</Font>-->
+		<RelativePosition>true</RelativePosition>
+		<Location>
+			<X>48</X>
+			<Y>187</Y>
+		</Location>
+		<Size>
+			<CX>104</CX>
+			<CY>19</CY>
+		</Size>
+		<Style_VScroll>false</Style_VScroll>
+		<Style_HScroll>false</Style_HScroll>
+		<Style_Transparent>false</Style_Transparent>
+		<!--<TooltipReference/>-->
+		<Style_Checkbox>false</Style_Checkbox>
+		<!--<RadioGroup/>-->
+		<ButtonDrawTemplate>
+			<Normal>RedIconBackground</Normal>
+			<NormalDecal>BuffIcons</NormalDecal>
+		</ButtonDrawTemplate>
+		<DecalOffset>
+			<X>1</X>
+			<Y>0</Y>
+		</DecalOffset>
+		<DecalSize>
+			<CX>18</CX>
+			<CY>18</CY>
+		</DecalSize>
+	</Button>
+
+	<Button item = "BW_Buff14_Button">
+		<ScreenID>Buff14</ScreenID>
+		<!--<Font>3</Font>-->
+		<RelativePosition>true</RelativePosition>
+		<Location>
+			<X>93</X>
+			<Y>187</Y>
+		</Location>
+		<Size>
+			<CX>104</CX>
+			<CY>19</CY>
+		</Size>
+		<Style_VScroll>false</Style_VScroll>
+		<Style_HScroll>false</Style_HScroll>
+		<Style_Transparent>false</Style_Transparent>
+		<!--<TooltipReference/>-->
+		<Style_Checkbox>false</Style_Checkbox>
+		<!--<RadioGroup/>-->
+		<ButtonDrawTemplate>
+			<Normal>RedIconBackground</Normal>
+			<NormalDecal>BuffIcons</NormalDecal>
+		</ButtonDrawTemplate>
+		<DecalOffset>
+			<X>1</X>
+			<Y>0</Y>
+		</DecalOffset>
+		<DecalSize>
+			<CX>18</CX>
+			<CY>18</CY>
+		</DecalSize>
+	</Button>
+
+<!-- Buff Labels -->
+	<Label item ="BW_Label0">
+		<EQType>45</EQType>
+		<Font>2</Font>
+		<RelativePosition>true</RelativePosition>
+		<Location>
+			<X>38</X>
+			<Y>4</Y>
+		</Location>
+		<Size>
+			<CX>70</CX>
+			<CY>16</CY>
+		</Size>
+		<Text></Text>
+		<TextColor>
+				<R>255</R>
+				<G>255</G>
+				<B>255</B>
+		</TextColor>
+		<NoWrap>true</NoWrap>
+		<AlignCenter>false</AlignCenter>
+		<AlignRight>false</AlignRight>
+		<AlignLeft>true</AlignLeft>
+	</Label>
+	<Label item ="BW_Label1">
+		<EQType>46</EQType>
+		<Font>2</Font>
+		<RelativePosition>true</RelativePosition>
+		<Location>
+			<X>38</X>
+			<Y>24</Y>
+		</Location>
+		<Size>
+			<CX>70</CX>
+			<CY>16</CY>
+		</Size>
+		<Text></Text>
+		<TextColor>
+				<R>255</R>
+				<G>255</G>
+				<B>255</B>
+		</TextColor>
+		<NoWrap>true</NoWrap>
+		<AlignCenter>false</AlignCenter>
+		<AlignRight>false</AlignRight>
+		<AlignLeft>true</AlignLeft>
+	</Label>
+	<Label item ="BW_Label2">
+		<EQType>47</EQType>
+		<Font>2</Font>
+		<RelativePosition>true</RelativePosition>
+		<Location>
+			<X>38</X>
+			<Y>44</Y>
+		</Location>
+		<Size>
+			<CX>70</CX>
+			<CY>16</CY>
+		</Size>
+		<Text></Text>
+		<TextColor>
+				<R>255</R>
+				<G>255</G>
+				<B>255</B>
+		</TextColor>
+		<NoWrap>true</NoWrap>
+		<AlignCenter>false</AlignCenter>
+		<AlignRight>false</AlignRight>
+		<AlignLeft>true</AlignLeft>
+	</Label>
+	<Label item ="BW_Label3">
+		<EQType>48</EQType>
+		<Font>2</Font>
+		<RelativePosition>true</RelativePosition>
+		<Location>
+			<X>38</X>
+			<Y>64</Y>
+		</Location>
+		<Size>
+			<CX>70</CX>
+			<CY>16</CY>
+		</Size>
+		<Text></Text>
+		<TextColor>
+				<R>255</R>
+				<G>255</G>
+				<B>255</B>
+		</TextColor>
+		<NoWrap>true</NoWrap>
+		<AlignCenter>false</AlignCenter>
+		<AlignRight>false</AlignRight>
+		<AlignLeft>true</AlignLeft>
+	</Label>
+	<Label item ="BW_Label4">
+		<EQType>49</EQType>
+		<Font>2</Font>
+		<RelativePosition>true</RelativePosition>
+		<Location>
+			<X>38</X>
+			<Y>84</Y>
+		</Location>
+		<Size>
+			<CX>70</CX>
+			<CY>16</CY>
+		</Size>
+		<Text></Text>
+		<TextColor>
+				<R>255</R>
+				<G>255</G>
+				<B>255</B>
+		</TextColor>
+		<NoWrap>true</NoWrap>
+		<AlignCenter>false</AlignCenter>
+		<AlignRight>false</AlignRight>
+		<AlignLeft>true</AlignLeft>
+	</Label>
+	<Label item ="BW_Label5">
+		<EQType>50</EQType>
+		<Font>2</Font>
+		<RelativePosition>true</RelativePosition>
+		<Location>
+			<X>38</X>
+			<Y>104</Y>
+		</Location>
+		<Size>
+			<CX>70</CX>
+			<CY>16</CY>
+		</Size>
+		<Text></Text>
+		<TextColor>
+				<R>255</R>
+				<G>255</G>
+				<B>255</B>
+		</TextColor>
+		<NoWrap>true</NoWrap>
+		<AlignCenter>false</AlignCenter>
+		<AlignRight>false</AlignRight>
+		<AlignLeft>true</AlignLeft>
+	</Label>
+	<Label item ="BW_Label6">
+		<EQType>51</EQType>
+		<Font>2</Font>
+		<RelativePosition>true</RelativePosition>
+		<Location>
+			<X>38</X>
+			<Y>124</Y>
+		</Location>
+		<Size>
+			<CX>70</CX>
+			<CY>16</CY>
+		</Size>
+		<Text></Text>
+		<TextColor>
+				<R>255</R>
+				<G>255</G>
+				<B>255</B>
+		</TextColor>
+		<NoWrap>true</NoWrap>
+		<AlignCenter>false</AlignCenter>
+		<AlignRight>false</AlignRight>
+		<AlignLeft>true</AlignLeft>
+	</Label>
+	<Label item ="BW_Label7">
+		<EQType>52</EQType>
+		<Font>2</Font>
+		<RelativePosition>true</RelativePosition>
+		<Location>
+			<X>38</X>
+			<Y>144</Y>
+		</Location>
+		<Size>
+			<CX>70</CX>
+			<CY>16</CY>
+		</Size>
+		<Text></Text>
+		<TextColor>
+				<R>255</R>
+				<G>255</G>
+				<B>255</B>
+		</TextColor>
+		<NoWrap>true</NoWrap>
+		<AlignCenter>false</AlignCenter>
+		<AlignRight>false</AlignRight>
+		<AlignLeft>true</AlignLeft>
+	</Label>
+	<Label item ="BW_Label8">
+		<EQType>53</EQType>
+		<Font>2</Font>
+		<RelativePosition>true</RelativePosition>
+		<Location>
+			<X>38</X>
+			<Y>164</Y>
+		</Location>
+		<Size>
+			<CX>70</CX>
+			<CY>16</CY>
+		</Size>
+		<Text></Text>
+		<TextColor>
+				<R>255</R>
+				<G>255</G>
+				<B>255</B>
+		</TextColor>
+		<NoWrap>true</NoWrap>
+		<AlignCenter>false</AlignCenter>
+		<AlignRight>false</AlignRight>
+		<AlignLeft>true</AlignLeft>
+	</Label>
+	<Label item ="BW_Label9">
+		<EQType>54</EQType>
+		<Font>2</Font>
+		<RelativePosition>true</RelativePosition>
+		<Location>
+			<X>38</X>
+			<Y>184</Y>
+		</Location>
+		<Size>
+			<CX>70</CX>
+			<CY>16</CY>
+		</Size>
+		<Text></Text>
+		<TextColor>
+				<R>255</R>
+				<G>255</G>
+				<B>255</B>
+		</TextColor>
+		<NoWrap>true</NoWrap>
+		<AlignCenter>false</AlignCenter>
+		<AlignRight>false</AlignRight>
+		<AlignLeft>true</AlignLeft>
+	</Label>
+	<Label item ="BW_Label10">
+		<EQType>55</EQType>
+		<Font>2</Font>
+		<RelativePosition>true</RelativePosition>
+		<Location>
+			<X>38</X>
+			<Y>204</Y>
+		</Location>
+		<Size>
+			<CX>70</CX>
+			<CY>16</CY>
+		</Size>
+		<Text></Text>
+		<TextColor>
+				<R>255</R>
+				<G>255</G>
+				<B>255</B>
+		</TextColor>
+		<NoWrap>true</NoWrap>
+		<AlignCenter>false</AlignCenter>
+		<AlignRight>false</AlignRight>
+		<AlignLeft>true</AlignLeft>
+	</Label>
+	<Label item ="BW_Label11">
+		<EQType>56</EQType>
+		<Font>2</Font>
+		<RelativePosition>true</RelativePosition>
+		<Location>
+			<X>38</X>
+			<Y>224</Y>
+		</Location>
+		<Size>
+			<CX>70</CX>
+			<CY>16</CY>
+		</Size>
+		<Text></Text>
+		<TextColor>
+				<R>255</R>
+				<G>255</G>
+				<B>255</B>
+		</TextColor>
+		<NoWrap>true</NoWrap>
+		<AlignCenter>false</AlignCenter>
+		<AlignRight>false</AlignRight>
+		<AlignLeft>true</AlignLeft>
+	</Label>
+	<Label item ="BW_Label12">
+		<EQType>57</EQType>
+		<Font>2</Font>
+		<RelativePosition>true</RelativePosition>
+		<Location>
+			<X>38</X>
+			<Y>244</Y>
+		</Location>
+		<Size>
+			<CX>70</CX>
+			<CY>16</CY>
+		</Size>
+		<Text></Text>
+		<TextColor>
+				<R>255</R>
+				<G>255</G>
+				<B>255</B>
+		</TextColor>
+		<NoWrap>true</NoWrap>
+		<AlignCenter>false</AlignCenter>
+		<AlignRight>false</AlignRight>
+		<AlignLeft>true</AlignLeft>
+	</Label>
+	<Label item ="BW_Label13">
+		<EQType>58</EQType>
+		<Font>2</Font>
+		<RelativePosition>true</RelativePosition>
+		<Location>
+			<X>38</X>
+			<Y>264</Y>
+		</Location>
+		<Size>
+			<CX>70</CX>
+			<CY>16</CY>
+		</Size>
+		<Text></Text>
+		<TextColor>
+				<R>255</R>
+				<G>255</G>
+				<B>255</B>
+		</TextColor>
+		<NoWrap>true</NoWrap>
+		<AlignCenter>false</AlignCenter>
+		<AlignRight>false</AlignRight>
+		<AlignLeft>true</AlignLeft>
+	</Label>
+	<Label item ="BW_Label14">
+		<EQType>59</EQType>
+		<Font>2</Font>
+		<RelativePosition>true</RelativePosition>
+		<Location>
+			<X>38</X>
+			<Y>284</Y>
+		</Location>
+		<Size>
+			<CX>70</CX>
+			<CY>16</CY>
+		</Size>
+		<Text></Text>
+		<TextColor>
+				<R>255</R>
+				<G>255</G>
+				<B>255</B>
+		</TextColor>
+		<NoWrap>true</NoWrap>
+		<AlignCenter>false</AlignCenter>
+		<AlignRight>false</AlignRight>
+		<AlignLeft>true</AlignLeft>
+	</Label>
+
+	<Screen item = "BuffWindow">
+		<!--<ScreenID/>-->
+		<Text>Effects</Text>
+		<RelativePosition>false</RelativePosition>
+		<Location>
+			<X>903</X>
+			<Y>141</Y>
+		</Location>
+		<Size>
+			<CX>121</CX>
+			<CY>310</CY>
+		</Size>
+		<Style_VScroll>false</Style_VScroll>
+		<Style_HScroll>false</Style_HScroll>
+		<Style_Transparent>false</Style_Transparent>
+		<!--<TooltipReference/>-->
+		<DrawTemplate>WDT_RIGHT</DrawTemplate>
+		<Style_Titlebar>false</Style_Titlebar>
+		<Style_Closebox>true</Style_Closebox>
+		<Style_Minimizebox>true</Style_Minimizebox>
+		<Style_Border>false</Style_Border>
+		<Style_Sizable>false</Style_Sizable>
+<!-- faB -->
+		<Pieces>BW_bgbot</Pieces>
+<!-- faB -->
+		<Pieces>BW_Buff0_Button</Pieces>
+		<Pieces>BW_Buff1_Button</Pieces>
+		<Pieces>BW_Buff2_Button</Pieces>
+		<Pieces>BW_Buff3_Button</Pieces>
+		<Pieces>BW_Buff4_Button</Pieces>
+		<Pieces>BW_Buff5_Button</Pieces>
+		<Pieces>BW_Buff6_Button</Pieces>
+		<Pieces>BW_Buff7_Button</Pieces>
+		<Pieces>BW_Buff8_Button</Pieces>
+		<Pieces>BW_Buff9_Button</Pieces>
+		<Pieces>BW_Buff10_Button</Pieces>
+		<Pieces>BW_Buff11_Button</Pieces>
+		<Pieces>BW_Buff12_Button</Pieces>
+		<Pieces>BW_Buff13_Button</Pieces>
+		<Pieces>BW_Buff14_Button</Pieces>
+<!-- faB -->
+		<Pieces>BW_Label0</Pieces>
+		<Pieces>BW_Label1</Pieces>
+		<Pieces>BW_Label2</Pieces>
+		<Pieces>BW_Label3</Pieces>
+		<Pieces>BW_Label4</Pieces>
+		<Pieces>BW_Label5</Pieces>
+		<Pieces>BW_Label6</Pieces>
+		<Pieces>BW_Label7</Pieces>
+		<Pieces>BW_Label8</Pieces>
+		<Pieces>BW_Label9</Pieces>
+		<Pieces>BW_Label10</Pieces>
+		<Pieces>BW_Label11</Pieces>
+		<Pieces>BW_Label12</Pieces>
+		<Pieces>BW_Label13</Pieces>
+		<Pieces>BW_Label14</Pieces>
+<!-- faB -->
+	</Screen>
+
+</XML>

@@ -1,0 +1,2988 @@
+<?xml version = "1.0"?>
+<XML ID = "EQInterfaceDefinitionLanguage">
+	<Schema xmlns = "EverQuestData" xmlns:dt = "EverQuestDataTypes"/>
+
+<!--  ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~  -->
+<!--  "Classic UI" mod (c) Fabrice Denis (faB) 2002-2003       -->
+<!--  Based on the original EQ UI (c) Verant Interactive/Sony  -->
+<!--  Email: oukoulele@yahoo.fr                                -->
+<!--  Further modifications of this UI should include credit   -->
+<!--  to the author and a link to this UI download.            -->
+<!--  ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~  -->
+
+<!-- faB: Background pieces -->
+	<Ui2DAnimation item = "IW_bg_player_TX">
+		<Cycle>true</Cycle>
+		<Frames>
+			<Texture>classic_pieces05.tga</Texture>
+			<Location>
+				<X>121</X>
+				<Y>0</Y>
+			</Location>
+			<Size>
+				<CX>95</CX>
+				<CY>123</CY>
+			</Size>
+			<Hotspot>
+				<X>0</X>
+				<Y>0</Y>
+			</Hotspot>
+			<Duration>1000</Duration>
+		</Frames>
+	</Ui2DAnimation>
+	<Ui2DAnimation item = "IW_bg_exp_TX">
+		<Cycle>true</Cycle>
+		<Frames>
+			<Texture>classic_pieces03.tga</Texture>
+			<Location>
+				<X>0</X>
+				<Y>0</Y>
+			</Location>
+			<Size>
+				<CX>95</CX>
+				<CY>81</CY>
+			</Size>
+			<Hotspot>
+				<X>0</X>
+				<Y>0</Y>
+			</Hotspot>
+			<Duration>1000</Duration>
+		</Frames>
+	</Ui2DAnimation>
+	<Ui2DAnimation item = "IW_bg_stats_TX">
+		<Cycle>true</Cycle>
+		<Frames>
+			<Texture>classic_pieces05.tga</Texture>
+			<Location>
+				<X>0</X>
+				<Y>0</Y>
+			</Location>
+			<Size>
+				<CX>114</CX>
+				<CY>180</CY>
+			</Size>
+			<Hotspot>
+				<X>0</X>
+				<Y>0</Y>
+			</Hotspot>
+			<Duration>1000</Duration>
+		</Frames>
+	</Ui2DAnimation>
+	<Ui2DAnimation item = "IW_bg_bags_1_TX">
+		<Cycle>true</Cycle>
+		<Frames>
+			<Texture>classic_pieces05.tga</Texture>
+			<Location>
+				<X>0</X>
+				<Y>181</Y>
+			</Location>
+			<Size>
+				<CX>103</CX>
+				<CY>75</CY>
+			</Size>
+			<Hotspot>
+				<X>0</X>
+				<Y>0</Y>
+			</Hotspot>
+			<Duration>1000</Duration>
+		</Frames>
+	</Ui2DAnimation>
+	<Ui2DAnimation item = "IW_bg_bags_2_TX">
+		<Cycle>true</Cycle>
+		<Frames>
+			<Texture>classic_pieces05.tga</Texture>
+			<Location>
+				<X>115</X>
+				<Y>124</Y>
+			</Location>
+			<Size>
+				<CX>103</CX>
+				<CY>123</CY>
+			</Size>
+			<Hotspot>
+				<X>0</X>
+				<Y>0</Y>
+			</Hotspot>
+			<Duration>1000</Duration>
+		</Frames>
+	</Ui2DAnimation>
+
+	<!-- vertical patch junction of stone extensions with right side bar -->
+	<Ui2DAnimation item = "IW_bg_junctiona_TX">
+		<Cycle>true</Cycle>
+		<Frames>
+			<Texture>classic_pieces03.tga</Texture>
+			<Location>
+				<X>119</X>
+				<Y>0</Y>
+			</Location>
+			<Size>
+				<CX>7</CX>
+				<CY>195</CY>
+			</Size>
+			<Hotspot>
+				<X>0</X>
+				<Y>0</Y>
+			</Hotspot>
+			<Duration>1000</Duration>
+		</Frames>
+	</Ui2DAnimation>
+	<Ui2DAnimation item = "IW_bg_junctionb_TX">
+		<Cycle>true</Cycle>
+		<Frames>
+			<Texture>classic_pieces03.tga</Texture>
+			<Location>
+				<X>127</X>
+				<Y>0</Y>
+			</Location>
+			<Size>
+				<CX>7</CX>
+				<CY>228</CY>
+			</Size>
+			<Hotspot>
+				<X>0</X>
+				<Y>0</Y>
+			</Hotspot>
+			<Duration>1000</Duration>
+		</Frames>
+	</Ui2DAnimation>
+
+	<Ui2DAnimation item = "IW_bg_ext_top_TX">
+		<Cycle>true</Cycle>
+		<Frames>
+			<Texture>classic_pieces04.tga</Texture>
+			<Location>
+				<X>0</X>
+				<Y>246</Y>
+			</Location>
+			<Size>
+				<CX>237</CX>
+				<CY>9</CY>
+			</Size>
+			<Hotspot>
+				<X>0</X>
+				<Y>0</Y>
+			</Hotspot>
+			<Duration>1000</Duration>
+		</Frames>
+	</Ui2DAnimation>
+	<Ui2DAnimation item = "IW_bg_ext_bot_TX">
+		<Cycle>true</Cycle>
+		<Frames>
+			<Texture>classic_pieces04.tga</Texture>
+			<Location>
+				<X>0</X>
+				<Y>237</Y>
+			</Location>
+			<Size>
+				<CX>237</CX>
+				<CY>8</CY>
+			</Size>
+			<Hotspot>
+				<X>0</X>
+				<Y>0</Y>
+			</Hotspot>
+			<Duration>1000</Duration>
+		</Frames>
+	</Ui2DAnimation>
+	<Ui2DAnimation item = "IW_bg_ext_left_TX">
+		<Cycle>true</Cycle>
+		<Frames>
+			<Texture>classic_pieces05.tga</Texture>
+			<Location>
+				<X>104</X>
+				<Y>181</Y>
+			</Location>
+			<Size>
+				<CX>9</CX>
+				<CY>65</CY>
+			</Size>
+			<Hotspot>
+				<X>0</X>
+				<Y>0</Y>
+			</Hotspot>
+			<Duration>1000</Duration>
+		</Frames>
+	</Ui2DAnimation>
+
+	<Ui2DAnimation item = "IW_bg_autoequip_TX">
+		<Cycle>true</Cycle>
+		<Frames>
+			<Texture>classic_pieces04.tga</Texture>
+			<Location>
+				<X>0</X>
+				<Y>173</Y>
+			</Location>
+			<Size>
+				<CX>188</CX>
+				<CY>63</CY>
+			</Size>
+			<Hotspot>
+				<X>0</X>
+				<Y>0</Y>
+			</Hotspot>
+			<Duration>1000</Duration>
+		</Frames>
+	</Ui2DAnimation>
+
+	<!-- gear slot with 1 px extra fill for between slots -->
+	<Ui2DAnimation item = "IW_GearSlot_TX">
+		<Cycle>true</Cycle>
+		<Frames>
+			<Texture>classic_pieces02.tga</Texture>
+			<Location>
+				<X>0</X>
+				<Y>0</Y>
+			</Location>
+			<Size>
+				<CX>49</CX>
+				<CY>48</CY>
+			</Size>
+			<Hotspot>
+				<X>0</X>
+				<Y>0</Y>
+			</Hotspot>
+			<Duration>1000</Duration>
+		</Frames>
+	</Ui2DAnimation>
+	<!-- shoulders label larger than 40x40 inv slot -->
+	<!-- Why did I bother ? Why !?!?!?!? :) -->
+	<Ui2DAnimation item = "IW_ShoulderLabel_TX">
+		<Cycle>true</Cycle>
+		<Frames>
+			<Texture>classic_pieces05.tga</Texture>
+			<Location>
+				<X>104</X>
+				<Y>248</Y>
+			</Location>
+			<Size>
+				<CX>48</CX>
+				<CY>8</CY>
+			</Size>
+			<Hotspot>
+				<X>0</X>
+				<Y>0</Y>
+			</Hotspot>
+			<Duration>1000</Duration>
+		</Frames>
+	</Ui2DAnimation>
+
+	<!-- not same as Recessed versions, those have some extra borders to fill the cash area -->
+	<Ui2DAnimation item = "IW_bg_money0_TX">
+		<Cycle>true</Cycle>
+		<Frames>
+			<Texture>window_pieces02.tga</Texture>
+			<Location>
+				<X>0</X>
+				<Y>120</Y>
+			</Location>
+			<Size>
+				<CX>72</CX>
+				<CY>34</CY>
+			</Size>
+			<Hotspot>
+				<X>0</X>
+				<Y>0</Y>
+			</Hotspot>
+			<Duration>1000</Duration>
+		</Frames>
+	</Ui2DAnimation>
+	<Ui2DAnimation item = "IW_bg_money1_TX">
+		<Cycle>true</Cycle>
+		<Frames>
+			<Texture>window_pieces02.tga</Texture>
+			<Location>
+				<X>0</X>
+				<Y>154</Y>
+			</Location>
+			<Size>
+				<CX>72</CX>
+				<CY>34</CY>
+			</Size>
+			<Hotspot>
+				<X>0</X>
+				<Y>0</Y>
+			</Hotspot>
+			<Duration>1000</Duration>
+		</Frames>
+	</Ui2DAnimation>
+	<Ui2DAnimation item = "IW_bg_money2_TX">
+		<Cycle>true</Cycle>
+		<Frames>
+			<Texture>window_pieces02.tga</Texture>
+			<Location>
+				<X>0</X>
+				<Y>188</Y>
+			</Location>
+			<Size>
+				<CX>72</CX>
+				<CY>34</CY>
+			</Size>
+			<Hotspot>
+				<X>0</X>
+				<Y>0</Y>
+			</Hotspot>
+			<Duration>1000</Duration>
+		</Frames>
+	</Ui2DAnimation>
+	<Ui2DAnimation item = "IW_bg_money3_TX">
+		<Cycle>true</Cycle>
+		<Frames>
+			<Texture>window_pieces02.tga</Texture>
+			<Location>
+				<X>0</X>
+				<Y>222</Y>
+			</Location>
+			<Size>
+				<CX>72</CX>
+				<CY>34</CY>
+			</Size>
+			<Hotspot>
+				<X>0</X>
+				<Y>0</Y>
+			</Hotspot>
+			<Duration>1000</Duration>
+		</Frames>
+	</Ui2DAnimation>
+
+	<Ui2DAnimation item = "IW_bg_done_TX">
+		<Cycle>true</Cycle>
+		<Frames>
+			<Texture>classic_debug01.tga</Texture>
+			<Location>
+				<X>0</X>
+				<Y>220</Y>
+			</Location>
+			<Size>
+				<CX>255</CX>
+				<CY>36</CY>
+			</Size>
+			<Hotspot>
+				<X>0</X>
+				<Y>0</Y>
+			</Hotspot>
+			<Duration>1000</Duration>
+		</Frames>
+	</Ui2DAnimation>
+
+	<StaticAnimation item = "IW_bg_player">
+	
+		<ScreenID>IW_bg_player</ScreenID>
+		<Location>
+			<X>308</X>
+			<Y>10</Y>
+		</Location>
+		<Size>
+			<CX>95</CX>
+			<CY>123</CY>
+		</Size>
+		<Animation>IW_bg_player_TX</Animation>
+	</StaticAnimation>
+	<StaticAnimation item = "IW_bg_exp">
+		<ScreenID>IW_bg_exp</ScreenID>
+		<Location>
+			<X>308</X>
+			<Y>133</Y>
+		</Location>
+		<Size>
+			<CX>95</CX>
+			<CY>81</CY>
+		</Size>
+		<Animation>IW_bg_exp_TX</Animation>
+	</StaticAnimation>
+	<StaticAnimation item = "IW_bg_stats">
+		<ScreenID>IW_bg_stats</ScreenID>
+		<Location>
+			<X>302</X>
+			<Y>214</Y>
+		</Location>
+		<Size>
+			<CX>114</CX>
+			<CY>180</CY>
+		</Size>
+		<Animation>IW_bg_stats_TX</Animation>
+	</StaticAnimation>
+	<StaticAnimation item = "IW_bg_bags1">
+		<ScreenID>IW_bg_bags1</ScreenID>
+		<Location>
+			<X>304</X>
+			<Y>394</Y>
+		</Location>
+		<Size>
+				<CX>103</CX>
+				<CY>75</CY>
+		</Size>
+		<Animation>IW_bg_bags_1_TX</Animation>
+	</StaticAnimation>
+	<StaticAnimation item = "IW_bg_bags2">
+		<ScreenID>IW_bg_bags2</ScreenID>
+		<Location>
+			<X>304</X>
+			<Y>469</Y>
+		</Location>
+		<Size>
+				<CX>103</CX>
+				<CY>123</CY>
+		</Size>
+		<Animation>IW_bg_bags_2_TX</Animation>
+	</StaticAnimation>
+<!-- backgrounds for part extending over the viewport -->
+	<!-- HEAD SLOTS -->
+	<StaticAnimation item = "IW_bg_ext_left_1">
+		<ScreenID>IW_bg_ext_left_1</ScreenID>
+		<Location>
+			<X>0</X>
+			<Y>135</Y>
+		</Location>
+		<Size>
+			<CX>9</CX>
+			<CY>65</CY>
+		</Size>
+		<Animation>IW_bg_ext_left_TX</Animation>
+	</StaticAnimation>
+	<StaticAnimation item = "IW_bg_ext_top_1">
+		<ScreenID>IW_bg_ext_top_1</ScreenID>
+		<Location>
+			<X>9</X>
+			<Y>135</Y>
+		</Location>
+		<Size>
+			<CX>286</CX>
+			<CY>9</CY>
+		</Size>
+		<Animation>IW_bg_ext_top_TX</Animation>
+	</StaticAnimation>
+	<StaticAnimation item = "IW_bg_ext_bot_1">
+		<ScreenID>IW_bg_ext_bot_1</ScreenID>
+		<Location>
+			<X>9</X>
+			<Y>192</Y>
+		</Location>
+		<Size>
+			<CX>286</CX>
+			<CY>8</CY>
+		</Size>
+		<Animation>IW_bg_ext_bot_TX</Animation>
+	</StaticAnimation>
+
+	<StaticAnimation item = "IW_bg_gear0a">
+	<!-- faB: charm slot -->
+		<ScreenID>IW_bg_gear0a</ScreenID>
+		<Location>
+			<X>9</X>
+			<Y>144</Y>
+		</Location>
+		<Size>
+			<CX>49</CX>
+			<CY>48</CY>
+		</Size>
+		<Animation>IW_GearSlot_TX</Animation>
+	</StaticAnimation>
+	<StaticAnimation item = "IW_bg_gear1a">
+		<ScreenID>IW_bg_gear1a</ScreenID>
+		<Location>
+			<X>58</X>
+			<Y>144</Y>
+		</Location>
+		<Size>
+			<CX>49</CX>
+			<CY>48</CY>
+		</Size>
+		<Animation>IW_GearSlot_TX</Animation>
+	</StaticAnimation>
+	<StaticAnimation item = "IW_bg_gear1b">
+		<ScreenID>IW_bg_gear1b</ScreenID>
+		<Location>
+			<X>107</X>
+			<Y>144</Y>
+		</Location>
+		<Size>
+			<CX>49</CX>
+			<CY>48</CY>
+		</Size>
+		<Animation>IW_GearSlot_TX</Animation>
+	</StaticAnimation>
+	<StaticAnimation item = "IW_bg_gear1c">
+		<ScreenID>IW_bg_gear1c</ScreenID>
+		<Location>
+			<X>156</X>
+			<Y>144</Y>
+		</Location>
+		<Size>
+			<CX>49</CX>
+			<CY>48</CY>
+		</Size>
+		<Animation>IW_GearSlot_TX</Animation>
+	</StaticAnimation>
+	<StaticAnimation item = "IW_bg_gear1d">
+		<ScreenID>IW_bg_gear1d</ScreenID>
+		<Location>
+			<X>205</X>
+			<Y>144</Y>
+		</Location>
+		<Size>
+			<CX>49</CX>
+			<CY>48</CY>
+		</Size>
+		<Animation>IW_GearSlot_TX</Animation>
+	</StaticAnimation>
+	<StaticAnimation item = "IW_bg_gear1e">
+		<ScreenID>IW_bg_gear1e</ScreenID>
+		<Location>
+			<X>254</X>
+			<Y>144</Y>
+		</Location>
+		<Size>
+			<CX>49</CX>
+			<CY>48</CY>
+		</Size>
+		<Animation>IW_GearSlot_TX</Animation>
+	</StaticAnimation>
+
+	<StaticAnimation item = "IW_bg_gear2a">
+		<ScreenID>IW_bg_gear2a</ScreenID>
+		<Location>
+			<X>9</X>
+			<Y>209</Y>
+		</Location>
+		<Size>
+			<CX>49</CX>
+			<CY>48</CY>
+		</Size>
+		<Animation>IW_GearSlot_TX</Animation>
+	</StaticAnimation>
+	<StaticAnimation item = "IW_bg_gear2b">
+		<ScreenID>IW_bg_gear2b</ScreenID>
+		<Location>
+			<X>58</X>
+			<Y>209</Y>
+		</Location>
+		<Size>
+			<CX>49</CX>
+			<CY>48</CY>
+		</Size>
+		<Animation>IW_GearSlot_TX</Animation>
+	</StaticAnimation>
+	<StaticAnimation item = "IW_bg_gear2c">
+		<ScreenID>IW_bg_gear2c</ScreenID>
+		<Location>
+			<X>107</X>
+			<Y>209</Y>
+		</Location>
+		<Size>
+			<CX>49</CX>
+			<CY>48</CY>
+		</Size>
+		<Animation>IW_GearSlot_TX</Animation>
+	</StaticAnimation>
+	<StaticAnimation item = "IW_bg_gear2d">
+		<ScreenID>IW_bg_gear2d</ScreenID>
+		<Location>
+			<X>156</X>
+			<Y>209</Y>
+		</Location>
+		<Size>
+			<CX>49</CX>
+			<CY>48</CY>
+		</Size>
+		<Animation>IW_GearSlot_TX</Animation>
+	</StaticAnimation>
+	<StaticAnimation item = "IW_bg_gear2e">
+		<ScreenID>IW_bg_gear2e</ScreenID>
+		<Location>
+			<X>205</X>
+			<Y>209</Y>
+		</Location>
+		<Size>
+			<CX>49</CX>
+			<CY>48</CY>
+		</Size>
+		<Animation>IW_GearSlot_TX</Animation>
+	</StaticAnimation>
+	<StaticAnimation item = "IW_bg_gear2f">
+		<ScreenID>IW_bg_gear2f</ScreenID>
+		<Location>
+			<X>254</X>
+			<Y>209</Y>
+		</Location>
+		<Size>
+			<CX>49</CX>
+			<CY>48</CY>
+		</Size>
+		<Animation>IW_GearSlot_TX</Animation>
+	</StaticAnimation>
+
+	<StaticAnimation item = "IW_bg_gear3a">
+		<ScreenID>IW_bg_gear3a</ScreenID>
+		<Location>
+			<X>9</X>
+			<Y>274</Y>
+		</Location>
+		<Size>
+			<CX>49</CX>
+			<CY>48</CY>
+		</Size>
+		<Animation>IW_GearSlot_TX</Animation>
+	</StaticAnimation>
+	<StaticAnimation item = "IW_bg_gear3aLabel">
+		<ScreenID>IW_bg_gear3aLabel</ScreenID>
+		<Location>
+			<X>9</X>
+			<Y>293</Y>
+		</Location>
+		<Size>
+			<CX>48</CX>
+			<CY>8</CY>
+		</Size>
+		<Animation>IW_ShoulderLabel_TX</Animation>
+	</StaticAnimation>
+	<StaticAnimation item = "IW_bg_gear3b">
+		<ScreenID>IW_bg_gear3b</ScreenID>
+		<Location>
+			<X>58</X>
+			<Y>274</Y>
+		</Location>
+		<Size>
+			<CX>49</CX>
+			<CY>48</CY>
+		</Size>
+		<Animation>IW_GearSlot_TX</Animation>
+	</StaticAnimation>
+	<StaticAnimation item = "IW_bg_gear3c">
+		<ScreenID>IW_bg_gear3c</ScreenID>
+		<Location>
+			<X>107</X>
+			<Y>274</Y>
+		</Location>
+		<Size>
+			<CX>49</CX>
+			<CY>48</CY>
+		</Size>
+		<Animation>IW_GearSlot_TX</Animation>
+	</StaticAnimation>
+	<StaticAnimation item = "IW_bg_gear3d">
+		<ScreenID>IW_bg_gear3d</ScreenID>
+		<Location>
+			<X>156</X>
+			<Y>274</Y>
+		</Location>
+		<Size>
+			<CX>49</CX>
+			<CY>48</CY>
+		</Size>
+		<Animation>IW_GearSlot_TX</Animation>
+	</StaticAnimation>
+	<StaticAnimation item = "IW_bg_gear3e">
+		<ScreenID>IW_bg_gear3e</ScreenID>
+		<Location>
+			<X>205</X>
+			<Y>274</Y>
+		</Location>
+		<Size>
+			<CX>49</CX>
+			<CY>48</CY>
+		</Size>
+		<Animation>IW_GearSlot_TX</Animation>
+	</StaticAnimation>
+	<StaticAnimation item = "IW_bg_gear3f">
+		<ScreenID>IW_bg_gear3f</ScreenID>
+		<Location>
+			<X>254</X>
+			<Y>274</Y>
+		</Location>
+		<Size>
+			<CX>49</CX>
+			<CY>48</CY>
+		</Size>
+		<Animation>IW_GearSlot_TX</Animation>
+	</StaticAnimation>
+
+	<StaticAnimation item = "IW_bg_gear4a">
+		<ScreenID>IW_bg_gear4a</ScreenID>
+		<Location>
+			<X>107</X>
+			<Y>339</Y>
+		</Location>
+		<Size>
+			<CX>49</CX>
+			<CY>48</CY>
+		</Size>
+		<Animation>IW_GearSlot_TX</Animation>
+	</StaticAnimation>
+	<StaticAnimation item = "IW_bg_gear4b">
+		<ScreenID>IW_bg_gear4b</ScreenID>
+		<Location>
+			<X>156</X>
+			<Y>339</Y>
+		</Location>
+		<Size>
+			<CX>49</CX>
+			<CY>48</CY>
+		</Size>
+		<Animation>IW_GearSlot_TX</Animation>
+	</StaticAnimation>
+	<StaticAnimation item = "IW_bg_gear4c">
+		<ScreenID>IW_bg_gear4c</ScreenID>
+		<Location>
+			<X>205</X>
+			<Y>339</Y>
+		</Location>
+		<Size>
+			<CX>49</CX>
+			<CY>48</CY>
+		</Size>
+		<Animation>IW_GearSlot_TX</Animation>
+	</StaticAnimation>
+	<StaticAnimation item = "IW_bg_gear4d">
+		<ScreenID>IW_bg_gear4d</ScreenID>
+		<Location>
+			<X>254</X>
+			<Y>339</Y>
+		</Location>
+		<Size>
+			<CX>49</CX>
+			<CY>48</CY>
+		</Size>
+		<Animation>IW_GearSlot_TX</Animation>
+	</StaticAnimation>
+
+	<!-- ARM SLOTS -->
+	<StaticAnimation item = "IW_bg_ext_left_2">
+		<ScreenID>IW_bg_ext_left_2</ScreenID>
+		<Location>
+			<X>0</X>
+			<Y>200</Y>
+		</Location>
+		<Size>
+				<CX>9</CX>
+				<CY>65</CY>
+		</Size>
+		<Animation>IW_bg_ext_left_TX</Animation>
+	</StaticAnimation>
+	<StaticAnimation item = "IW_bg_ext_top_2">
+		<ScreenID>IW_bg_ext_top_2</ScreenID>
+		<Location>
+			<X>9</X>
+			<Y>200</Y>
+		</Location>
+		<Size>
+				<CX>286</CX>
+				<CY>9</CY>
+		</Size>
+		<Animation>IW_bg_ext_top_TX</Animation>
+	</StaticAnimation>
+	<StaticAnimation item = "IW_bg_ext_bot_2">
+		<ScreenID>IW_bg_ext_bot_2</ScreenID>
+		<Location>
+			<X>9</X>
+			<Y>257</Y>
+		</Location>
+		<Size>
+				<CX>286</CX>
+				<CY>8</CY>
+		</Size>
+		<Animation>IW_bg_ext_bot_TX</Animation>
+	</StaticAnimation>
+
+	<!-- CHEST SLOTS -->
+	<StaticAnimation item = "IW_bg_ext_left_3">
+		<ScreenID>IW_bg_ext_left_3</ScreenID>
+		<Location>
+			<X>0</X>
+			<Y>265</Y>
+		</Location>
+		<Size>
+				<CX>9</CX>
+				<CY>65</CY>
+		</Size>
+		<Animation>IW_bg_ext_left_TX</Animation>
+	</StaticAnimation>
+	<StaticAnimation item = "IW_bg_ext_top_3">
+		<ScreenID>IW_bg_ext_top_3</ScreenID>
+		<Location>
+			<X>9</X>
+			<Y>265</Y>
+		</Location>
+		<Size>
+				<CX>286</CX>
+				<CY>9</CY>
+		</Size>
+		<Animation>IW_bg_ext_top_TX</Animation>
+	</StaticAnimation>
+	<StaticAnimation item = "IW_bg_ext_bot_3">
+		<ScreenID>IW_bg_ext_bot_3</ScreenID>
+		<Location>
+			<X>9</X>
+			<Y>322</Y>
+		</Location>
+		<Size>
+				<CX>286</CX>
+				<CY>8</CY>
+		</Size>
+		<Animation>IW_bg_ext_bot_TX</Animation>
+	</StaticAnimation>
+
+	<!-- WEAPON SLOTS -->
+	<StaticAnimation item = "IW_bg_ext_left_4">
+		<ScreenID>IW_bg_ext_left_4</ScreenID>
+		<Location>
+			<X>98</X>
+			<Y>330</Y>
+		</Location>
+		<Size>
+				<CX>9</CX>
+				<CY>65</CY>
+		</Size>
+		<Animation>IW_bg_ext_left_TX</Animation>
+	</StaticAnimation>
+	<StaticAnimation item = "IW_bg_ext_top_4">
+		<ScreenID>IW_bg_ext_top_4</ScreenID>
+		<Location>
+			<X>107</X>
+			<Y>330</Y>
+		</Location>
+		<Size>
+				<CX>188</CX>
+				<CY>9</CY>
+		</Size>
+		<Animation>IW_bg_ext_top_TX</Animation>
+	</StaticAnimation>
+	<StaticAnimation item = "IW_bg_ext_bot_4">
+		<ScreenID>IW_bg_ext_bot_4</ScreenID>
+		<Location>
+			<X>107</X>
+			<Y>387</Y>
+		</Location>
+		<Size>
+				<CX>188</CX>
+				<CY>8</CY>
+		</Size>
+		<Animation>IW_bg_ext_bot_TX</Animation>
+	</StaticAnimation>
+
+	<!-- AUTO EQUIP -->
+	<StaticAnimation item = "IW_bg_ext_left_5">
+		<ScreenID>IW_bg_ext_left_5</ScreenID>
+		<Location>
+			<X>98</X>
+			<Y>395</Y>
+		</Location>
+		<Size>
+				<CX>9</CX>
+				<CY>78</CY>
+		</Size>
+		<Animation>IW_bg_ext_left_TX</Animation>
+	</StaticAnimation>
+	<StaticAnimation item = "IW_bg_ext_top_5">
+		<ScreenID>IW_bg_ext_top_5</ScreenID>
+		<Location>
+			<X>107</X>
+			<Y>395</Y>
+		</Location>
+		<Size>
+				<CX>188</CX>
+				<CY>9</CY>
+		</Size>
+		<Animation>IW_bg_ext_top_TX</Animation>
+	</StaticAnimation>
+	<StaticAnimation item = "IW_bg_ext_bot_5">
+		<ScreenID>IW_bg_ext_bot_5</ScreenID>
+		<Location>
+			<X>107</X>
+			<Y>465</Y>
+		</Location>
+		<Size>
+				<CX>188</CX>
+				<CY>8</CY>
+		</Size>
+		<Animation>IW_bg_ext_bot_TX</Animation>
+	</StaticAnimation>
+	<StaticAnimation item = "IW_bg_autoequip">
+		<ScreenID>IW_bg_autoequip</ScreenID>
+		<Location>
+			<X>107</X>
+			<Y>403</Y>
+		</Location>
+		<Size>
+				<CX>188</CX>
+				<CY>63</CY>
+		</Size>
+		<Animation>IW_bg_autoequip_TX</Animation>
+	</StaticAnimation>
+
+	<!-- CASH -->
+	<StaticAnimation item = "IW_bg_ext_left_6">
+		<ScreenID>IW_bg_ext_left_6</ScreenID>
+		<Location>
+			<X>0</X>
+			<Y>473</Y>
+		</Location>
+		<Size>
+				<CX>9</CX>
+				<CY>50</CY> 
+		</Size>
+		<Animation>IW_bg_ext_left_TX</Animation>
+	</StaticAnimation>
+	<StaticAnimation item = "IW_bg_ext_top_6">
+		<ScreenID>IW_bg_ext_top_6</ScreenID>
+		<Location>
+			<X>9</X>
+			<Y>473</Y>
+		</Location>
+		<Size>
+				<CX>286</CX>
+				<CY>9</CY>
+		</Size>
+		<Animation>IW_bg_ext_top_TX</Animation>
+	</StaticAnimation>
+	<StaticAnimation item = "IW_bg_ext_bot_6">
+		<ScreenID>IW_bg_ext_bot_6</ScreenID>
+		<Location>
+			<X>9</X>
+			<Y>515</Y>
+		</Location>
+		<Size>
+				<CX>286</CX>
+				<CY>8</CY>
+		</Size>
+		<Animation>IW_bg_ext_bot_TX</Animation>
+	</StaticAnimation>
+	
+	<!-- cash area backgrounds -->
+	<StaticAnimation item = "IW_bg_money0">
+		<ScreenID>IW_bg_money0</ScreenID>
+		<Location>
+			<X>9</X>
+			<Y>482</Y>
+		</Location>
+		<Size>
+				<CX>72</CX>
+				<CY>34</CY>
+		</Size>
+		<Animation>IW_bg_money0_TX</Animation>
+	</StaticAnimation>
+	<StaticAnimation item = "IW_bg_money1">
+		<ScreenID>IW_bg_money1</ScreenID>
+		<Location>
+			<X>81</X>
+			<Y>482</Y>
+		</Location>
+		<Size>
+				<CX>72</CX>
+				<CY>34</CY>
+		</Size>
+		<Animation>IW_bg_money1_TX</Animation>
+	</StaticAnimation>
+	<StaticAnimation item = "IW_bg_money2">
+		<ScreenID>IW_bg_money2</ScreenID>
+		<Location>
+			<X>153</X>
+			<Y>482</Y>
+		</Location>
+		<Size>
+				<CX>72</CX>
+				<CY>34</CY>
+		</Size>
+		<Animation>IW_bg_money2_TX</Animation>
+	</StaticAnimation>
+	<StaticAnimation item = "IW_bg_money3">
+		<ScreenID>IW_bg_money3</ScreenID>
+		<Location>
+			<X>225</X>
+			<Y>482</Y>
+		</Location>
+		<Size>
+				<CX>72</CX>
+				<CY>34</CY>
+		</Size>
+		<Animation>IW_bg_money3_TX</Animation>
+	</StaticAnimation>
+
+	<!-- DONE area background -->
+	<StaticAnimation item = "IW_bg_done">
+		<ScreenID>IW_bg_done</ScreenID>
+		<Location>
+			<X>40</X>
+			<Y>523</Y>
+		</Location>
+		<Size>
+			<CX>255</CX>
+			<CY>36</CY>
+		</Size>
+		<Animation>IW_bg_done_TX</Animation>
+	</StaticAnimation>
+
+	<!-- vertical patch junction of stone extensions with right side bar -->
+	<StaticAnimation item = "IW_bg_junctiona">
+		<ScreenID>IW_bg_junctiona</ScreenID>
+		<Location>
+			<X>295</X>
+			<Y>135</Y>
+		</Location>
+		<Size>
+				<CX>7</CX>
+				<CY>195</CY>
+		</Size>
+		<Animation>IW_bg_junctiona_TX</Animation>
+	</StaticAnimation>
+	<StaticAnimation item = "IW_bg_junctionb">
+		<ScreenID>IW_bg_junctionb</ScreenID>
+		<Location>
+			<X>295</X>
+			<Y>330</Y>
+		</Location>
+		<Size>
+				<CX>7</CX>
+				<CY>228</CY>
+		</Size>
+		<Animation>IW_bg_junctionb_TX</Animation>
+	</StaticAnimation>
+<!-- faB -->
+
+<!-- IS_L_EAR		1 -->
+<!-- faB: the charm slot now in Top Left, head gear row -->
+	<InvSlot item = "InvSlot0">
+		<ScreenID>InvSlot0</ScreenID>
+		<!--<Font>3</Font>-->
+		<RelativePosition>true</RelativePosition>
+		<Location>
+			<X>13</X>
+			<Y>148</Y>
+		</Location>
+		<Size>
+			<CX>40</CX>
+			<CY>40</CY>
+		</Size>
+	<!-- could make a specific charm background here.. -->
+		<Background>A_InvCharm</Background>
+		<EQType>0</EQType>
+		<Style_VScroll>false</Style_VScroll>
+		<Style_HScroll>false</Style_HScroll>
+		<Style_Transparent>false</Style_Transparent>
+		<!--<TooltipReference/>-->
+	</InvSlot>
+
+<!-- IS_L_EAR		1 -->
+
+	<InvSlot item = "InvSlot1">
+		<ScreenID>InvSlot1</ScreenID>
+		<!--<Font>3</Font>-->
+		<RelativePosition>true</RelativePosition>
+		<Location>
+			<X>62</X>
+			<Y>148</Y>
+		</Location>
+		<Size>
+			<CX>40</CX>
+			<CY>40</CY>
+		</Size>
+		<Background>A_InvEar</Background>
+		<EQType>1</EQType>
+		<Style_VScroll>false</Style_VScroll>
+		<Style_HScroll>false</Style_HScroll>
+		<Style_Transparent>false</Style_Transparent>
+		<!--<TooltipReference/>-->
+	</InvSlot>
+
+<!-- IS_HEAD		2 -->
+
+	<InvSlot item = "InvSlot2">
+		<ScreenID>InvSlot2</ScreenID>
+		<!--<Font>3</Font>-->
+		<RelativePosition>true</RelativePosition>
+		<Location>
+			<X>209</X>
+			<Y>148</Y>
+		</Location>
+		<Size>
+			<CX>40</CX>
+			<CY>40</CY>
+		</Size>
+		<Background>A_InvHead</Background>
+		<EQType>2</EQType>
+		<Style_VScroll>false</Style_VScroll>
+		<Style_HScroll>false</Style_HScroll>
+		<Style_Transparent>false</Style_Transparent>
+		<!--<TooltipReference/>-->
+	</InvSlot>
+
+<!-- IS_FACE		3 -->
+
+	<InvSlot item = "InvSlot3">
+		<ScreenID>InvSlot3</ScreenID>
+		<!--<Font>3</Font>-->
+		<RelativePosition>true</RelativePosition>
+		<Location>
+			<X>160</X>
+			<Y>148</Y>
+		</Location>
+		<Size>
+			<CX>40</CX>
+			<CY>40</CY>
+		</Size>
+		<Background>A_InvFace</Background>
+		<EQType>3</EQType>
+		<Style_VScroll>false</Style_VScroll>
+		<Style_HScroll>false</Style_HScroll>
+		<Style_Transparent>false</Style_Transparent>
+		<!--<TooltipReference/>-->
+	</InvSlot>
+
+<!-- IS_R_EAR		4 -->
+
+	<InvSlot item = "InvSlot4">
+		<ScreenID>InvSlot4</ScreenID>
+		<!--<Font>3</Font>-->
+		<RelativePosition>true</RelativePosition>
+		<Location>
+			<X>258</X>
+			<Y>148</Y>
+		</Location>
+		<Size>
+			<CX>40</CX>
+			<CY>40</CY>
+		</Size>
+		<Background>A_InvEar2</Background>
+		<EQType>4</EQType>
+		<Style_VScroll>false</Style_VScroll>
+		<Style_HScroll>false</Style_HScroll>
+		<Style_Transparent>false</Style_Transparent>
+		<!--<TooltipReference/>-->
+	</InvSlot>
+
+<!-- IS_NECK		5 -->
+
+	<InvSlot item = "InvSlot5">
+		<ScreenID>InvSlot5</ScreenID>
+		<!--<Font>3</Font>-->
+		<RelativePosition>true</RelativePosition>
+		<Location>
+			<X>111</X>
+			<Y>148</Y>
+		</Location>
+		<Size>
+			<CX>40</CX>
+			<CY>40</CY>
+		</Size>
+		<Background>A_InvNeck</Background>
+		<EQType>5</EQType>
+		<Style_VScroll>false</Style_VScroll>
+		<Style_HScroll>false</Style_HScroll>
+		<Style_Transparent>false</Style_Transparent>
+		<!--<TooltipReference/>-->
+	</InvSlot>
+
+<!-- IS_SHOULDERS	6 -->
+
+	<InvSlot item = "InvSlot6">
+		<ScreenID>InvSlot6</ScreenID>
+		<!--<Font>3</Font>-->
+		<RelativePosition>true</RelativePosition>
+		<Location>
+			<X>13</X>
+			<Y>278</Y>
+		</Location>
+		<Size>
+			<CX>40</CX>
+			<CY>40</CY>
+		</Size>
+		<Background>A_InvShoulders</Background>
+		<EQType>6</EQType>
+		<Style_VScroll>false</Style_VScroll>
+		<Style_HScroll>false</Style_HScroll>
+		<Style_Transparent>false</Style_Transparent>
+		<!--<TooltipReference/>-->
+	</InvSlot>
+
+<!-- IS_ARMS		7 -->
+
+	<InvSlot item = "InvSlot7">
+		<ScreenID>InvSlot7</ScreenID>
+		<!--<Font>3</Font>-->
+		<RelativePosition>true</RelativePosition>
+		<Location>
+			<X>111</X>
+			<Y>213</Y>
+		</Location>
+		<Size>
+			<CX>40</CX>
+			<CY>40</CY>
+		</Size>
+		<Background>A_InvArms</Background>
+		<EQType>7</EQType>
+		<Style_VScroll>false</Style_VScroll>
+		<Style_HScroll>false</Style_HScroll>
+		<Style_Transparent>false</Style_Transparent>
+		<!--<TooltipReference/>-->
+	</InvSlot>
+
+<!-- IS_ABOUT_BODY	8 -->
+
+	<InvSlot item = "InvSlot8">
+		<ScreenID>InvSlot8</ScreenID>
+		<!--<Font>3</Font>-->
+		<RelativePosition>true</RelativePosition>
+		<Location>
+			<X>111</X>
+			<Y>278</Y>
+		</Location>
+		<Size>
+			<CX>40</CX>
+			<CY>40</CY>
+		</Size>
+		<Background>A_InvAboutBody</Background>
+		<EQType>8</EQType>
+		<Style_VScroll>false</Style_VScroll>
+		<Style_HScroll>false</Style_HScroll>
+		<Style_Transparent>false</Style_Transparent>
+		<!--<TooltipReference/>-->
+	</InvSlot>
+
+<!-- IS_L_WRIST		9 -->
+
+	<InvSlot item = "InvSlot9">
+		<ScreenID>InvSlot9</ScreenID>
+		<!--<Font>3</Font>-->
+		<RelativePosition>true</RelativePosition>
+		<Location>
+			<X>62</X>
+			<Y>213</Y>
+		</Location>
+		<Size>
+			<CX>40</CX>
+			<CY>40</CY>
+		</Size>
+		<Background>A_InvWrist</Background>
+		<EQType>9</EQType>
+		<Style_VScroll>false</Style_VScroll>
+		<Style_HScroll>false</Style_HScroll>
+		<Style_Transparent>false</Style_Transparent>
+		<!--<TooltipReference/>-->
+	</InvSlot>
+
+<!-- IS_R_WRIST		10 -->
+
+	<InvSlot item = "InvSlot10">
+		<ScreenID>InvSlot10</ScreenID>
+		<!--<Font>3</Font>-->
+		<RelativePosition>true</RelativePosition>
+		<Location>
+			<X>209</X>
+			<Y>213</Y>
+		</Location>
+		<Size>
+			<CX>40</CX>
+			<CY>40</CY>
+		</Size>
+		<Background>A_InvWrist2</Background>
+		<EQType>10</EQType>
+		<Style_VScroll>false</Style_VScroll>
+		<Style_HScroll>false</Style_HScroll>
+		<Style_Transparent>false</Style_Transparent>
+		<!--<TooltipReference/>-->
+	</InvSlot>
+
+<!-- IS_RANGE		11 -->
+
+	<InvSlot item = "InvSlot11">
+		<ScreenID>InvSlot11</ScreenID>
+		<!--<Font>3</Font>-->
+		<RelativePosition>true</RelativePosition>
+		<Location>
+			<X>209</X>
+			<Y>343</Y>
+		</Location>
+		<Size>
+			<CX>40</CX>
+			<CY>40</CY>
+		</Size>
+		<Background>A_InvRange</Background>
+		<EQType>11</EQType>
+		<Style_VScroll>false</Style_VScroll>
+		<Style_HScroll>false</Style_HScroll>
+		<Style_Transparent>false</Style_Transparent>
+		<!--<TooltipReference/>-->
+	</InvSlot>
+
+<!-- IS_HANDS		12 -->
+
+	<InvSlot item = "InvSlot12">
+		<ScreenID>InvSlot12</ScreenID>
+		<!--<Font>3</Font>-->
+		<RelativePosition>true</RelativePosition>
+		<Location>
+			<X>160</X>
+			<Y>213</Y>
+		</Location>
+		<Size>
+			<CX>40</CX>
+			<CY>40</CY>
+		</Size>
+		<Background>A_InvHands</Background>
+		<EQType>12</EQType>
+		<Style_VScroll>false</Style_VScroll>
+		<Style_HScroll>false</Style_HScroll>
+		<Style_Transparent>false</Style_Transparent>
+		<!--<TooltipReference/>-->
+	</InvSlot>
+
+<!-- IS_PRIMARY		13 -->
+
+	<InvSlot item = "InvSlot13">
+		<ScreenID>InvSlot13</ScreenID>
+		<!--<Font>3</Font>-->
+		<RelativePosition>true</RelativePosition>
+		<Location>
+			<X>111</X>
+			<Y>343</Y>
+		</Location>
+		<Size>
+			<CX>40</CX>
+			<CY>40</CY>
+		</Size>
+		<Background>A_InvPrimary</Background>
+		<EQType>13</EQType>
+		<Style_VScroll>false</Style_VScroll>
+		<Style_HScroll>false</Style_HScroll>
+		<Style_Transparent>false</Style_Transparent>
+		<!--<TooltipReference/>-->
+	</InvSlot>
+
+<!-- IS_SECONDARY	14 -->
+
+	<InvSlot item = "InvSlot14">
+		<ScreenID>InvSlot14</ScreenID>
+		<!--<Font>3</Font>-->
+		<RelativePosition>true</RelativePosition>
+		<Location>
+			<X>160</X>
+			<Y>343</Y>
+		</Location>
+		<Size>
+			<CX>40</CX>
+			<CY>40</CY>
+		</Size>
+		<Background>A_InvSecondary</Background>
+		<EQType>14</EQType>
+		<Style_VScroll>false</Style_VScroll>
+		<Style_HScroll>false</Style_HScroll>
+		<Style_Transparent>false</Style_Transparent>
+		<!--<TooltipReference/>-->
+	</InvSlot>
+
+<!-- IS_L_FINGERS	15 -->
+
+	<InvSlot item = "InvSlot15">
+		<ScreenID>InvSlot15</ScreenID>
+		<!--<Font>3</Font>-->
+		<RelativePosition>true</RelativePosition>
+		<Location>
+			<X>13</X>
+			<Y>213</Y>
+		</Location>
+		<Size>
+			<CX>40</CX>
+			<CY>40</CY>
+		</Size>
+		<Background>A_InvRing</Background>
+		<EQType>15</EQType>
+		<Style_VScroll>false</Style_VScroll>
+		<Style_HScroll>false</Style_HScroll>
+		<Style_Transparent>false</Style_Transparent>
+		<!--<TooltipReference/>-->
+	</InvSlot>
+
+<!-- IS_R_FINGERS	16 -->
+
+	<InvSlot item = "InvSlot16">
+		<ScreenID>InvSlot16</ScreenID>
+		<!--<Font>3</Font>-->
+		<RelativePosition>true</RelativePosition>
+		<Location>
+			<X>258</X>
+			<Y>213</Y>
+		</Location>
+		<Size>
+			<CX>40</CX>
+			<CY>40</CY>
+		</Size>
+		<Background>A_InvRing2</Background>
+		<EQType>16</EQType>
+		<Style_VScroll>false</Style_VScroll>
+		<Style_HScroll>false</Style_HScroll>
+		<Style_Transparent>false</Style_Transparent>
+		<!--<TooltipReference/>-->
+	</InvSlot>
+
+<!-- IS_CHEST		17 -->
+
+	<InvSlot item = "InvSlot17">
+		<ScreenID>InvSlot17</ScreenID>
+		<!--<Font>3</Font>-->
+		<RelativePosition>true</RelativePosition>
+		<Location>
+			<X>62</X>
+			<Y>278</Y>
+		</Location>
+		<Size>
+			<CX>40</CX>
+			<CY>40</CY>
+		</Size>
+		<Background>A_InvChest</Background>
+		<EQType>17</EQType>
+		<Style_VScroll>false</Style_VScroll>
+		<Style_HScroll>false</Style_HScroll>
+		<Style_Transparent>false</Style_Transparent>
+		<!--<TooltipReference/>-->
+	</InvSlot>
+
+<!-- IS_LEGS		18 -->
+
+	<InvSlot item = "InvSlot18">
+		<ScreenID>InvSlot18</ScreenID>
+		<!--<Font>3</Font>-->
+		<RelativePosition>true</RelativePosition>
+		<Location>
+			<X>209</X>
+			<Y>278</Y>
+		</Location>
+		<Size>
+			<CX>40</CX>
+			<CY>40</CY>
+		</Size>
+		<Background>A_InvLegs</Background>
+		<EQType>18</EQType>
+		<Style_VScroll>false</Style_VScroll>
+		<Style_HScroll>false</Style_HScroll>
+		<Style_Transparent>false</Style_Transparent>
+		<!--<TooltipReference/>-->
+	</InvSlot>
+
+<!-- IS_FEET		19 -->
+
+	<InvSlot item = "InvSlot19">
+		<ScreenID>InvSlot19</ScreenID>
+		<!--<Font>3</Font>-->
+		<RelativePosition>true</RelativePosition>
+		<Location>
+			<X>258</X>
+			<Y>278</Y>
+		</Location>
+		<Size>
+			<CX>40</CX>
+			<CY>40</CY>
+		</Size>
+		<Background>A_InvFeet</Background>
+		<EQType>19</EQType>
+		<Style_VScroll>false</Style_VScroll>
+		<Style_HScroll>false</Style_HScroll>
+		<Style_Transparent>false</Style_Transparent>
+		<!--<TooltipReference/>-->
+	</InvSlot>
+
+<!-- IS_WAIST		20 -->
+
+	<InvSlot item = "InvSlot20">
+		<ScreenID>InvSlot20</ScreenID>
+		<!--<Font>3</Font>-->
+		<RelativePosition>true</RelativePosition>
+		<Location>
+			<X>160</X>
+			<Y>278</Y>
+		</Location>
+		<Size>
+			<CX>40</CX>
+			<CY>40</CY>
+		</Size>
+		<Background>A_InvWaist</Background>
+		<EQType>20</EQType>
+		<Style_VScroll>false</Style_VScroll>
+		<Style_HScroll>false</Style_HScroll>
+		<Style_Transparent>false</Style_Transparent>
+		<!--<TooltipReference/>-->
+	</InvSlot>
+
+<!-- IS_AMMO		21 -->
+
+	<InvSlot item = "InvSlot21">
+		<ScreenID>InvSlot21</ScreenID>
+		<!--<Font>3</Font>-->
+		<RelativePosition>true</RelativePosition>
+		<Location>
+			<X>258</X>
+			<Y>343</Y>
+		</Location>
+		<Size>
+			<CX>40</CX>
+			<CY>40</CY>
+		</Size>
+		<Background>A_InvAmmo</Background>
+		<EQType>21</EQType>
+		<Style_VScroll>false</Style_VScroll>
+		<Style_HScroll>false</Style_HScroll>
+		<Style_Transparent>false</Style_Transparent>
+		<!--<TooltipReference/>-->
+	</InvSlot>
+
+
+<!-- root inv slots, IS_B1 to IS_B8 -->
+
+	<InvSlot item = "InvSlot22">
+		<ScreenID>InvSlot22</ScreenID>
+		<!--<Font>3</Font>-->
+		<RelativePosition>true</RelativePosition>
+		<Location>
+			<X>312</X>
+			<Y>398</Y>
+		</Location>
+		<Size>
+			<CX>40</CX>
+			<CY>40</CY>
+		</Size>
+		<Background>A_InvMain1</Background>
+		<EQType>22</EQType>
+		<Style_VScroll>false</Style_VScroll>
+		<Style_HScroll>false</Style_HScroll>
+		<Style_Transparent>false</Style_Transparent>
+		<!--<TooltipReference/>-->
+	</InvSlot>
+	<InvSlot item = "InvSlot23">
+		<ScreenID>InvSlot23</ScreenID>
+		<!--<Font>3</Font>-->
+		<RelativePosition>true</RelativePosition>
+		<Location>
+			<X>312</X>
+			<Y>447</Y>
+		</Location>
+		<Size>
+			<CX>40</CX>
+			<CY>40</CY>
+		</Size>
+		<Background>A_InvMain2</Background>
+		<EQType>23</EQType>
+		<Style_VScroll>false</Style_VScroll>
+		<Style_HScroll>false</Style_HScroll>
+		<Style_Transparent>false</Style_Transparent>
+		<!--<TooltipReference/>-->
+	</InvSlot>
+	<InvSlot item = "InvSlot24">
+		<ScreenID>InvSlot24</ScreenID>
+		<!--<Font>3</Font>-->
+		<RelativePosition>true</RelativePosition>
+		<Location>
+			<X>312</X>
+			<Y>496</Y>
+		</Location>
+		<Size>
+			<CX>40</CX>
+			<CY>40</CY>
+		</Size>
+		<Background>A_InvMain3</Background>
+		<EQType>24</EQType>
+		<Style_VScroll>false</Style_VScroll>
+		<Style_HScroll>false</Style_HScroll>
+		<Style_Transparent>false</Style_Transparent>
+		<!--<TooltipReference/>-->
+	</InvSlot>
+	<InvSlot item = "InvSlot25">
+		<ScreenID>InvSlot25</ScreenID>
+		<!--<Font>3</Font>-->
+		<RelativePosition>true</RelativePosition>
+		<Location>
+			<X>312</X>
+			<Y>545</Y>
+		</Location>
+		<Size>
+			<CX>40</CX>
+			<CY>40</CY>
+		</Size>
+		<Background>A_InvMain4</Background>
+		<EQType>25</EQType>
+		<Style_VScroll>false</Style_VScroll>
+		<Style_HScroll>false</Style_HScroll>
+		<Style_Transparent>false</Style_Transparent>
+		<!--<TooltipReference/>-->
+	</InvSlot>
+	<InvSlot item = "InvSlot26">
+		<ScreenID>InvSlot26</ScreenID>
+		<!--<Font>3</Font>-->
+		<RelativePosition>true</RelativePosition>
+		<Location>
+			<X>361</X>
+			<Y>398</Y>
+		</Location>
+		<Size>
+			<CX>40</CX>
+			<CY>40</CY>
+		</Size>
+		<Background>A_InvMain5</Background>
+		<EQType>26</EQType>
+		<Style_VScroll>false</Style_VScroll>
+		<Style_HScroll>false</Style_HScroll>
+		<Style_Transparent>false</Style_Transparent>
+		<!--<TooltipReference/>-->
+	</InvSlot>
+	<InvSlot item = "InvSlot27">
+		<ScreenID>InvSlot27</ScreenID>
+		<!--<Font>3</Font>-->
+		<RelativePosition>true</RelativePosition>
+		<Location>
+			<X>361</X>
+			<Y>447</Y>
+		</Location>
+		<Size>
+			<CX>40</CX>
+			<CY>40</CY>
+		</Size>
+		<Background>A_InvMain6</Background>
+		<EQType>27</EQType>
+		<Style_VScroll>false</Style_VScroll>
+		<Style_HScroll>false</Style_HScroll>
+		<Style_Transparent>false</Style_Transparent>
+		<!--<TooltipReference/>-->
+	</InvSlot>
+	<InvSlot item = "InvSlot28">
+		<ScreenID>InvSlot28</ScreenID>
+		<!--<Font>3</Font>-->
+		<RelativePosition>true</RelativePosition>
+		<Location>
+			<X>361</X>
+			<Y>496</Y>
+		</Location>
+		<Size>
+			<CX>40</CX>
+			<CY>40</CY>
+		</Size>
+		<Background>A_InvMain7</Background>
+		<EQType>28</EQType>
+		<Style_VScroll>false</Style_VScroll>
+		<Style_HScroll>false</Style_HScroll>
+		<Style_Transparent>false</Style_Transparent>
+		<!--<TooltipReference/>-->
+	</InvSlot>
+	<InvSlot item = "InvSlot29">
+		<ScreenID>InvSlot29</ScreenID>
+		<!--<Font>3</Font>-->
+		<RelativePosition>true</RelativePosition>
+		<Location>
+			<X>361</X>
+			<Y>545</Y>
+		</Location>
+		<Size>
+			<CX>40</CX>
+			<CY>40</CY>
+		</Size>
+		<Background>A_InvMain8</Background>
+		<EQType>29</EQType>
+		<Style_VScroll>false</Style_VScroll>
+		<Style_HScroll>false</Style_HScroll>
+		<Style_Transparent>false</Style_Transparent>
+		<!--<TooltipReference/>-->
+	</InvSlot>
+
+	<Label item ="IW_Name">
+		<ScreenID>NameLabel</ScreenID>
+		<EQType>1</EQType>
+		<!--<Font>3</Font>-->
+		<RelativePosition>true</RelativePosition>
+		<Location>
+			<X>314</X>
+			<Y>9</Y>
+		</Location>
+		<Size>
+			<CX>92</CX>
+			<CY>14</CY>
+		</Size>
+		<Text>Playername123456</Text>
+		<TextColor>
+				<R>255</R>
+				<G>255</G>
+				<B>255</B>
+		</TextColor>
+		<NoWrap>true</NoWrap>
+		<AlignCenter>false</AlignCenter>
+		<AlignRight>false</AlignRight>
+	</Label>
+	<Label item ="IW_Level">
+		<ScreenID>LevelClassLabel</ScreenID>
+		<EQType>2</EQType>
+		<!--<Font>3</Font>-->
+		<RelativePosition>true</RelativePosition>
+		<Location>
+			<X>350</X>
+			<Y>32</Y>
+		</Location>
+		<Size>
+			<CX>46</CX>
+			<CY>14</CY>
+		</Size>
+		<Text>60 Shadow Knight</Text>
+		<TextColor>
+				<R>240</R>
+				<G>240</G>
+				<B>240</B>
+		</TextColor>
+		<NoWrap>true</NoWrap>
+		<AlignCenter>false</AlignCenter>
+		<AlignRight>false</AlignRight>
+	</Label>
+	<Label item ="IW_Class">
+		<EQType>3</EQType>
+		<!--<Font>3</Font>-->
+		<RelativePosition>true</RelativePosition>
+		<Location>
+			<X>320</X>
+			<Y>44</Y>
+		</Location>
+		<Size>
+			<CX>82</CX>
+			<CY>14</CY>
+		</Size>
+		<Text>60 Shadow Knight</Text>
+		<TextColor>
+				<R>220</R>
+				<G>220</G>
+				<B>220</B>
+		</TextColor>
+		<NoWrap>true</NoWrap>
+		<AlignCenter>false</AlignCenter>
+		<AlignRight>false</AlignRight>
+	</Label>
+	<Label item ="IW_Deity">
+		<ScreenID>DeityLabel</ScreenID>
+		<EQType>4</EQType>
+		<!--<Font>3</Font>-->
+		<RelativePosition>true</RelativePosition>
+		<Location>
+			<X>320</X>
+			<Y>55</Y>
+		</Location>
+		<Size>
+			<CX>82</CX>
+			<CY>14</CY>
+		</Size>
+		<Text>Mithaniel Marr</Text>
+		<TextColor>
+				<R>220</R>
+				<G>220</G>
+				<B>220</B>
+		</TextColor>
+		<NoWrap>true</NoWrap>
+		<AlignCenter>false</AlignCenter>
+		<AlignRight>false</AlignRight>
+	</Label>
+
+	<Label item ="IW_CurrentHP">
+		<ScreenID>IW_CurrentHP</ScreenID>
+		<EQType>17</EQType>
+		<!--<Font>3</Font>-->
+		<RelativePosition>true</RelativePosition>
+		<Location>
+			<X>318</X>
+			<Y>81</Y>
+		</Location>
+		<Size>
+			<CX>35</CX>
+			<CY>14</CY>
+		</Size>
+		<Text>0</Text>
+		<TextColor>
+				<R>255</R>
+				<G>255</G>
+				<B>255</B>
+		</TextColor>
+		<NoWrap>true</NoWrap>
+		<AlignCenter>false</AlignCenter>
+		<AlignRight>true</AlignRight>
+		<AlignLeft>false</AlignLeft>
+	</Label>
+	<Label item ="IW_HPDivider">
+		<!--<Font>3</Font>-->
+		<RelativePosition>true</RelativePosition>
+		<Location>
+			<X>356</X>
+			<Y>81</Y>
+		</Location>
+		<Size>
+			<CX>8</CX>
+			<CY>14</CY>
+		</Size>
+		<Text>/</Text>
+		<TextColor>
+				<R>200</R>
+				<G>200</G>
+				<B>200</B>
+		</TextColor>
+		<NoWrap>true</NoWrap>
+		<AlignCenter>false</AlignCenter>
+		<AlignRight>false</AlignRight>
+	</Label>
+	<Label item ="IW_MaxHP">
+		<EQType>18</EQType>
+		<!--<Font>3</Font>-->
+		<RelativePosition>true</RelativePosition>
+		<Location>
+			<X>361</X>
+			<Y>81</Y>
+		</Location>
+		<Size>
+			<CX>37</CX>
+			<CY>14</CY>
+		</Size>
+		<Text>0</Text>
+		<TextColor>
+				<R>255</R>
+				<G>255</G>
+				<B>255</B>
+		</TextColor>
+		<NoWrap>true</NoWrap>
+		<AlignCenter>false</AlignCenter>
+		<AlignRight>false</AlignRight>
+		<AlignLeft>true</AlignLeft>
+	</Label>
+
+	<Label item ="IW_ACNumber">
+		<ScreenID>ACNumberLabel</ScreenID>
+		<EQType>22</EQType>
+		<!--<Font>3</Font>-->
+		<RelativePosition>true</RelativePosition>
+		<Location>
+			<X>340</X>
+			<Y>95</Y>
+		</Location>
+		<Size>
+			<CX>80</CX>
+			<CY>14</CY>
+		</Size>
+		<Text>0</Text>
+		<TextColor>
+				<R>255</R>
+				<G>255</G>
+				<B>255</B>
+		</TextColor>
+		<NoWrap>true</NoWrap>
+		<AlignCenter>true</AlignCenter>
+		<AlignRight>false</AlignRight>
+	</Label>
+
+	<Label item ="IW_ATKNumber">
+		<ScreenID>ATKNumberLabel</ScreenID>
+		<EQType>23</EQType>
+		<!--<Font>3</Font>-->
+		<RelativePosition>true</RelativePosition>
+		<Location>
+			<X>340</X>
+			<Y>107</Y>
+		</Location>
+		<Size>
+			<CX>80</CX>
+			<CY>14</CY>
+		</Size>
+		<Text>0</Text>
+		<TextColor>
+				<R>255</R>
+				<G>255</G>
+				<B>255</B>
+		</TextColor>
+		<NoWrap>true</NoWrap>
+		<AlignCenter>true</AlignCenter>
+		<AlignRight>false</AlignRight>
+	</Label>
+
+	<Label item ="IW_STRNumber">
+		<ScreenID>STRNumberLabel</ScreenID>
+		<EQType>5</EQType>
+		<!--<Font>3</Font>-->
+		<RelativePosition>true</RelativePosition>
+		<Location>
+			<X>360</X>
+			<Y>227</Y>
+		</Location>
+		<Size>
+			<CX>50</CX>
+			<CY>14</CY>
+		</Size>
+		<Text>255</Text>
+		<TextColor>
+				<R>255</R>
+				<G>255</G>
+				<B>255</B>
+		</TextColor>
+		<NoWrap>true</NoWrap>
+		<AlignCenter>false</AlignCenter>
+		<AlignRight>false</AlignRight>
+	</Label>
+
+	<Label item ="IW_STANumber">
+		<ScreenID>STANumberLabel</ScreenID>
+		<EQType>6</EQType>
+		<!--<Font>3</Font>-->
+		<RelativePosition>true</RelativePosition>
+		<Location>
+			<X>360</X>
+			<Y>238</Y>
+		</Location>
+		<Size>
+			<CX>50</CX>
+			<CY>14</CY>
+		</Size>
+		<Text>255</Text>
+		<TextColor>
+				<R>255</R>
+				<G>255</G>
+				<B>255</B>
+		</TextColor>
+		<NoWrap>true</NoWrap>
+		<AlignCenter>false</AlignCenter>
+		<AlignRight>false</AlignRight>
+	</Label>
+
+	<Label item ="IW_AGINumber">
+		<ScreenID>AGINumberLabel</ScreenID>
+		<EQType>8</EQType>
+		<!--<Font>3</Font>-->
+		<RelativePosition>true</RelativePosition>
+		<Location>
+			<X>360</X>
+			<Y>249</Y>
+		</Location>
+		<Size>
+			<CX>50</CX>
+			<CY>14</CY>
+		</Size>
+		<Text>255</Text>
+		<TextColor>
+				<R>255</R>
+				<G>255</G>
+				<B>255</B>
+		</TextColor>
+		<NoWrap>true</NoWrap>
+		<AlignCenter>false</AlignCenter>
+		<AlignRight>false</AlignRight>
+	</Label>
+
+	<Label item ="IW_DEXNumber">
+		<ScreenID>DEXNumberLabel</ScreenID>
+		<EQType>7</EQType>
+		<!--<Font>3</Font>-->
+		<RelativePosition>true</RelativePosition>
+		<Location>
+			<X>360</X>
+			<Y>260</Y>
+		</Location>
+		<Size>
+			<CX>50</CX>
+			<CY>14</CY>
+		</Size>
+		<Text>255</Text>
+		<TextColor>
+				<R>255</R>
+				<G>255</G>
+				<B>255</B>
+		</TextColor>
+		<NoWrap>true</NoWrap>
+		<AlignCenter>false</AlignCenter>
+		<AlignRight>false</AlignRight>
+	</Label>
+
+	<Label item ="IW_WISNumber">
+		<ScreenID>WISNumberLabel</ScreenID>
+		<EQType>9</EQType>
+		<!--<Font>3</Font>-->
+		<RelativePosition>true</RelativePosition>
+		<Location>
+			<X>360</X>
+			<Y>271</Y>
+		</Location>
+		<Size>
+			<CX>50</CX>
+			<CY>14</CY>
+		</Size>
+		<Text>255</Text>
+		<TextColor>
+				<R>255</R>
+				<G>255</G>
+				<B>255</B>
+		</TextColor>
+		<NoWrap>true</NoWrap>
+		<AlignCenter>false</AlignCenter>
+		<AlignRight>false</AlignRight>
+	</Label>
+
+	<Label item ="IW_INTNumber">
+		<ScreenID>INTNumberLabel</ScreenID>
+		<EQType>10</EQType>
+		<!--<Font>3</Font>-->
+		<RelativePosition>true</RelativePosition>
+		<Location>
+			<X>360</X>
+			<Y>282</Y>
+		</Location>
+		<Size>
+			<CX>50</CX>
+			<CY>14</CY>
+		</Size>
+		<Text>255</Text>
+		<TextColor>
+				<R>255</R>
+				<G>255</G>
+				<B>255</B>
+		</TextColor>
+		<NoWrap>true</NoWrap>
+		<AlignCenter>false</AlignCenter>
+		<AlignRight>false</AlignRight>
+	</Label>
+
+	<Label item ="IW_CHANumber">
+		<ScreenID>CHANumberLabel</ScreenID>
+		<EQType>11</EQType>
+		<!--<Font>3</Font>-->
+		<RelativePosition>true</RelativePosition>
+		<Location>
+			<X>360</X>
+			<Y>293</Y>
+		</Location>
+		<Size>
+			<CX>50</CX>
+			<CY>14</CY>
+		</Size>
+		<Text>255</Text>
+		<TextColor>
+				<R>255</R>
+				<G>255</G>
+				<B>255</B>
+		</TextColor>
+		<NoWrap>true</NoWrap>
+		<AlignCenter>false</AlignCenter>
+		<AlignRight>false</AlignRight>
+	</Label>
+
+	<Label item ="IW_PoisonNumber">
+		<ScreenID>PoisonNumberLabel</ScreenID>
+		<EQType>12</EQType>
+		<!--<Font>3</Font>-->
+		<RelativePosition>true</RelativePosition>
+		<Location>
+			<X>382</X>
+			<Y>321</Y>
+		</Location>
+		<Size>
+			<CX>64</CX>
+			<CY>14</CY>
+		</Size>
+		<Text>255</Text>
+		<TextColor>
+				<R>255</R>
+				<G>255</G>
+				<B>255</B>
+		</TextColor>
+		<NoWrap>true</NoWrap>
+		<AlignCenter>false</AlignCenter>
+		<AlignRight>false</AlignRight>
+	</Label>
+
+	<Label item ="IW_MagicNumber">
+		<ScreenID>MagicNumberLabel</ScreenID>
+		<EQType>16</EQType>
+		<!--<Font>3</Font>-->
+		<RelativePosition>true</RelativePosition>
+		<Location>
+			<X>382</X>
+			<Y>332</Y>
+		</Location>
+		<Size>
+			<CX>64</CX>
+			<CY>14</CY>
+		</Size>
+		<Text>255</Text>
+		<TextColor>
+				<R>255</R>
+				<G>255</G>
+				<B>255</B>
+		</TextColor>
+		<NoWrap>true</NoWrap>
+		<AlignCenter>false</AlignCenter>
+		<AlignRight>false</AlignRight>
+	</Label>
+
+	<Label item ="IW_DiseaseNumber">
+		<ScreenID>DiseaseNumberLabel</ScreenID>
+		<EQType>13</EQType>
+		<!--<Font>3</Font>-->
+		<RelativePosition>true</RelativePosition>
+		<Location>
+			<X>382</X>
+			<Y>343</Y>
+		</Location>
+		<Size>
+			<CX>64</CX>
+			<CY>14</CY>
+		</Size>
+		<Text>255</Text>
+		<TextColor>
+				<R>255</R>
+				<G>255</G>
+				<B>255</B>
+		</TextColor>
+		<NoWrap>true</NoWrap>
+		<AlignCenter>false</AlignCenter>
+		<AlignRight>false</AlignRight>
+	</Label>
+
+	<Label item ="IW_FireNumber">
+		<ScreenID>FireNumberLabel</ScreenID>
+		<EQType>14</EQType>
+		<!--<Font>3</Font>-->
+		<RelativePosition>true</RelativePosition>
+		<Location>
+			<X>382</X>
+			<Y>354</Y>
+		</Location>
+		<Size>
+			<CX>64</CX>
+			<CY>14</CY>
+		</Size>
+		<Text>255</Text>
+		<TextColor>
+				<R>255</R>
+				<G>255</G>
+				<B>255</B>
+		</TextColor>
+		<NoWrap>true</NoWrap>
+		<AlignCenter>false</AlignCenter>
+		<AlignRight>false</AlignRight>
+	</Label>
+
+	<Label item ="IW_ColdNumber">
+		<ScreenID>ColdNumberLabel</ScreenID>
+		<EQType>15</EQType>
+		<!--<Font>3</Font>-->
+		<RelativePosition>true</RelativePosition>
+		<Location>
+			<X>382</X>
+			<Y>365</Y>
+		</Location>
+		<Size>
+			<CX>64</CX>
+			<CY>14</CY>
+		</Size>
+		<Text>255</Text>
+		<TextColor>
+				<R>255</R>
+				<G>255</G>
+				<B>255</B>
+		</TextColor>
+		<NoWrap>true</NoWrap>
+		<AlignCenter>false</AlignCenter>
+		<AlignRight>false</AlignRight>
+	</Label>
+
+	<Label item ="IW_CurrentWeight">
+		<ScreenID>WeightNumberLabel</ScreenID>
+		<EQType>24</EQType>
+		<!--<Font>3</Font>-->
+		<RelativePosition>true</RelativePosition>
+		<Location>
+			<X>124</X>
+			<Y>438</Y>
+		</Location>
+		<Size>
+			<CX>30</CX>
+			<CY>14</CY>
+		</Size>
+		<Text>0</Text>
+		<TextColor>
+				<R>255</R>
+				<G>255</G>
+				<B>255</B>
+		</TextColor>
+		<NoWrap>true</NoWrap>
+		<AlignCenter>false</AlignCenter>
+		<AlignRight>true</AlignRight>
+	</Label>
+	<Label item ="IW_WeightNumber">
+		<!--<Font>3</Font>-->
+		<RelativePosition>true</RelativePosition>
+		<Location>
+			<X>154</X>
+			<Y>438</Y>
+		</Location>
+		<Size>
+			<CX>4</CX>
+			<CY>14</CY>
+		</Size>
+		<Text>/</Text>
+		<TextColor>
+				<R>255</R>
+				<G>255</G>
+				<B>255</B>
+		</TextColor>
+		<NoWrap>true</NoWrap>
+		<AlignCenter>false</AlignCenter>
+		<AlignRight>false</AlignRight>
+	</Label>
+	<Label item ="IW_MaxWeight">
+		<EQType>25</EQType>
+		<!--<Font>3</Font>-->
+		<RelativePosition>true</RelativePosition>
+		<Location>
+			<X>158</X>
+			<Y>438</Y>
+		</Location>
+		<Size>
+			<CX>32</CX>
+			<CY>14</CY>
+		</Size>
+		<Text></Text>
+		<TextColor>
+				<R>255</R>
+				<G>255</G>
+				<B>255</B>
+		</TextColor>
+		<NoWrap>true</NoWrap>
+		<AlignCenter>false</AlignCenter>
+		<AlignRight>false</AlignRight>
+		<AlignLeft>true</AlignLeft>
+	</Label>
+
+	<Label item ="IW_AltAdv">
+		<ScreenID>AltAdvLabel</ScreenID>
+		<!--<Font>3</Font>-->
+		<RelativePosition>true</RelativePosition>
+		<Location>
+			<X>0</X>
+			<Y>324</Y>
+		</Location>
+		<Size>
+			<CX>120</CX>
+			<CY>14</CY>
+		</Size>
+		<Text>ALT. ADV.</Text>
+		<TextColor>
+				<R>255</R>
+				<G>255</G>
+				<B>255</B>
+		</TextColor>
+		<NoWrap>true</NoWrap>
+		<AlignCenter>true</AlignCenter>
+		<AlignRight>false</AlignRight>
+	</Label>
+
+	<Button item = "IW_Money0">
+		<ScreenID>IW_Money0</ScreenID>
+		<!--<Font>3</Font>-->
+		<RelativePosition>true</RelativePosition>
+		<Location>
+			<X>13</X>
+			<Y>482</Y>
+		</Location>
+		<Size>
+			<CX>67</CX>
+			<CY>24</CY>
+		</Size>
+		<Style_Transparent>false</Style_Transparent>
+		<!--<TooltipReference/>-->
+		<Style_Checkbox>false</Style_Checkbox>
+		<!--<RadioGroup/>-->
+		<Text>9999</Text>
+		<TextColor>
+				<R>255</R>
+				<G>255</G>
+				<B>255</B>
+		</TextColor>
+		<ButtonDrawTemplate>
+			<Normal>A_RecessedPlatinum</Normal>
+			<NormalDecal>A_PlatinumCoin</NormalDecal>
+		</ButtonDrawTemplate>
+		<DecalOffset>
+			<X>1</X>
+			<Y>3</Y>
+		</DecalOffset>
+		<DecalSize>
+			<CX>18</CX>
+			<CY>18</CY>
+		</DecalSize>
+	</Button>
+	<Button item = "IW_Money1">
+		<ScreenID>IW_Money1</ScreenID>
+		<!--<Font>3</Font>-->
+		<RelativePosition>true</RelativePosition>
+		<Location>
+			<X>85</X>
+			<Y>482</Y>
+		</Location>
+		<Size>
+			<CX>67</CX>
+			<CY>24</CY>
+		</Size>
+		<Style_Transparent>false</Style_Transparent>
+		<!--<TooltipReference/>-->
+		<Style_Checkbox>false</Style_Checkbox>
+		<!--<RadioGroup/>-->
+		<Text>9999</Text>
+		<TextColor>
+				<R>255</R>
+				<G>255</G>
+				<B>255</B>
+		</TextColor>
+		<ButtonDrawTemplate>
+			<Normal>A_RecessedGold</Normal>
+			<NormalDecal>A_GoldCoin</NormalDecal>
+		</ButtonDrawTemplate>
+		<DecalOffset>
+			<X>1</X>
+			<Y>3</Y>
+		</DecalOffset>
+		<DecalSize>
+			<CX>18</CX>
+			<CY>18</CY>
+		</DecalSize>
+	</Button>
+	<Button item = "IW_Money2">
+		<ScreenID>IW_Money2</ScreenID>
+		<!--<Font>3</Font>-->
+		<RelativePosition>true</RelativePosition>
+		<Location>
+			<X>157</X>
+			<Y>482</Y>
+		</Location>
+		<Size>
+			<CX>67</CX>
+			<CY>24</CY>
+		</Size>
+		<Style_Transparent>false</Style_Transparent>
+		<!--<TooltipReference/>-->
+		<Style_Checkbox>false</Style_Checkbox>
+		<!--<RadioGroup/>-->
+		<Text>9999</Text>
+		<TextColor>
+				<R>255</R>
+				<G>255</G>
+				<B>255</B>
+		</TextColor>
+		<ButtonDrawTemplate>
+			<Normal>A_RecessedSilver</Normal>
+			<NormalDecal>A_SilverCoin</NormalDecal>
+		</ButtonDrawTemplate>
+		<DecalOffset>
+			<X>1</X>
+			<Y>3</Y>
+		</DecalOffset>
+		<DecalSize>
+			<CX>18</CX>
+			<CY>18</CY>
+		</DecalSize>
+	</Button>
+	<Button item = "IW_Money3">
+		<ScreenID>IW_Money3</ScreenID>
+		<!--<Font>3</Font>-->
+		<RelativePosition>true</RelativePosition>
+		<Location>
+			<X>229</X>
+			<Y>482</Y>
+		</Location>
+		<Size>
+			<CX>67</CX>
+			<CY>24</CY>
+		</Size>
+		<Style_Transparent>false</Style_Transparent>
+		<!--<TooltipReference/>-->
+		<Style_Checkbox>false</Style_Checkbox>
+		<!--<RadioGroup/>-->
+		<Text>9999</Text>
+		<TextColor>
+				<R>255</R>
+				<G>255</G>
+				<B>255</B>
+		</TextColor>
+		<ButtonDrawTemplate>
+			<Normal>A_RecessedCopper</Normal>
+			<NormalDecal>A_CopperCoin</NormalDecal>
+		</ButtonDrawTemplate>
+		<DecalOffset>
+			<X>1</X>
+			<Y>3</Y>
+		</DecalOffset>
+		<DecalSize>
+			<CX>18</CX>
+			<CY>18</CY>
+		</DecalSize>
+	</Button>
+
+	<Button item = "IW_Skills">
+		<ScreenID>IW_Skills</ScreenID>
+		<!--<Font>3</Font>-->
+		<RelativePosition>true</RelativePosition>
+		<Location>
+			<X>220</X>
+			<Y>425</Y>
+		</Location>
+		<Size>
+			<CX>79</CX>
+			<CY>19</CY>
+		</Size>
+		<Style_Transparent>false</Style_Transparent>
+		<!--<TooltipReference/>-->
+		<Style_Checkbox>false</Style_Checkbox>
+		<!--<RadioGroup/>-->
+		<Text>Skills</Text>
+		<TextColor>
+				<R>40</R>
+				<G>40</G>
+				<B>32</B>
+		</TextColor>
+		<ButtonDrawTemplate>
+			<Normal>A_BtnNormal</Normal>
+			<Pressed>A_BtnPressed</Pressed>
+			<Flyby>A_BtnFlyby</Flyby>
+			<Disabled>A_BtnDisabled</Disabled>
+			<PressedFlyby>A_BtnPressedFlyby</PressedFlyby>
+		</ButtonDrawTemplate>
+	</Button>
+
+	<Button item = "IW_AltAdvBtn">
+		<ScreenID>IW_AltAdvBtn</ScreenID>
+		<!--<Font>3</Font>-->
+		<RelativePosition>true</RelativePosition>
+		<Location>
+			<X>220</X>
+			<Y>446</Y>
+		</Location>
+		<Size>
+			<CX>79</CX>
+			<CY>19</CY>
+		</Size>
+		<Style_Transparent>false</Style_Transparent>
+		<!--<TooltipReference/>-->
+		<Style_Checkbox>false</Style_Checkbox>
+		<!--<RadioGroup/>-->
+		<Text>Alt. Advance</Text>
+		<TextColor>
+				<R>40</R>
+				<G>40</G>
+				<B>32</B>
+		</TextColor>
+		<ButtonDrawTemplate>
+			<Normal>A_BtnNormal</Normal>
+			<Pressed>A_BtnPressed</Pressed>
+			<Flyby>A_BtnFlyby</Flyby>
+			<Disabled>A_BtnDisabled</Disabled>
+			<PressedFlyby>A_BtnPressedFlyby</PressedFlyby>
+		</ButtonDrawTemplate>
+	</Button>
+
+	<Button item = "IW_Destroy">
+		<ScreenID>IW_Destroy</ScreenID>
+		<!--<Font>3</Font>-->
+		<RelativePosition>true</RelativePosition>
+		<Location>
+			<X>220</X>
+			<Y>404</Y>
+		</Location>
+		<Size>
+			<CX>79</CX>
+			<CY>19</CY>
+		</Size>
+		<Style_Transparent>false</Style_Transparent>
+		<!--<TooltipReference/>-->
+		<Style_Checkbox>false</Style_Checkbox>
+		<!--<RadioGroup/>-->
+		<Text>Destroy</Text>
+		<TextColor>
+				<R>40</R>
+				<G>40</G>
+				<B>32</B>
+		</TextColor>
+		<ButtonDrawTemplate>
+			<Normal>A_BtnNormal</Normal>
+			<Pressed>A_BtnPressed</Pressed>
+			<Flyby>A_BtnFlyby</Flyby>
+			<Disabled>A_BtnDisabled</Disabled>
+			<PressedFlyby>A_BtnPressedFlyby</PressedFlyby>
+		</ButtonDrawTemplate>
+	</Button>
+
+
+
+
+	<Screen item = "IW_CharacterView">
+		<ScreenID>IW_CharacterView</ScreenID>
+		<RelativePosition>true</RelativePosition>
+		
+		<Location>
+			<X>500</X>
+			<Y>500</Y>
+		</Location>
+		<Size>
+			<CX>50</CX>
+			<CY>50</CY>
+		</Size>
+		<Pieces>ClassAnim</Pieces>
+		<Style_VScroll>false</Style_VScroll>
+		<Style_HScroll>false</Style_HScroll>
+		<Style_Transparent>true</Style_Transparent>
+		<TooltipReference>Drop Item Here to Auto Equip</TooltipReference>
+		<DrawTemplate>WDT_Inner</DrawTemplate>
+		<Style_Titlebar>false</Style_Titlebar>
+		<Style_Closebox>false</Style_Closebox>
+		<Style_Minimizebox>false</Style_Minimizebox>
+		<Style_Border>false</Style_Border>
+		<Style_Sizable>false</Style_Sizable>
+		
+	</Screen>
+
+	<StaticAnimation item= "ClassAnim">
+		<ScreenID>ClassAnim</ScreenID>
+		<Location>
+			<X>415</X>
+			<Y>90</Y>
+		</Location>
+		<Size>
+			<CX>60</CX>
+			<CY>166</CY>
+		</Size>
+	</StaticAnimation>
+
+	<Button item = "IW_DoneButton">
+		<ScreenID>DoneButton</ScreenID>
+		<!--<Font>3</Font>-->
+		<RelativePosition>true</RelativePosition>
+		<Location>
+			<X>242</X>
+			<Y>531</Y>
+		</Location>
+		<Size>
+				<CX>48</CX>
+				<CY>19</CY>
+		</Size>
+		<Style_Transparent>false</Style_Transparent>
+		<!--<TooltipReference/>-->
+		<Style_Checkbox>false</Style_Checkbox>
+		<!--<RadioGroup/>-->
+		<Text></Text>
+		<TextColor>
+			<R>255</R>
+			<G>255</G>
+			<B>255</B>
+		</TextColor>
+		<ButtonDrawTemplate>
+			<Normal>Btn_Done_Normal</Normal>
+			<Pressed>Btn_Done_Pressed</Pressed>
+			<Flyby>Btn_Done_Normal</Flyby>
+			<Disabled>Btn_Done_Pressed</Disabled>
+			<PressedFlyby>Btn_Done_Pressed</PressedFlyby>
+		</ButtonDrawTemplate>
+	</Button>
+
+<!-- faB -->
+
+
+<!-- Next Level -->
+	<Label item ="IW_ExpNumber">
+		<ScreenID>IW_ExpNumber</ScreenID>
+		<EQType>26</EQType>
+		<!--<Font>3</Font>-->
+		<RelativePosition>true</RelativePosition>
+		<Location>
+			<X>306</X>
+			<Y>153</Y>
+		</Location>
+		<Size>
+			<CX>55</CX>
+			<CY>16</CY>
+		</Size>
+		<Text></Text>
+		<TextColor>
+				<R>208</R>
+				<G>208</G>
+				<B>208</B>
+		</TextColor>
+		<NoWrap>true</NoWrap>
+		<AlignCenter>false</AlignCenter>
+		<AlignRight>true</AlignRight>
+	</Label>
+	<Label item ="IW_ExpPct">
+		<ScreenID>IW_ExpPct</ScreenID>
+		<!--<Font>3</Font>-->
+		<RelativePosition>true</RelativePosition>
+		<Location>
+			<X>361</X>
+			<Y>153</Y>
+		</Location>
+		<Size>
+			<CX>40</CX>
+			<CY>16</CY>
+		</Size>
+		<Text>%</Text>
+		<TextColor>
+				<R>208</R>
+				<G>208</G>
+				<B>208</B>
+		</TextColor>
+		<NoWrap>true</NoWrap>
+		<AlignCenter>false</AlignCenter>
+		<AlignRight>false</AlignRight>
+	</Label>
+	<Gauge item = "IW_ExpGauge">
+		<ScreenID>ExpGauge</ScreenID>
+		<Font>3</Font>
+		<TextColor>
+			<R>240</R>
+			<G>240</G>
+			<B>240</B>
+		</TextColor>
+		<RelativePosition>true</RelativePosition>
+		<Location>
+			<X>313</X>
+			<Y>165</Y>
+		</Location>
+		<Size>
+			<CX>85</CX>
+			<CY>12</CY>
+		</Size>
+		<GaugeOffsetY>0</GaugeOffsetY>
+		<TextOffsetY>0</TextOffsetY>
+		<Style_VScroll>false</Style_VScroll>
+		<Style_HScroll>false</Style_HScroll>
+		<Style_Transparent>false</Style_Transparent>
+		<TooltipReference/>
+		<FillTint>
+			<R>255</R>
+			<G>255</G>
+			<B>255</B>
+		</FillTint>
+		<LinesFillTint>
+			<R>255</R>
+			<G>255</G>
+			<B>255</B>
+		</LinesFillTint>
+		<DrawLinesFill>true</DrawLinesFill>
+		<EQType>4</EQType>
+		<GaugeDrawTemplate>
+			<Background>A_Classic_GaugeBackground</Background>
+			<Fill>A_Classic_GaugeFill3</Fill>
+			<Lines>A_Classic_GaugeLines</Lines>
+			<LinesFill>A_Classic_GaugeLinesFill</LinesFill>
+			<EndCapLeft>A_Classic_GaugeEndCapLeft</EndCapLeft>
+			<EndCapRight>A_Classic_GaugeEndCapRight</EndCapRight>
+		</GaugeDrawTemplate>
+	</Gauge>
+
+<!-- AA EXP -->
+	<Label item ="IW_AAExpNumber">
+		<ScreenID>IW_AAExpNumber</ScreenID>
+		<EQType>27</EQType>
+		<!--<Font>3</Font>-->
+		<RelativePosition>true</RelativePosition>
+		<Location>
+			<X>306</X>
+			<Y>185</Y>
+		</Location>
+		
+		<Size>
+			<CX>55</CX>
+			<CY>16</CY>
+		</Size>
+		<Text></Text>
+		<TextColor>
+				<R>208</R>
+				<G>208</G>
+				<B>208</B>
+		</TextColor>
+		<NoWrap>true</NoWrap>
+		<AlignCenter>false</AlignCenter>
+		<AlignRight>true</AlignRight>
+	</Label>
+	<Label item ="IW_AAExpPct">
+		<ScreenID>IW_AAExpPct</ScreenID>
+		<!--<Font>3</Font>-->
+		
+		<RelativePosition>true</RelativePosition>
+		<Location>
+			<X>361</X>
+			<Y>185</Y>
+		</Location>
+		<Size>
+			<CX>40</CX>
+			<CY>16</CY>
+		</Size>
+		<Text>%</Text>
+		<TextColor>
+				<R>208</R>
+				<G>208</G>
+				<B>208</B>
+		</TextColor>
+		<NoWrap>true</NoWrap>
+		<AlignCenter>false</AlignCenter>
+		<AlignRight>false</AlignRight>
+	</Label>
+	<Gauge item = "IW_AltAdvGauge">
+		<ScreenID>AltAdvGauge</ScreenID>
+		<Font>3</Font>
+		
+		<TextColor>
+			<R>240</R>
+			<G>240</G>
+			<B>240</B>
+		</TextColor>
+		<RelativePosition>true</RelativePosition>
+		<Location>
+			<X>313</X>
+			<Y>197</Y>
+		</Location>
+		<Size>
+			<CX>85</CX>
+			<CY>12</CY>
+		</Size>
+		<GaugeOffsetY>0</GaugeOffsetY>
+		<TextOffsetY>0</TextOffsetY>
+		<Style_VScroll>false</Style_VScroll>
+		<Style_HScroll>false</Style_HScroll>
+		<Style_Transparent>true</Style_Transparent>
+		<TooltipReference/>
+		<FillTint>
+			<R>255</R>
+			<G>255</G>
+			<B>255</B>
+		</FillTint>
+		<LinesFillTint>
+			<R>255</R>
+			<G>255</G>
+			<B>255</B>
+		</LinesFillTint>
+		<DrawLinesFill>true</DrawLinesFill>
+		<EQType>5</EQType>
+		<GaugeDrawTemplate>
+			<Background>A_Classic_GaugeBackground</Background>
+			<Fill>A_Classic_GaugeFill4</Fill>
+			<Lines>A_Classic_GaugeLines</Lines>
+			<LinesFill>A_Classic_GaugeLinesFill</LinesFill>
+			<EndCapLeft>A_Classic_GaugeEndCapLeft</EndCapLeft>
+			<EndCapRight>A_Classic_GaugeEndCapRight</EndCapRight>
+		</GaugeDrawTemplate>
+	</Gauge>
+<!-- faB -->
+
+	<Button item = "IW_FacePick">
+		<ScreenID>IW_FacePick</ScreenID>
+		<!--<Font>3</Font>-->
+		<RelativePosition>true</RelativePosition>
+		<Location>
+		<!-- faB: Untested, I don't have LOY -->
+			<X>146</X>
+			<Y>531</Y>
+		</Location>
+		<Size>
+			<CX>79</CX>
+			<CY>19</CY>
+		</Size>
+		<Style_Transparent>false</Style_Transparent>
+		<!--<TooltipReference/>-->
+		<Style_Checkbox>false</Style_Checkbox>
+		<!--<RadioGroup/>-->
+		<Text>Face</Text>
+		<TextColor>
+			<R>40</R>
+			<G>40</G>
+			<B>32</B>
+		</TextColor>
+		<ButtonDrawTemplate>
+			<Normal>A_BtnNormal</Normal>
+			<Pressed>A_BtnPressed</Pressed>
+			<Flyby>A_BtnFlyby</Flyby>
+			<Disabled>A_BtnDisabled</Disabled>
+			<PressedFlyby>A_BtnPressedFlyby</PressedFlyby>
+		</ButtonDrawTemplate>
+	</Button>
+
+	<Button item = "IW_Tinting">
+		<ScreenID>IW_Tinting</ScreenID>
+		<!--<Font>3</Font>-->
+		<RelativePosition>true</RelativePosition>
+		<Location>
+		<!-- faB: Untested, I don't have LOY -->
+			<X>50</X>
+			<Y>531</Y>
+		</Location>
+		<Size>
+			<CX>79</CX>
+			<CY>19</CY>
+		</Size>
+		<Style_Transparent>false</Style_Transparent>
+		<!--<TooltipReference/>-->
+		<Style_Checkbox>false</Style_Checkbox>
+		<!--<RadioGroup/>-->
+		<Text>Dye</Text>
+		<TextColor>
+			<R>255</R>
+			<G>255</G>
+			<B>255</B>
+		</TextColor>
+		<ButtonDrawTemplate>
+			<Normal>A_BtnNormal</Normal>
+			<Pressed>A_BtnPressed</Pressed>
+			<Flyby>A_BtnFlyby</Flyby>
+			<Disabled>A_BtnDisabled</Disabled>
+			<PressedFlyby>A_BtnPressedFlyby</PressedFlyby>
+		</ButtonDrawTemplate>
+	</Button>
+
+	<Screen item = "InventoryWindow">
+		<!--<ScreenID/>-->
+		<RelativePosition>false</RelativePosition>
+		<Location>
+			<X>408</X>
+			<Y>0</Y>
+		</Location>
+		<Size>
+			<CX>616</CX>
+			<CY>595</CY>
+		</Size>
+		<Text>Inventory</Text>
+		<Style_VScroll>false</Style_VScroll>
+		<Style_HScroll>false</Style_HScroll>
+		<Style_Transparent>true</Style_Transparent>
+		<TooltipReference>Inventory</TooltipReference>
+		<DrawTemplate>WDT_Rounded</DrawTemplate>
+		<Style_Titlebar>false</Style_Titlebar>
+		<Style_Closebox>true</Style_Closebox>
+		<Style_Minimizebox>false</Style_Minimizebox>
+		<Style_Border>false</Style_Border>
+		<Style_Sizable>false</Style_Sizable>
+<!-- faB: background pieces -->
+		<Pieces>IW_bg_player</Pieces>
+		<Pieces>IW_bg_exp</Pieces>
+		<Pieces>IW_bg_stats</Pieces>
+		<Pieces>IW_bg_bags1</Pieces>
+		<Pieces>IW_bg_bags2</Pieces>
+
+		<Pieces>IW_bg_ext_left_1</Pieces>
+		<Pieces>IW_bg_ext_top_1</Pieces>
+		<Pieces>IW_bg_ext_bot_1</Pieces>
+		<Pieces>IW_bg_ext_left_2</Pieces>
+		<Pieces>IW_bg_ext_top_2</Pieces>
+		<Pieces>IW_bg_ext_bot_2</Pieces>
+		<Pieces>IW_bg_ext_left_3</Pieces>
+		<Pieces>IW_bg_ext_top_3</Pieces>
+		<Pieces>IW_bg_ext_bot_3</Pieces>
+		<Pieces>IW_bg_ext_left_4</Pieces>
+		<Pieces>IW_bg_ext_top_4</Pieces>
+		<Pieces>IW_bg_ext_bot_4</Pieces>
+		<Pieces>IW_bg_ext_left_5</Pieces>
+		<Pieces>IW_bg_ext_top_5</Pieces>
+		<Pieces>IW_bg_ext_bot_5</Pieces>
+		<Pieces>IW_bg_autoequip</Pieces>
+		<Pieces>IW_bg_ext_left_6</Pieces>
+		<Pieces>IW_bg_ext_top_6</Pieces>
+		<Pieces>IW_bg_ext_bot_6</Pieces>
+		
+		<Pieces>IW_bg_junctiona</Pieces>
+		<Pieces>IW_bg_junctionb</Pieces>
+
+		<Pieces>IW_bg_gear0a</Pieces>
+		<Pieces>IW_bg_gear1a</Pieces>
+		<Pieces>IW_bg_gear1b</Pieces>
+		<Pieces>IW_bg_gear1c</Pieces>
+		<Pieces>IW_bg_gear1d</Pieces>
+		<Pieces>IW_bg_gear1e</Pieces>
+		<Pieces>IW_bg_gear2a</Pieces>
+		<Pieces>IW_bg_gear2b</Pieces>
+		<Pieces>IW_bg_gear2c</Pieces>
+		<Pieces>IW_bg_gear2d</Pieces>
+		<Pieces>IW_bg_gear2e</Pieces>
+		<Pieces>IW_bg_gear2f</Pieces>
+		<Pieces>IW_bg_gear3a</Pieces>
+		<Pieces>IW_bg_gear3aLabel</Pieces>
+		<Pieces>IW_bg_gear3b</Pieces>
+		<Pieces>IW_bg_gear3c</Pieces>
+		<Pieces>IW_bg_gear3d</Pieces>
+		<Pieces>IW_bg_gear3e</Pieces>
+		<Pieces>IW_bg_gear3f</Pieces>
+		<Pieces>IW_bg_gear4a</Pieces>
+		<Pieces>IW_bg_gear4b</Pieces>
+		<Pieces>IW_bg_gear4c</Pieces>
+		<Pieces>IW_bg_gear4d</Pieces>
+		<Pieces>IW_bg_money0</Pieces>
+		<Pieces>IW_bg_money1</Pieces>
+		<Pieces>IW_bg_money2</Pieces>
+		<Pieces>IW_bg_money3</Pieces>
+		<Pieces>IW_bg_done</Pieces>
+<!-- faB -->
+		<Pieces>InvSlot0</Pieces>
+		<Pieces>InvSlot1</Pieces>
+		<Pieces>InvSlot2</Pieces>
+		<Pieces>InvSlot3</Pieces>
+		<Pieces>InvSlot4</Pieces>
+		<Pieces>InvSlot5</Pieces>
+		<Pieces>InvSlot6</Pieces>
+		<Pieces>InvSlot7</Pieces>
+		<Pieces>InvSlot8</Pieces>
+		<Pieces>InvSlot9</Pieces>
+		<Pieces>InvSlot10</Pieces>
+		<Pieces>InvSlot11</Pieces>
+		<Pieces>InvSlot12</Pieces>
+		<Pieces>InvSlot13</Pieces>
+		<Pieces>InvSlot14</Pieces>
+		<Pieces>InvSlot15</Pieces>
+		<Pieces>InvSlot16</Pieces>
+		<Pieces>InvSlot17</Pieces>
+		<Pieces>InvSlot18</Pieces>
+		<Pieces>InvSlot19</Pieces>
+		<Pieces>InvSlot20</Pieces>
+		<Pieces>InvSlot21</Pieces>
+		<Pieces>InvSlot22</Pieces>
+		<Pieces>InvSlot23</Pieces>
+		<Pieces>InvSlot24</Pieces>
+		<Pieces>InvSlot25</Pieces>
+		<Pieces>InvSlot26</Pieces>
+		<Pieces>InvSlot27</Pieces>
+		<Pieces>InvSlot28</Pieces>
+		<Pieces>InvSlot29</Pieces>
+		<Pieces>IW_Money0</Pieces>
+		<Pieces>IW_Money1</Pieces>
+		<Pieces>IW_Money2</Pieces>
+		<Pieces>IW_Money3</Pieces>
+		<Pieces>IW_Skills</Pieces>
+		<Pieces>IW_AltAdvBtn</Pieces>
+		<Pieces>IW_Destroy</Pieces>
+		<Pieces>IW_Name</Pieces>
+		<Pieces>IW_Level</Pieces>
+		<Pieces>IW_Class</Pieces>
+		<Pieces>IW_Deity</Pieces>
+		<Pieces>IW_CurrentHP</Pieces>
+		<Pieces>IW_MaxHP</Pieces>
+		<Pieces>IW_HPDivider</Pieces>
+		<Pieces>IW_ACNumber</Pieces>
+		<Pieces>IW_ATKNumber</Pieces>
+		<Pieces>IW_ExpGauge</Pieces>
+		<Pieces>IW_STRNumber</Pieces>
+		<Pieces>IW_STANumber</Pieces>
+		<Pieces>IW_AGINumber</Pieces>
+		<Pieces>IW_DEXNumber</Pieces>
+		<Pieces>IW_WISNumber</Pieces>
+		<Pieces>IW_INTNumber</Pieces>
+		<Pieces>IW_CHANumber</Pieces>
+		<Pieces>IW_PoisonNumber</Pieces>
+		<Pieces>IW_MagicNumber</Pieces>
+		<Pieces>IW_DiseaseNumber</Pieces>
+		<Pieces>IW_FireNumber</Pieces>
+		<Pieces>IW_ColdNumber</Pieces>
+		<Pieces>IW_CurrentWeight</Pieces>
+		<Pieces>IW_WeightNumber</Pieces>
+		<Pieces>IW_MaxWeight</Pieces>
+		<Pieces>IW_AltAdv</Pieces>
+		<Pieces>IW_AltAdvGauge</Pieces>
+		<Pieces>IW_CharacterView</Pieces>
+		<Pieces>IW_DoneButton</Pieces>
+		<Pieces>IW_FacePick</Pieces>
+		<Pieces>IW_Tinting</Pieces>
+<!-- faB -->
+		<Pieces>IW_ExpNumber</Pieces>
+		<Pieces>IW_ExpPct</Pieces>
+		<Pieces>IW_AAExpNumber</Pieces>
+		<Pieces>IW_AAExpPct</Pieces>
+		<Pieces>ClassAnim</Pieces>
+<!-- faB -->
+	</Screen>
+
+</XML>
