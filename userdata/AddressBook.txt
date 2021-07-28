@@ -1,0 +1,4 @@
+EverQuest Address Book v1.0
+# WARNING: To avoid errors, you should modify your address book using the game interface.
+# For those of you who like to live dangerously, just be aware that empty lines separate address book entries.
+# The game normalizes notes by inserting a space in empty lines.
