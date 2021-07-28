@@ -1,0 +1,1262 @@
+
+2021-07-27 16:24:04	Starting EverQuest (Build Oct 31 2005 10:33:37)
+2021-07-27 16:24:04	Timezone: UTC-7h00m
+2021-07-27 16:24:04	Loading graphics DLL.
+2021-07-27 16:24:04	Parsing INI file .\eqclient.ini
+2021-07-27 16:24:04	INI file .\eqclient.ini loaded.
+2021-07-27 16:24:05	Initializing timers.
+2021-07-27 16:24:08	Checking critical files.
+2021-07-27 16:24:08	Initializing WinSock.
+2021-07-27 16:24:08	Enumerating 3D devices.
+2021-07-27 16:24:08	Found adapter #0 - AMD Radeon(TM) Vega 8 Graphics (27.20.14501.18003)
+2021-07-27 16:24:08	Adapter #0 - AMD Radeon(TM) Vega 8 Graphics :
+2021-07-27 16:24:08	32Bit = 1, D32 = 0, D24 = 1, D16 = 1 
+2021-07-27 16:24:08	16Bit(565) = 1, D32 = 0, D24 = 1, D16 = 1 
+2021-07-27 16:24:08	16Bit(1555) = 0, D32 = 0, D24 = 0, D16 = 0 
+2021-07-27 16:24:08	Initializing keypress handler.
+2021-07-27 16:24:08	Parsing INI file .\defaults.ini
+2021-07-27 16:24:08	INI file .\defaults.ini loaded.
+2021-07-27 16:24:08	Loading keyboard tables.
+2021-07-27 16:24:08	Creating window.
+2021-07-27 16:24:08	Checking display driver version.
+2021-07-27 16:24:09	Activating window.
+2021-07-27 16:24:09	Picking a default resolution, desktop is 2560 x 1440, 32 bits
+2021-07-27 16:24:09	Ratio is 1.78
+2021-07-27 16:24:09	Resolution was capped at 1280 x 720
+2021-07-27 16:24:09	Resolution verified 1280 x 720, 32 bits ... diff was 1000 from 0 modes
+2021-07-27 16:24:09	Resolution selected 1280 x 720, 32 bits
+2021-07-27 16:24:09	CRender::InitDevice: Using 32bit mode.
+2021-07-27 16:24:09	CRender::InitDevice: Using vsync 0.
+2021-07-27 16:24:09	CRender::InitDevice: Using 24bit depth buffer with 8 bit stencil.
+2021-07-27 16:24:09	CRender::InitDevice: HardwareTnL Enabled.  
+2021-07-27 16:24:09	Using hardware vertex shaders. 
+2021-07-27 16:24:09	Initializing render system.
+2021-07-27 16:24:09	Trilinear Mipmapping available.
+2021-07-27 16:24:09	Vertex Shader Version: 3.0 
+2021-07-27 16:24:09	Pixel Shader Version: 3.0 
+2021-07-27 16:24:09	Initializing engine internals.
+2021-07-27 16:24:09	CRender::InitDevice completed successfully.
+2021-07-27 16:24:09	Parsing INI file ./eqlsUIConfig.ini
+2021-07-27 16:24:09	INI file ./eqlsUIConfig.ini loaded.
+2021-07-27 16:24:19	Server selected 45.33.18.111 (93).
+2021-07-27 16:24:19	Initializing DirectInput.
+2021-07-27 16:24:19	Initializing Keyboard.
+2021-07-27 16:24:19	Initializing Mouse.
+2021-07-27 16:24:19	Creating font list.
+2021-07-27 16:24:19	Creating game object.
+2021-07-27 16:24:19	Deleting obsolete files.
+2021-07-27 16:24:19	Loading string tables.
+2021-07-27 16:24:19	Initializing client variables.
+2021-07-27 16:24:19	Loading spell effects.
+2021-07-27 16:24:19	Initializing display structures.
+2021-07-27 16:24:19	Sound Manager loaded 2165 filenames from soundassets.txt.
+2021-07-27 16:24:19	Voice Manager loaded 0 macros from VoiceData.txt.
+2021-07-27 16:24:19	Networking: using port [63467].
+2021-07-27 16:24:19	Networking: Connection Established [1]
+2021-07-27 16:24:20	WorldAuthenticate: Initiating Login.
+2021-07-27 16:24:21	WorldAuthenticate.  I got a message of type 0x6957 (26967).
+2021-07-27 16:24:21	WorldAuthenticate.  I got a message of type 0xfa6 (4006).
+2021-07-27 16:24:21	WorldRPServer message: server name Nostalgia
+2021-07-27 16:24:21	
+2021-07-27 16:24:21	WorldAuthenticate.  I got a message of type 0x3c25 (15397).
+2021-07-27 16:24:21	WorldAuthenticate.  I got a message of type 0x7cba (31930).
+2021-07-27 16:24:21	WorldAuthenticate.  I got a message of type 0x52a4 (21156).
+2021-07-27 16:24:21	WorldAuthenticate.  Access granted.
+2021-07-27 16:24:21	
+2021-07-27 16:24:21	WorldAuthenticate.  I got a message of type 0x4ec (1260).
+2021-07-27 16:24:21	WorldAuthenticate.  I got a message of type 0x4513 (17683).
+2021-07-27 16:24:21	Check 1sa. 0x6d366059
+2021-07-27 16:24:21	
+2021-07-27 16:24:21	Check 1x. 0x9e15bc94
+2021-07-27 16:24:21	
+2021-07-27 16:24:21	Race Manager loaded 475 races from racedata.txt.
+2021-07-27 16:24:21	Player Animations loaded 9 specific sounds from file AnimationSounds.txt.
+2021-07-27 16:24:21	Initializing display.
+2021-07-27 16:24:21	Initializing Particle System.
+2021-07-27 16:24:21	Error	opening	emitter	definition data	file.
+2021-07-27 16:24:21	Setting display options.
+2021-07-27 16:24:21	CRender::InitDevice: Using 32bit mode.
+2021-07-27 16:24:21	CRender::InitDevice: Using vsync 0.
+2021-07-27 16:24:21	CRender::InitDevice: Using 24bit depth buffer with 8 bit stencil.
+2021-07-27 16:24:21	CRender::InitDevice: HardwareTnL Enabled.  
+2021-07-27 16:24:21	Using hardware vertex shaders. 
+2021-07-27 16:24:21	Initializing render system.
+2021-07-27 16:24:21	Trilinear Mipmapping available.
+2021-07-27 16:24:21	Vertex Shader Version: 3.0 
+2021-07-27 16:24:21	Pixel Shader Version: 3.0 
+2021-07-27 16:24:21	RenderEffects\SPL/Lit.fxo is using Technique: Lit_DX6_FF_PS0 
+2021-07-27 16:24:21	RenderEffects\SPL/RegionOldDetailSingle.fxo is using Technique: DetailSingle_DX6_VS1_PS0 
+2021-07-27 16:24:21	RenderEffects\SPL/RegionOldDetailPalette.fxo is using Technique: DetailPalette_DX6_VS1_PS0 
+2021-07-27 16:24:21	RenderEffects\SPL/RegionC1.fxo is using Technique: RegionC1_DX6_VS1_PS0 
+2021-07-27 16:24:21	RenderEffects\SPL/RegionCG1.fxo is using Technique: RegionCG1_DX6_VS1_PS0_1Pass 
+2021-07-27 16:24:21	RenderEffects\SPL/RegionCE1.fxo is using Technique: RegionCE1_DX9_VS1_PS20 
+2021-07-27 16:24:21	RenderEffects\SPL/RegionCB1.fxo is using Technique: RegionCB1_DX8_VS1_PS14 
+2021-07-27 16:24:21	RenderEffects\SPL/RegionCBS1.fxo is using Technique: RegionCBS1_DX9_VS1_PS20 
+2021-07-27 16:24:21	RenderEffects\SPL/RegionCBSG1.fxo is using Technique: RegionCBSG1_DX9_VS1_PS20 
+2021-07-27 16:24:21	RenderEffects\SPL/RegionCBSGE1.fxo is using Technique: RegionCBSGE1_DX9_VS1_PS20 
+2021-07-27 16:24:21	RenderEffects\SPL/RegionC1_2UV.fxo is using Technique: RegionC1_2UV_DX6_VS1_PS0 
+2021-07-27 16:24:21	RenderEffects\SPL/RegionCB1_2UV.fxo is using Technique: RegionCB1_2UV_DX8_VS1_PS14 
+2021-07-27 16:24:21	RenderEffects\SPL/RegionCBSG1_2UV.fxo is using Technique: RegionCBSG1_2UV_DX9_VS1_PS20 
+2021-07-27 16:24:21	RenderEffects\SPL/RegionTerrain.fxo is using Technique: RegionTerrain_DX8_VS1_PS11 
+2021-07-27 16:24:21	RenderEffects\SPL/RegionLava.fxo is using Technique: RegionLava_DX8_VS1_PS14 
+2021-07-27 16:24:21	RenderEffects\SPL/RegionLava2.fxo is using Technique: RegionLava2_DX9_VS1_PS20 
+2021-07-27 16:24:21	RenderEffects\SPL/SModelC1.fxo is using Technique: SModelC1Prelit_DX6_VS1_PS0 
+2021-07-27 16:24:21	RenderEffects\SPL/SModelCG1.fxo is using Technique: SModelCG1Prelit_DX6_VS1_PS0_1Pass 
+2021-07-27 16:24:21	RenderEffects\SPL/SModelCE1.fxo is using Technique: SModelCE1Prelit_DX9_VS1_PS20 
+2021-07-27 16:24:21	RenderEffects\SPL/SModelCB1.fxo is using Technique: SModelCB1Prelit_DX8_VS1_PS14 
+2021-07-27 16:24:21	RenderEffects\SPL/SModelCBS1.fxo is using Technique: SModelCBS1Prelit_DX9_VS1_PS20 
+2021-07-27 16:24:21	RenderEffects\SPL/SModelCBSG1.fxo is using Technique: SModelCBSG1Prelit_DX9_VS1_PS20 
+2021-07-27 16:24:21	RenderEffects\SPL/SModelCBSGE1.fxo is using Technique: SModelCBSGE1Prelit_DX9_VS1_PS20 
+2021-07-27 16:24:21	RenderEffects\SPL/SModelC1_2UV.fxo is using Technique: SModelC1_2UVPrelit_DX6_VS1_PS0 
+2021-07-27 16:24:21	RenderEffects\SPL/SModelCB1_2UV.fxo is using Technique: SModelCB1_2UVPrelit_DX8_VS1_PS14 
+2021-07-27 16:24:21	RenderEffects\SPL/SModelCBSG1_2UV.fxo is using Technique: SModelCBSG1_2UVPrelit_DX9_VS1_PS20 
+2021-07-27 16:24:21	RenderEffects\SPL/SModelLava.fxo is using Technique: SModelLavaPrelit_DX8_VS1_PS14 
+2021-07-27 16:24:21	RenderEffects\SPL/SModelLava2.fxo is using Technique: SModelLava2Prelit_DX9_VS1_PS20 
+2021-07-27 16:24:21	RenderEffects\SPL/SkinMeshC1.fxo is using Technique: SkinMeshC1_DX6_VS1_PS0 
+2021-07-27 16:24:21	RenderEffects\SPL/SkinMeshCG1.fxo is using Technique: SkinMeshCG1_DX6_VS1_PS0 
+2021-07-27 16:24:21	RenderEffects\SPL/SkinMeshCE1.fxo is using Technique: SkinMeshCE1_DX9_VS2_PS20 
+2021-07-27 16:24:21	RenderEffects\SPL/SkinMeshCB1.fxo is using Technique: SkinMeshCB1_DX8_VS1_PS14 
+2021-07-27 16:24:21	RenderEffects\SPL/SkinMeshCBS1.fxo is using Technique: SkinMeshCBS1_DX9_VS2_PS20 
+2021-07-27 16:24:21	RenderEffects\SPL/SkinMeshCBSG1.fxo is using Technique: SkinMeshCBSG1_DX9_VS2_PS20 
+2021-07-27 16:24:21	RenderEffects\SPL/SkinMeshCBSGE1.fxo is using Technique: SkinMeshCBSGE1_DX9_VS2_PS20 
+2021-07-27 16:24:21	RenderEffects\SPL/SkinMeshLava.fxo is using Technique: SkinMeshLava_DX9_VS2_PS14 
+2021-07-27 16:24:21	RenderEffects\SPL/SkinMeshLava2.fxo is using Technique: SkinMeshLava2_DX9_VS2_PS20 
+2021-07-27 16:24:21	RenderEffects\SPL/SkinMeshOld.fxo is using Technique: SkinMeshOld_DX6_VS1_PS0 
+2021-07-27 16:24:21	RenderEffects\SPL/SkinMeshLuclin.fxo is using Technique: SkinMeshLuclin_DX8_VS1_PS11 
+2021-07-27 16:24:21	RenderEffects\SPL/SkinMeshLuclinT1.fxo is using Technique: SkinMeshLuclinT1_DX6_VS1_PS0_1Pass 
+2021-07-27 16:24:21	RenderEffects\SPL/RegionOldA.fxo is using Technique: RegionOldA_DX6_VS1_PS0 
+2021-07-27 16:24:21	RenderEffects\SPL/RegionWater.fxo is using Technique: RegionWater_DX9_VS1_PS20 
+2021-07-27 16:24:21	RenderEffects\SPL/RegionWaterFall.fxo is using Technique: RegionWaterFall_DX8_VS1_PS11 
+2021-07-27 16:24:21	RenderEffects\SPL/RegionLavaH.fxo is using Technique: RegionLava_DX9_VS1_PS20 
+2021-07-27 16:24:21	RenderEffects\SPL/SModelWater.fxo is using Technique: SModelWater_DX9_VS1_PS20 
+2021-07-27 16:24:21	RenderEffects\SPL/SkinMeshWater.fxo is using Technique: SkinMeshCBSGE1_DX9_VS2_PS20 
+2021-07-27 16:24:21	RenderEffects\SPL/Region_Basic.fxo is using Technique: RegionBasic_DX6_VS1_PS0 
+2021-07-27 16:24:21	RenderEffects\SPL/Region_Blend.fxo is using Technique: RegionBlnd_DX8_VS1_PS20 
+2021-07-27 16:24:21	RenderEffects\SPL/Region_BlendNoBump.fxo is using Technique: RegionBlndNoBump_DX8_VS1_PS11 
+2021-07-27 16:24:21	RenderEffects\SPL/Region_Full.fxo is using Technique: RegionFull_DX8_VS1_PS14_Norm_Pow 
+2021-07-27 16:24:21	RenderEffects\SPL/Region_Full_2UV.fxo is using Technique: RegionFull2UV_DX8_VS1_PS14_Norm_Pow 
+2021-07-27 16:24:21	RenderEffects\SPL/Region_Bump.fxo is using Technique: RegionBump_DX8_VS1_PS11 
+2021-07-27 16:24:21	RenderEffects\SPL/Region_Bump_2UV.fxo is using Technique: RegionBump2UV_DX8_VS1_PS11 
+2021-07-27 16:24:21	RenderEffects\SPL/Region_SB.fxo is using Technique: RegionSB_DX8_VS1_PS14_Norm_Pow 
+2021-07-27 16:24:21	RenderEffects\SPL/Region_SB_2UV.fxo is using Technique: RegionSB2UV_DX8_VS1_PS14_Norm_Pow 
+2021-07-27 16:24:21	RenderEffects\SPL/Region_GB.fxo is using Technique: RegionGB_DX8_VS1_PS11_NoGlow 
+2021-07-27 16:24:21	RenderEffects\SPL/Region_GB_2UV.fxo is using Technique: RegionGB2UV_DX8_VS1_PS11_NoGlow 
+2021-07-27 16:24:21	RenderEffects\SPL/Region_RB.fxo is using Technique: RegionRB_DX8_VS1_PS14 
+2021-07-27 16:24:21	RenderEffects\SPL/Region_RB_2UV.fxo is using Technique: RegionRB2UV_DX8_VS1_PS14 
+2021-07-27 16:24:22	RenderEffects\SPL/SModel_Basic.fxo is using Technique: SModelBasic_DX6_VS1_PS0 
+2021-07-27 16:24:22	RenderEffects\SPL/SModel_Blend.fxo is using Technique: SModelBlnd_DX8_VS1_PS20 
+2021-07-27 16:24:22	RenderEffects\SPL/SModel_BlendNoBump.fxo is using Technique: SModelBlndNoBump_DX8_VS1_PS11 
+2021-07-27 16:24:22	RenderEffects\SPL/SModel_Full.fxo is using Technique: SModelFull_DX8_VS1_PS14_Norm_Pow 
+2021-07-27 16:24:22	RenderEffects\SPL/SModel_Full_2UV.fxo is using Technique: SModelFull2UV_DX8_VS1_PS14_Norm_Pow 
+2021-07-27 16:24:22	RenderEffects\SPL/SModel_Bump.fxo is using Technique: SModelBump_DX8_VS1_PS11 
+2021-07-27 16:24:22	RenderEffects\SPL/SModel_Bump_2UV.fxo is using Technique: SModelBump2UV_DX8_VS1_PS11 
+2021-07-27 16:24:22	RenderEffects\SPL/SModel_SB.fxo is using Technique: SModelSB_DX8_VS1_PS14_Norm_Pow 
+2021-07-27 16:24:22	RenderEffects\SPL/SModel_SB_2UV.fxo is using Technique: SModelSB2UV_DX8_VS1_PS14_Norm_Pow 
+2021-07-27 16:24:22	RenderEffects\SPL/SModel_GB.fxo is using Technique: SModelGB_DX8_VS1_PS11 
+2021-07-27 16:24:22	RenderEffects\SPL/SModel_GB_2UV.fxo is using Technique: SModelGB2UV_DX8_VS1_PS11_NoGlow 
+2021-07-27 16:24:22	RenderEffects\SPL/SModel_RB.fxo is using Technique: SModelRB_DX8_VS1_PS14 
+2021-07-27 16:24:22	RenderEffects\SPL/SModel_RB_2UV.fxo is using Technique: SModelRB2UV_DX8_VS1_PS14 
+2021-07-27 16:24:22	RenderEffects\SPL/Terrain_Bump3Detail.fxo is using Technique: RegionC1_DX6_VS1_PS0 
+2021-07-27 16:24:22	RenderEffects\SPL/Terrain_3Detail.fxo is using Technique: RegionC1_DX6_VS1_PS0 
+2021-07-27 16:24:22	RenderEffects\SPL/Terrain_Bump2Detail.fxo is using Technique: RegionC1_DX6_VS1_PS0 
+2021-07-27 16:24:22	RenderEffects\SPL/Terrain_2Detail.fxo is using Technique: RegionC1_DX6_VS1_PS0 
+2021-07-27 16:24:22	RenderEffects\SPL/Terrain_Bump1Detail.fxo is using Technique: RegionC1_DX6_VS1_PS0 
+2021-07-27 16:24:22	RenderEffects\SPL/Terrain_1Detail.fxo is using Technique: RegionC1_DX6_VS1_PS0 
+2021-07-27 16:24:22	RenderEffects\SPL/Terrain_NoDetail.fxo is using Technique: RegionC1_DX6_VS1_PS0 
+2021-07-27 16:24:22	RenderEffects\MPL/Terrain_Base.fxo is using Technique: TerrainBase_DX6_VS1_PS0 
+2021-07-27 16:24:22	RenderEffects\MPL/Terrain_LightB3SVS1.fxo is using Technique: TerrainLightB3SVS1_DX9_VS1_PS20 
+2021-07-27 16:24:22	RenderEffects\MPL/Terrain_LightB2SVS1.fxo is using Technique: TerrainLightB2SVS1_DX9_VS1_PS20 
+2021-07-27 16:24:22	RenderEffects\MPL/Terrain_LightB1SVS1.fxo is using Technique: TerrainLightB1SVS1_DX9_VS1_PS20 
+2021-07-27 16:24:22	RenderEffects\MPL/Terrain_LightVS1.fxo is using Technique: TerrainLightVS1_DX9_VS1_PS20 
+2021-07-27 16:24:22	RenderEffects\MPL/Terrain_TextureD3SC1T.fxo is using Technique: TerrainTextureD3SC1T_DX8_VS1_PS14 
+2021-07-27 16:24:22	RenderEffects\MPL/Terrain_TextureD2SC1T.fxo is using Technique: TerrainTextureD2SC1T_DX8_VS1_PS11 
+2021-07-27 16:24:22	RenderEffects\MPL/Terrain_TextureD1SC1T.fxo is using Technique: TerrainTextureD1SC1T_DX8_VS1_PS11 
+2021-07-27 16:24:22	RenderEffects\MPL/Terrain_TextureC1T.fxo is using Technique: TerrainTextureC1T_DX8_VS1_PS11 
+2021-07-27 16:24:22	RenderEffects\MPL/Region_Base.fxo is using Technique: RegionBase_DX6_VS1_PS0 
+2021-07-27 16:24:22	RenderEffects\MPL/Region_BaseB.fxo is using Technique: RegionBaseB_DX8_VS1_PS11_Norm 
+2021-07-27 16:24:22	RenderEffects\MPL/Region_BaseG.fxo is using Technique: RegionBaseG_DX6_VS1_PS0 
+2021-07-27 16:24:22	RenderEffects\MPL/Region_BaseGA.fxo is using Technique: RegionBaseGA_DX8_VS1_PS11_Norm 
+2021-07-27 16:24:22	RenderEffects\MPL/Region_BaseGB.fxo is using Technique: RegionBaseGB_DX8_VS1_PS11_Norm 
+2021-07-27 16:24:22	RenderEffects\MPL/Region_Light1.fxo is using Technique: RegionLight1_DX8_VS1_PS11_Norm 
+2021-07-27 16:24:22	RenderEffects\MPL/Region_LightB1.fxo is using Technique: RegionLightB1_DX8_VS1_PS11_Norm 
+2021-07-27 16:24:22	RenderEffects\MPL/Region_LightBS1.fxo is using Technique: RegionLightBS1_DX9_VS2_PS20 
+2021-07-27 16:24:22	RenderEffects\MPL/Region_LightBSF1.fxo is using Technique: RegionLightBSF1_DX9_VS2_PS20 
+2021-07-27 16:24:22	RenderEffects\MPL/Region_LightBVS1.fxo is using Technique: RegionLightBVS1_DX9_VS2_PS20 
+2021-07-27 16:24:22	RenderEffects\MPL/Region_LightB2VS1.fxo is using Technique: RegionLightB2VS1_DX9_VS2_PS20 
+2021-07-27 16:24:22	RenderEffects\MPL/Region_TextureD1.fxo is using Technique: RegionTextureD1_DX6_VS1_PS0 
+2021-07-27 16:24:22	RenderEffects\MPL/Region_TextureD1T.fxo is using Technique: RegionTextureD1T_DX6_VS1_PS0 
+2021-07-27 16:24:22	RenderEffects\MPL/Region_TextureD1C1.fxo is using Technique: RegionTextureD1C1_DX6_VS1_PS0 
+2021-07-27 16:24:22	RenderEffects\MPL/Region_TextureD1C1T.fxo is using Technique: RegionTextureD1C1T_DX6_VS1_PS0 
+2021-07-27 16:24:22	RenderEffects\MPL/Region_TextureD1C1ST.fxo is using Technique: RegionTextureD1C1ST_DX6_VS1_PS0 
+2021-07-27 16:24:22	RenderEffects\MPL/Region_TextureD1R1.fxo is using Technique: RegionTextureD1R1_DX8_VS1_PS11 
+2021-07-27 16:24:22	RenderEffects\MPL/Region_TextureD1C1R1T.fxo is using Technique: RegionTextureD1C1R1T_DX8_VS1_PS11 
+2021-07-27 16:24:22	RenderEffects\MPL/Region_TextureD1C1SR1T.fxo is using Technique: RegionTextureD1C1SR1T_DX8_VS1_PS11 
+2021-07-27 16:24:22	RenderEffects\MPL/Region_TextureD2C1ST.fxo is using Technique: RegionTextureD2C1ST_DX8_VS1_PS11 
+2021-07-27 16:24:22	RenderEffects\MPL/SModel_Base.fxo is using Technique: SModelBase_DX6_VS1_PS0 
+2021-07-27 16:24:22	RenderEffects\MPL/SModel_BaseB.fxo is using Technique: SModelBaseB_DX8_VS1_PS11_Norm 
+2021-07-27 16:24:22	RenderEffects\MPL/SModel_BaseG.fxo is using Technique: SModelBaseG_DX6_VS1_PS0 
+2021-07-27 16:24:22	RenderEffects\MPL/SModel_BaseGA.fxo is using Technique: SModelBaseGA_DX8_VS1_PS11_Norm 
+2021-07-27 16:24:22	RenderEffects\MPL/SModel_BaseGB.fxo is using Technique: SModelBaseGB_DX8_VS1_PS11_Norm 
+2021-07-27 16:24:22	RenderEffects\MPL/SModel_Light1.fxo is using Technique: SModelLight1_DX8_VS1_PS11_Norm 
+2021-07-27 16:24:22	RenderEffects\MPL/SModel_LightB1.fxo is using Technique: SModelLightB1_DX8_VS1_PS11_Norm 
+2021-07-27 16:24:22	RenderEffects\MPL/SModel_LightBS1.fxo is using Technique: SModelLightBS1_DX9_VS2_PS20 
+2021-07-27 16:24:22	RenderEffects\MPL/SModel_LightBSF1.fxo is using Technique: SModelLightBSF1_DX9_VS2_PS20 
+2021-07-27 16:24:22	RenderEffects\MPL/SModel_LightBVS1.fxo is using Technique: SModelLightBVS1_DX9_VS2_PS20 
+2021-07-27 16:24:22	RenderEffects\MPL/SModel_LightB2VS1.fxo is using Technique: SModelLightB2VS1_DX9_VS2_PS20 
+2021-07-27 16:24:22	RenderEffects\MPL/SModel_TextureD1.fxo is using Technique: SModelTextureD1_DX6_VS1_PS0 
+2021-07-27 16:24:22	RenderEffects\MPL/SModel_TextureD1T.fxo is using Technique: SModelTextureD1T_DX6_VS1_PS0 
+2021-07-27 16:24:22	RenderEffects\MPL/SModel_TextureD1C1.fxo is using Technique: SModelTextureD1C1_DX6_VS1_PS0 
+2021-07-27 16:24:22	RenderEffects\MPL/SModel_TextureD1C1T.fxo is using Technique: SModelTextureD1C1T_DX6_VS1_PS0 
+2021-07-27 16:24:22	RenderEffects\MPL/SModel_TextureD1C1ST.fxo is using Technique: SModelTextureD1C1ST_DX6_VS1_PS0 
+2021-07-27 16:24:22	RenderEffects\MPL/SModel_TextureD1R1.fxo is using Technique: SModelTextureD1R1_DX8_VS1_PS11 
+2021-07-27 16:24:22	RenderEffects\MPL/SModel_TextureD1C1R1T.fxo is using Technique: SModelTextureD1C1R1T_DX8_VS1_PS11 
+2021-07-27 16:24:22	RenderEffects\MPL/SModel_TextureD1C1SR1T.fxo is using Technique: SModelTextureD1C1SR1T_DX8_VS1_PS11 
+2021-07-27 16:24:22	RenderEffects\MPL/SModel_TextureD2C1ST.fxo is using Technique: SModelTextureD2C1ST_DX6_VS1_PS11 
+2021-07-27 16:24:22	RenderEffects\MPL/FinalBlend.fxo is using Technique: Final_DX8_VS1_PS11 
+2021-07-27 16:24:22	Initializing engine internals.
+2021-07-27 16:24:22	CRender::InitDevice completed successfully.
+2021-07-27 16:24:22	Display options set, return code 1.
+2021-07-27 16:24:22	AutoMipMapping set to 1.
+2021-07-27 16:24:22	Camera created.
+2021-07-27 16:24:22	Storing display options.
+2021-07-27 16:24:22	Initializing fonts.
+2021-07-27 16:24:22	Loading string tables.
+2021-07-27 16:24:22	Initializing UI.
+2021-07-27 16:24:22	Initializing UI manager.
+2021-07-27 16:24:22	Initializing fonts.
+2021-07-27 16:24:22	Parsing UI XML.
+2021-07-27 16:24:23	Loading default UI resources.
+2021-07-27 16:24:23	Initializing Music.
+2021-07-27 16:24:23	Activating Load Screen.
+2021-07-27 16:24:24	Display initialized.
+2021-07-27 16:24:24	Initializing global data.
+2021-07-27 16:24:24	Loading GEquip6
+2021-07-27 16:24:24	Loading Global7_chr
+2021-07-27 16:24:24	Loading 
+2021-07-27 16:24:24	Failed to open C:\Users\MD\Desktop\NostalgiaEQ Client BETA\.s3d.
+2021-07-27 16:24:24	
+2021-07-27 16:24:24	Loading GEquip
+2021-07-27 16:24:24	Loading GEquip8
+2021-07-27 16:24:24	Loading GEquip2
+2021-07-27 16:24:24	Loading GEquip4
+2021-07-27 16:24:24	Loading GEquip3
+2021-07-27 16:24:24	Loading Global4_chr
+2021-07-27 16:24:25	Loading Global_chr
+2021-07-27 16:24:25	Loading GEquip5
+2021-07-27 16:24:25	Initializing sky system.
+2021-07-27 16:24:25	Global data initialized.
+2021-07-27 16:24:25	Starting process game.
+2021-07-27 16:24:25	Starting network game.
+2021-07-27 16:24:25	
+2021-07-27 16:24:25	Starting load.
+2021-07-27 16:24:25	
+2021-07-27 16:24:25	Attempting to load clz.EQG.
+2021-07-27 16:24:26	Loaded clz.EQG.
+2021-07-27 16:24:26	Verifying world files.
+2021-07-27 16:24:26	Loading zone specific files.
+2021-07-27 16:24:26	Initializing cameras.
+2021-07-27 16:24:26	Initializing lights.
+2021-07-27 16:24:26	Initializing visual effects.
+2021-07-27 16:24:26	Initializing target indicator.
+2021-07-27 16:24:26	Initializing player path.
+2021-07-27 16:24:26	Performing post-load operations.
+2021-07-27 16:24:26	Initializing precipitation system.
+2021-07-27 16:24:26	World initialized: clz
+2021-07-27 16:24:26	load done.
+2021-07-27 16:24:26	
+2021-07-27 16:24:26	Starting char select.
+2021-07-27 16:24:26	
+2021-07-27 16:24:26	Clearing display buffers.
+2021-07-27 16:24:26	
+2021-07-27 16:24:26	Display buffers cleared.
+2021-07-27 16:24:26	
+2021-07-27 16:24:26	Initializing character select UI.
+2021-07-27 16:24:26	Resetting game UI.
+2021-07-27 16:24:30	Zone Connect -- 0 -- Received MSG_ZONE_ADDRESS
+2021-07-27 16:24:30	Zone addr [45.33.18.111:30235] received...
+2021-07-27 16:24:30	ZONING
+2021-07-27 16:24:30	Networking: Connection Closed [0] with 0 pending bytes.
+2021-07-27 16:24:30	Networking: using port [59068].
+2021-07-27 16:24:30	Networking: Connection Established [1]
+2021-07-27 16:24:30	Connected to 45.33.18.111:30235...
+2021-07-27 16:24:30	
+2021-07-27 16:24:30	Zone Connect -- 2 -- Sending MSG_EQ_ADDPLAYER
+2021-07-27 16:24:31	Zone Connect -- 3 -- Received MSG_SEND_PC
+2021-07-27 16:24:31	Zone Connect -- 4 -- Received MSG_EQ_ADDPLAYER
+2021-07-27 16:24:31	Received our EQPlayer from zone. MSG_EQ_NETPLAYERBUFF is next.
+2021-07-27 16:24:31	Player = Giverof, zone = East Commonlands
+2021-07-27 16:24:31	MSG_TIME_STAMP received.
+2021-07-27 16:24:31	
+2021-07-27 16:24:31	MSG_TIME_STAMP received. (Items inc).
+2021-07-27 16:24:31	
+2021-07-27 16:24:31	Received an item via EQI_STARTING_ITEM at loc 13
+2021-07-27 16:24:31	Received an item via EQI_STARTING_ITEM at loc 22
+2021-07-27 16:24:31	Received an item via EQI_STARTING_ITEM at loc 23
+2021-07-27 16:24:31	Received an item via EQI_STARTING_ITEM at loc 24
+2021-07-27 16:24:31	Received an item via EQI_STARTING_ITEM at loc 25
+2021-07-27 16:24:31	Received an item via EQI_STARTING_ITEM at loc 26
+2021-07-27 16:24:31	Received an item via EQI_STARTING_ITEM at loc 27
+2021-07-27 16:24:31	Received an item via EQI_STARTING_ITEM at loc 28
+2021-07-27 16:24:31	Received an item via EQI_STARTING_ITEM at loc 29
+2021-07-27 16:24:31	Item done, MSG_WEATHER_EVENT received.
+2021-07-27 16:24:31	
+2021-07-27 16:24:31	Initializing zone.
+2021-07-27 16:24:31	Initializing world.
+2021-07-27 16:24:31	Attempting to load ecommons.EQG.
+2021-07-27 16:24:31	Verifying world files.
+2021-07-27 16:24:31	Loading zone specific files.
+2021-07-27 16:24:31	Loading ecommons_obj2
+2021-07-27 16:24:31	Loading ecommons_obj
+2021-07-27 16:24:31	Loading ecommons_chr2
+2021-07-27 16:24:32	Loading ecommons_chr
+2021-07-27 16:24:32	Loading ecommons
+2021-07-27 16:24:32	Loading objects
+2021-07-27 16:24:32	Loading lights
+2021-07-27 16:24:32	Initializing cameras.
+2021-07-27 16:24:32	Initializing lights.
+2021-07-27 16:24:32	Initializing visual effects.
+2021-07-27 16:24:32	Initializing target indicator.
+2021-07-27 16:24:32	Initializing player path.
+2021-07-27 16:24:32	Performing post-load operations.
+2021-07-27 16:24:32	Initializing precipitation system.
+2021-07-27 16:24:32	World initialized: ecommons
+2021-07-27 16:24:32	Requesting zone data.
+2021-07-27 16:24:32	Resetting cameras.
+2021-07-27 16:24:32	Resetting vision.
+2021-07-27 16:24:32	Resetting overlays.
+2021-07-27 16:24:32	Zone initialized.
+2021-07-27 16:24:32	Creating INI files.
+2021-07-27 16:24:32	Requesting AA data.
+2021-07-27 16:24:32	Requesting Skill rank data.
+2021-07-27 16:24:32	Loading UI.
+2021-07-27 16:24:32	Deactivating previous UI.
+2021-07-27 16:24:32	Unloading previous textures.
+2021-07-27 16:24:32	Resetting UI.
+2021-07-27 16:24:32	Resetting character select UI.
+2021-07-27 16:24:32	Resetting game UI.
+2021-07-27 16:24:32	UI Reset.
+2021-07-27 16:24:32	Initializing UI.
+2021-07-27 16:24:32	Initializing UI manager.
+2021-07-27 16:24:32	Initializing fonts.
+2021-07-27 16:24:32	Parsing UI XML.
+2021-07-27 16:24:32	Parsing INI file .\UI_Giverof_Nostalgia.ini
+2021-07-27 16:24:32	INI file .\UI_Giverof_Nostalgia.ini loaded.
+2021-07-27 16:24:33	Loading default UI resources.
+2021-07-27 16:24:33	Initializing game UI.
+2021-07-27 16:24:33	Parsing INI file .\Giverof_Nostalgia.ini
+2021-07-27 16:24:33	INI file .\Giverof_Nostalgia.ini loaded.
+2021-07-27 16:24:33	Loading Icons.
+2021-07-27 16:24:34	Resetting viewport.
+2021-07-27 16:24:34	Game UI Initialized.
+2021-07-27 16:24:34	Entering main loop.
+2021-07-27 16:24:34	Loading game sounds.
+2021-07-27 16:24:34	Requesting initialization data.
+2021-07-27 16:24:34	DoMainLoop: just before first while(!ReadyEnterWorld).
+2021-07-27 16:24:34	Zone Connect -- Received MSG_READY_ENTER_WORLD
+2021-07-27 16:24:34	DoMainLoop: complete after first while(!ReadyEnterWorld).
+2021-07-27 16:24:35	DoMainLoop: just before second while(!ReadyEnterWorld).
+2021-07-27 16:24:35	Zone Connect -- Sending out a MSG_READY_ENTER_WORLD.
+2021-07-27 16:24:35	Zone Connect -- Received MSG_READY_ENTER_WORLD
+2021-07-27 16:24:35	DoMainLoop: completed second while(!ReadyEnterWorld).
+2021-07-27 16:24:35	Setting up models.
+2021-07-27 16:24:35	Setting up character.
+2021-07-27 16:24:35	Activating music.
+2021-07-27 16:24:35	Initialization complete.
+2021-07-27 16:24:35	Entering main loop.
+2021-07-27 16:24:36	Item done, MSG_WEATHER_EVENT received.
+2021-07-27 16:24:36	
+2021-07-27 16:25:21	Networking: Connection Closed [0] with 0 pending bytes.
+2021-07-27 16:25:22	Stopping world display.
+2021-07-27 16:25:22	Attempt to send message 30546 on a void connection.
+2021-07-27 16:25:22	Beginning EnterZone block.
+2021-07-27 16:25:22	
+2021-07-27 16:25:22	Calling WorldAuthenticate.  Countdown is 4
+2021-07-27 16:25:22	
+2021-07-27 16:25:22	Networking: using port [60541].
+2021-07-27 16:25:22	Networking: Connection Established [1]
+2021-07-27 16:25:22	WorldAuthenticate: Initiating Login.
+2021-07-27 16:25:22	WorldAuthenticate.  I got a message of type 0xfa6 (4006).
+2021-07-27 16:25:22	WorldRPServer message: server name Nostalgia
+2021-07-27 16:25:22	
+2021-07-27 16:25:22	WorldAuthenticate.  I got a message of type 0x3c25 (15397).
+2021-07-27 16:25:22	WorldAuthenticate.  I got a message of type 0x7cba (31930).
+2021-07-27 16:25:22	WorldAuthenticate.  I got a message of type 0x52a4 (21156).
+2021-07-27 16:25:22	WorldAuthenticate.  Access granted.
+2021-07-27 16:25:22	
+2021-07-27 16:25:22	Check 1sa. 0x6d366059
+2021-07-27 16:25:22	
+2021-07-27 16:25:22	Check 1x. 0x9e15bc94
+2021-07-27 16:25:22	
+2021-07-27 16:25:22	Waiting to connect to zone... Character Giverof
+2021-07-27 16:25:22	
+2021-07-27 16:25:23	Zone Connect -- 0 -- Received MSG_ZONE_ADDRESS
+2021-07-27 16:25:23	Zone addr [45.33.18.111:29979] received...
+2021-07-27 16:25:23	ZONING
+2021-07-27 16:25:23	Networking: Connection Closed [0] with 0 pending bytes.
+2021-07-27 16:25:23	Networking: using port [60544].
+2021-07-27 16:25:23	Networking: Connection Established [1]
+2021-07-27 16:25:23	Connected to 45.33.18.111:29979...
+2021-07-27 16:25:23	
+2021-07-27 16:25:23	Zone Connect -- 2 -- Sending MSG_EQ_ADDPLAYER
+2021-07-27 16:25:23	Zone Connect -- 3 -- Received MSG_SEND_PC
+2021-07-27 16:25:23	Zone Connect -- 4 -- Received MSG_EQ_ADDPLAYER
+2021-07-27 16:25:23	Received our EQPlayer from zone. MSG_EQ_NETPLAYERBUFF is next.
+2021-07-27 16:25:23	Player = Giverof, zone = West Karana
+2021-07-27 16:25:23	MSG_TIME_STAMP received.
+2021-07-27 16:25:23	
+2021-07-27 16:25:23	MSG_TIME_STAMP received. (Items inc).
+2021-07-27 16:25:23	
+2021-07-27 16:25:23	Received an item via EQI_STARTING_ITEM at loc 13
+2021-07-27 16:25:23	Received an item via EQI_STARTING_ITEM at loc 22
+2021-07-27 16:25:23	Received an item via EQI_STARTING_ITEM at loc 23
+2021-07-27 16:25:23	Received an item via EQI_STARTING_ITEM at loc 24
+2021-07-27 16:25:23	Received an item via EQI_STARTING_ITEM at loc 25
+2021-07-27 16:25:23	Received an item via EQI_STARTING_ITEM at loc 26
+2021-07-27 16:25:23	Received an item via EQI_STARTING_ITEM at loc 27
+2021-07-27 16:25:23	Received an item via EQI_STARTING_ITEM at loc 28
+2021-07-27 16:25:23	Received an item via EQI_STARTING_ITEM at loc 29
+2021-07-27 16:25:23	Item done, MSG_WEATHER_EVENT received.
+2021-07-27 16:25:23	
+2021-07-27 16:25:23	Initializing zone.
+2021-07-27 16:25:23	Initializing world.
+2021-07-27 16:25:23	Attempting to load qey2hh1.EQG.
+2021-07-27 16:25:23	Verifying world files.
+2021-07-27 16:25:23	Loading zone specific files.
+2021-07-27 16:25:23	Loading qey2hh1_obj2
+2021-07-27 16:25:23	Loading qey2hh1_obj
+2021-07-27 16:25:23	Loading qey2hh1_chr2
+2021-07-27 16:25:23	Loading qey2hh1_chr
+2021-07-27 16:25:24	Loading qey2hh1
+2021-07-27 16:25:24	Loading objects
+2021-07-27 16:25:24	Loading lights
+2021-07-27 16:25:24	Initializing cameras.
+2021-07-27 16:25:24	Initializing lights.
+2021-07-27 16:25:24	Initializing visual effects.
+2021-07-27 16:25:24	Initializing target indicator.
+2021-07-27 16:25:24	Initializing player path.
+2021-07-27 16:25:24	Performing post-load operations.
+2021-07-27 16:25:24	Initializing precipitation system.
+2021-07-27 16:25:24	World initialized: qey2hh1
+2021-07-27 16:25:24	Requesting zone data.
+2021-07-27 16:25:24	Resetting cameras.
+2021-07-27 16:25:24	Resetting vision.
+2021-07-27 16:25:24	Resetting overlays.
+2021-07-27 16:25:24	Zone initialized.
+2021-07-27 16:25:24	Creating INI files.
+2021-07-27 16:25:24	Requesting AA data.
+2021-07-27 16:25:24	Requesting Skill rank data.
+2021-07-27 16:25:24	Entering main loop.
+2021-07-27 16:25:24	Loading game sounds.
+2021-07-27 16:25:24	Requesting initialization data.
+2021-07-27 16:25:24	DoMainLoop: just before first while(!ReadyEnterWorld).
+2021-07-27 16:25:24	Zone Connect -- Received MSG_READY_ENTER_WORLD
+2021-07-27 16:25:24	DoMainLoop: complete after first while(!ReadyEnterWorld).
+2021-07-27 16:25:24	DoMainLoop: just before second while(!ReadyEnterWorld).
+2021-07-27 16:25:24	Zone Connect -- Sending out a MSG_READY_ENTER_WORLD.
+2021-07-27 16:25:25	Zone Connect -- Received MSG_READY_ENTER_WORLD
+2021-07-27 16:25:25	DoMainLoop: completed second while(!ReadyEnterWorld).
+2021-07-27 16:25:25	Setting up models.
+2021-07-27 16:25:25	Setting up character.
+2021-07-27 16:25:25	Activating music.
+2021-07-27 16:25:25	Initialization complete.
+2021-07-27 16:25:25	Entering main loop.
+2021-07-27 16:25:26	Item done, MSG_WEATHER_EVENT received.
+2021-07-27 16:25:26	
+2021-07-27 16:25:47	Networking: Connection Closed [0] with 0 pending bytes.
+2021-07-27 16:25:47	Stopping world display.
+2021-07-27 16:25:47	Attempt to send message 30546 on a void connection.
+2021-07-27 16:25:47	Beginning EnterZone block.
+2021-07-27 16:25:47	
+2021-07-27 16:25:47	Calling WorldAuthenticate.  Countdown is 4
+2021-07-27 16:25:47	
+2021-07-27 16:25:47	Networking: using port [56574].
+2021-07-27 16:25:47	Networking: Connection Established [1]
+2021-07-27 16:25:47	WorldAuthenticate: Initiating Login.
+2021-07-27 16:25:47	WorldAuthenticate.  I got a message of type 0xfa6 (4006).
+2021-07-27 16:25:47	WorldRPServer message: server name Nostalgia
+2021-07-27 16:25:47	
+2021-07-27 16:25:47	WorldAuthenticate.  I got a message of type 0x3c25 (15397).
+2021-07-27 16:25:47	WorldAuthenticate.  I got a message of type 0x7cba (31930).
+2021-07-27 16:25:47	WorldAuthenticate.  I got a message of type 0x52a4 (21156).
+2021-07-27 16:25:47	WorldAuthenticate.  Access granted.
+2021-07-27 16:25:47	
+2021-07-27 16:25:47	Check 1sa. 0x6d366059
+2021-07-27 16:25:47	
+2021-07-27 16:25:47	Check 1x. 0x9e15bc94
+2021-07-27 16:25:47	
+2021-07-27 16:25:47	Waiting to connect to zone... Character Giverof
+2021-07-27 16:25:47	
+2021-07-27 16:25:48	Zone Connect -- 0 -- Received MSG_ZONE_ADDRESS
+2021-07-27 16:25:48	Zone addr [45.33.18.111:29211] received...
+2021-07-27 16:25:48	ZONING
+2021-07-27 16:25:48	Networking: Connection Closed [0] with 0 pending bytes.
+2021-07-27 16:25:48	Networking: using port [56579].
+2021-07-27 16:25:48	Networking: Connection Established [1]
+2021-07-27 16:25:48	Connected to 45.33.18.111:29211...
+2021-07-27 16:25:48	
+2021-07-27 16:25:48	Zone Connect -- 2 -- Sending MSG_EQ_ADDPLAYER
+2021-07-27 16:25:48	Zone Connect -- 3 -- Received MSG_SEND_PC
+2021-07-27 16:25:48	Zone Connect -- 4 -- Received MSG_EQ_ADDPLAYER
+2021-07-27 16:25:48	Received our EQPlayer from zone. MSG_EQ_NETPLAYERBUFF is next.
+2021-07-27 16:25:48	Player = Giverof, zone = North Karana
+2021-07-27 16:25:48	MSG_EQ_NETPLAYERBUFF received started.
+2021-07-27 16:25:48	MSG_EQ_NETPLAYERBUFF finished.
+2021-07-27 16:25:48	MSG_EQ_NETPLAYERBUFF received started.
+2021-07-27 16:25:48	MSG_EQ_NETPLAYERBUFF finished.
+2021-07-27 16:25:48	MSG_TIME_STAMP received.
+2021-07-27 16:25:48	
+2021-07-27 16:25:48	MSG_TIME_STAMP received. (Items inc).
+2021-07-27 16:25:48	
+2021-07-27 16:25:48	Received an item via EQI_STARTING_ITEM at loc 13
+2021-07-27 16:25:48	Received an item via EQI_STARTING_ITEM at loc 22
+2021-07-27 16:25:48	Received an item via EQI_STARTING_ITEM at loc 23
+2021-07-27 16:25:48	Received an item via EQI_STARTING_ITEM at loc 24
+2021-07-27 16:25:48	Received an item via EQI_STARTING_ITEM at loc 25
+2021-07-27 16:25:48	Received an item via EQI_STARTING_ITEM at loc 26
+2021-07-27 16:25:48	Received an item via EQI_STARTING_ITEM at loc 27
+2021-07-27 16:25:48	Received an item via EQI_STARTING_ITEM at loc 28
+2021-07-27 16:25:48	Received an item via EQI_STARTING_ITEM at loc 29
+2021-07-27 16:25:48	Item done, MSG_WEATHER_EVENT received.
+2021-07-27 16:25:48	
+2021-07-27 16:25:48	Initializing zone.
+2021-07-27 16:25:48	Initializing world.
+2021-07-27 16:25:48	Attempting to load northkarana.EQG.
+2021-07-27 16:25:48	Verifying world files.
+2021-07-27 16:25:48	Loading zone specific files.
+2021-07-27 16:25:48	Loading northkarana_obj2
+2021-07-27 16:25:49	Loading northkarana_obj
+2021-07-27 16:25:49	Loading northkarana_chr2
+2021-07-27 16:25:49	Loading northkarana_chr
+2021-07-27 16:25:49	Loading northkarana
+2021-07-27 16:25:49	Loading objects
+2021-07-27 16:25:49	Loading lights
+2021-07-27 16:25:49	Initializing cameras.
+2021-07-27 16:25:49	Initializing lights.
+2021-07-27 16:25:49	Initializing visual effects.
+2021-07-27 16:25:49	Initializing target indicator.
+2021-07-27 16:25:49	Initializing player path.
+2021-07-27 16:25:49	Performing post-load operations.
+2021-07-27 16:25:49	Initializing precipitation system.
+2021-07-27 16:25:49	World initialized: northkarana
+2021-07-27 16:25:49	Requesting zone data.
+2021-07-27 16:25:49	Resetting cameras.
+2021-07-27 16:25:49	Resetting vision.
+2021-07-27 16:25:49	Resetting overlays.
+2021-07-27 16:25:49	Zone initialized.
+2021-07-27 16:25:49	Creating INI files.
+2021-07-27 16:25:49	Requesting AA data.
+2021-07-27 16:25:49	Requesting Skill rank data.
+2021-07-27 16:25:49	Entering main loop.
+2021-07-27 16:25:49	Loading game sounds.
+2021-07-27 16:25:49	Requesting initialization data.
+2021-07-27 16:25:49	DoMainLoop: just before first while(!ReadyEnterWorld).
+2021-07-27 16:25:49	Zone Connect -- Received MSG_READY_ENTER_WORLD
+2021-07-27 16:25:49	DoMainLoop: complete after first while(!ReadyEnterWorld).
+2021-07-27 16:25:49	DoMainLoop: just before second while(!ReadyEnterWorld).
+2021-07-27 16:25:49	Zone Connect -- Sending out a MSG_READY_ENTER_WORLD.
+2021-07-27 16:25:50	Zone Connect -- Received MSG_READY_ENTER_WORLD
+2021-07-27 16:25:50	DoMainLoop: completed second while(!ReadyEnterWorld).
+2021-07-27 16:25:50	Setting up models.
+2021-07-27 16:25:50	Setting up character.
+2021-07-27 16:25:50	Activating music.
+2021-07-27 16:25:50	Initialization complete.
+2021-07-27 16:25:50	Entering main loop.
+2021-07-27 16:25:50	Item done, MSG_WEATHER_EVENT received.
+2021-07-27 16:25:50	
+2021-07-27 16:26:27	*** EXITING: I have completed camping.
+2021-07-27 16:26:27	
+2021-07-27 16:26:27	Networking: connection terminated [client:DisconnectReasonOtherSideTerminated,server:DisconnectReasonNone]
+2021-07-27 16:26:27	Networking: Connection Closed [0] with 0 pending bytes.
+2021-07-27 16:26:27	Attempt to send message 29547 on a void connection.
+2021-07-27 16:26:27	Cleaning up groups.
+2021-07-27 16:26:27	Attempt to send message 3702 on a void connection.
+2021-07-27 16:26:27	Stopping world display.
+2021-07-27 16:26:27	Attempt to send message 30546 on a void connection.
+2021-07-27 16:26:28	Cleaning up.
+2021-07-27 16:26:28	Sending Logout.
+2021-07-27 16:26:28	Attempt to send message 3942 on a void connection.
+2021-07-27 16:26:28	Networking: using port [52627].
+2021-07-27 16:26:28	Networking: Connection Established [1]
+2021-07-27 16:26:28	WorldAuthenticate: Initiating Login.
+2021-07-27 16:26:29	WorldAuthenticate.  I got a message of type 0x6957 (26967).
+2021-07-27 16:26:29	WorldAuthenticate.  I got a message of type 0xfa6 (4006).
+2021-07-27 16:26:29	WorldRPServer message: server name Nostalgia
+2021-07-27 16:26:29	
+2021-07-27 16:26:29	WorldAuthenticate.  I got a message of type 0x3c25 (15397).
+2021-07-27 16:26:29	WorldAuthenticate.  I got a message of type 0x7cba (31930).
+2021-07-27 16:26:29	WorldAuthenticate.  I got a message of type 0x52a4 (21156).
+2021-07-27 16:26:29	WorldAuthenticate.  Access granted.
+2021-07-27 16:26:29	
+2021-07-27 16:26:29	WorldAuthenticate.  I got a message of type 0x4ec (1260).
+2021-07-27 16:26:29	WorldAuthenticate.  I got a message of type 0x4513 (17683).
+2021-07-27 16:26:29	Check 1sa. 0x6d366059
+2021-07-27 16:26:29	
+2021-07-27 16:26:29	Check 1x. 0x9e15bc94
+2021-07-27 16:26:29	
+2021-07-27 16:26:29	Starting network game.
+2021-07-27 16:26:29	
+2021-07-27 16:26:29	Starting load.
+2021-07-27 16:26:29	
+2021-07-27 16:26:29	Attempting to load clz.EQG.
+2021-07-27 16:26:29	Loaded clz.EQG.
+2021-07-27 16:26:29	Verifying world files.
+2021-07-27 16:26:29	Loading zone specific files.
+2021-07-27 16:26:29	Initializing cameras.
+2021-07-27 16:26:29	Initializing lights.
+2021-07-27 16:26:29	Initializing visual effects.
+2021-07-27 16:26:29	Initializing target indicator.
+2021-07-27 16:26:29	Initializing player path.
+2021-07-27 16:26:29	Performing post-load operations.
+2021-07-27 16:26:29	Initializing precipitation system.
+2021-07-27 16:26:29	World initialized: clz
+2021-07-27 16:26:29	load done.
+2021-07-27 16:26:29	
+2021-07-27 16:26:29	Starting char select.
+2021-07-27 16:26:29	
+2021-07-27 16:26:29	Clearing display buffers.
+2021-07-27 16:26:29	
+2021-07-27 16:26:29	Display buffers cleared.
+2021-07-27 16:26:29	
+2021-07-27 16:26:29	Initializing character select UI.
+2021-07-27 16:26:29	Resetting game UI.
+2021-07-27 16:26:34	Quitting normally.
+2021-07-27 16:26:34	
+2021-07-27 16:26:34	Cleanup 1
+2021-07-27 16:26:34	
+2021-07-27 16:26:34	Cleanup 4
+2021-07-27 16:26:34	
+2021-07-27 16:26:34	Cleanup 5
+2021-07-27 16:26:34	
+2021-07-27 16:26:34	Cleanup 6
+2021-07-27 16:26:34	
+2021-07-27 16:26:34	Cleanup 7
+2021-07-27 16:26:34	
+2021-07-27 16:26:34	Cleanup 8
+2021-07-27 16:26:34	
+2021-07-27 16:26:34	Cleanup 9
+2021-07-27 16:26:34	
+2021-07-27 16:26:34	Cleanup 10
+2021-07-27 16:26:34	
+2021-07-27 16:26:34	Resetting UI.
+2021-07-27 16:26:34	Resetting character select UI.
+2021-07-27 16:26:34	Resetting game UI.
+2021-07-27 16:26:35	UI Reset.
+2021-07-27 16:26:35	Cleanup 11
+2021-07-27 16:26:35	
+2021-07-27 16:26:35	Picking a default resolution, desktop is 2560 x 1440, 32 bits
+2021-07-27 16:26:35	Ratio is 1.78
+2021-07-27 16:26:35	Resolution was capped at 1280 x 720
+2021-07-27 16:26:35	Resolution verified 1280 x 720, 32 bits ... diff was 1000 from 0 modes
+2021-07-27 16:26:35	Resolution selected 1280 x 720, 32 bits
+2021-07-27 16:26:35	CRender::InitDevice: Using 32bit mode.
+2021-07-27 16:26:35	CRender::InitDevice: Using vsync 0.
+2021-07-27 16:26:35	CRender::InitDevice: Using 24bit depth buffer with 8 bit stencil.
+2021-07-27 16:26:35	CRender::InitDevice: HardwareTnL Enabled.  
+2021-07-27 16:26:35	Using hardware vertex shaders. 
+2021-07-27 16:26:35	Initializing render system.
+2021-07-27 16:26:35	Trilinear Mipmapping available.
+2021-07-27 16:26:35	Vertex Shader Version: 3.0 
+2021-07-27 16:26:35	Pixel Shader Version: 3.0 
+2021-07-27 16:26:35	Initializing engine internals.
+2021-07-27 16:26:35	CRender::InitDevice completed successfully.
+2021-07-27 16:26:35	Parsing INI file ./eqlsUIConfig.ini
+2021-07-27 16:26:35	INI file ./eqlsUIConfig.ini loaded.
+2021-07-27 16:26:45	Server selected 45.33.18.111 (51).
+2021-07-27 16:26:45	Initializing DirectInput.
+2021-07-27 16:26:45	Initializing Keyboard.
+2021-07-27 16:26:45	Initializing Mouse.
+2021-07-27 16:26:45	Creating font list.
+2021-07-27 16:26:45	Creating game object.
+2021-07-27 16:26:45	Deleting obsolete files.
+2021-07-27 16:26:45	Loading string tables.
+2021-07-27 16:26:45	Initializing client variables.
+2021-07-27 16:26:45	Loading spell effects.
+2021-07-27 16:26:45	Initializing display structures.
+2021-07-27 16:26:45	Sound Manager loaded 2165 filenames from soundassets.txt.
+2021-07-27 16:26:45	Voice Manager loaded 0 macros from VoiceData.txt.
+2021-07-27 16:26:45	Networking: using port [52814].
+2021-07-27 16:26:45	Networking: Connection Established [1]
+2021-07-27 16:26:45	WorldAuthenticate: Initiating Login.
+2021-07-27 16:26:46	WorldAuthenticate.  I got a message of type 0x6957 (26967).
+2021-07-27 16:26:46	WorldAuthenticate.  I got a message of type 0xfa6 (4006).
+2021-07-27 16:26:46	WorldRPServer message: server name Nostalgia
+2021-07-27 16:26:46	
+2021-07-27 16:26:46	WorldAuthenticate.  I got a message of type 0x3c25 (15397).
+2021-07-27 16:26:46	WorldAuthenticate.  I got a message of type 0x7cba (31930).
+2021-07-27 16:26:46	WorldAuthenticate.  I got a message of type 0x52a4 (21156).
+2021-07-27 16:26:46	WorldAuthenticate.  Access granted.
+2021-07-27 16:26:46	
+2021-07-27 16:26:46	WorldAuthenticate.  I got a message of type 0x4ec (1260).
+2021-07-27 16:26:46	WorldAuthenticate.  I got a message of type 0x4513 (17683).
+2021-07-27 16:26:46	Check 1sa. 0x6d366059
+2021-07-27 16:26:46	
+2021-07-27 16:26:46	Check 1x. 0x9e15bc94
+2021-07-27 16:26:46	
+2021-07-27 16:26:46	Player Animations loaded 9 specific sounds from file AnimationSounds.txt.
+2021-07-27 16:26:46	Initializing display.
+2021-07-27 16:26:46	Initializing Particle System.
+2021-07-27 16:26:47	Error	opening	emitter	definition data	file.
+2021-07-27 16:26:47	Setting display options.
+2021-07-27 16:26:47	CRender::InitDevice: Using 32bit mode.
+2021-07-27 16:26:47	CRender::InitDevice: Using vsync 0.
+2021-07-27 16:26:47	CRender::InitDevice: Using 24bit depth buffer with 8 bit stencil.
+2021-07-27 16:26:47	CRender::InitDevice: HardwareTnL Enabled.  
+2021-07-27 16:26:47	Using hardware vertex shaders. 
+2021-07-27 16:26:47	Initializing render system.
+2021-07-27 16:26:47	Trilinear Mipmapping available.
+2021-07-27 16:26:47	Vertex Shader Version: 3.0 
+2021-07-27 16:26:47	Pixel Shader Version: 3.0 
+2021-07-27 16:26:47	RenderEffects\SPL/Lit.fxo is using Technique: Lit_DX6_FF_PS0 
+2021-07-27 16:26:47	RenderEffects\SPL/RegionOldDetailSingle.fxo is using Technique: DetailSingle_DX6_VS1_PS0 
+2021-07-27 16:26:47	RenderEffects\SPL/RegionOldDetailPalette.fxo is using Technique: DetailPalette_DX6_VS1_PS0 
+2021-07-27 16:26:47	RenderEffects\SPL/RegionC1.fxo is using Technique: RegionC1_DX6_VS1_PS0 
+2021-07-27 16:26:47	RenderEffects\SPL/RegionCG1.fxo is using Technique: RegionCG1_DX6_VS1_PS0_1Pass 
+2021-07-27 16:26:47	RenderEffects\SPL/RegionCE1.fxo is using Technique: RegionCE1_DX9_VS1_PS20 
+2021-07-27 16:26:47	RenderEffects\SPL/RegionCB1.fxo is using Technique: RegionCB1_DX8_VS1_PS14 
+2021-07-27 16:26:47	RenderEffects\SPL/RegionCBS1.fxo is using Technique: RegionCBS1_DX9_VS1_PS20 
+2021-07-27 16:26:47	RenderEffects\SPL/RegionCBSG1.fxo is using Technique: RegionCBSG1_DX9_VS1_PS20 
+2021-07-27 16:26:47	RenderEffects\SPL/RegionCBSGE1.fxo is using Technique: RegionCBSGE1_DX9_VS1_PS20 
+2021-07-27 16:26:47	RenderEffects\SPL/RegionC1_2UV.fxo is using Technique: RegionC1_2UV_DX6_VS1_PS0 
+2021-07-27 16:26:47	RenderEffects\SPL/RegionCB1_2UV.fxo is using Technique: RegionCB1_2UV_DX8_VS1_PS14 
+2021-07-27 16:26:47	RenderEffects\SPL/RegionCBSG1_2UV.fxo is using Technique: RegionCBSG1_2UV_DX9_VS1_PS20 
+2021-07-27 16:26:47	RenderEffects\SPL/RegionTerrain.fxo is using Technique: RegionTerrain_DX8_VS1_PS11 
+2021-07-27 16:26:47	RenderEffects\SPL/RegionLava.fxo is using Technique: RegionLava_DX8_VS1_PS14 
+2021-07-27 16:26:47	RenderEffects\SPL/RegionLava2.fxo is using Technique: RegionLava2_DX9_VS1_PS20 
+2021-07-27 16:26:47	RenderEffects\SPL/SModelC1.fxo is using Technique: SModelC1Prelit_DX6_VS1_PS0 
+2021-07-27 16:26:47	RenderEffects\SPL/SModelCG1.fxo is using Technique: SModelCG1Prelit_DX6_VS1_PS0_1Pass 
+2021-07-27 16:26:47	RenderEffects\SPL/SModelCE1.fxo is using Technique: SModelCE1Prelit_DX9_VS1_PS20 
+2021-07-27 16:26:47	RenderEffects\SPL/SModelCB1.fxo is using Technique: SModelCB1Prelit_DX8_VS1_PS14 
+2021-07-27 16:26:47	RenderEffects\SPL/SModelCBS1.fxo is using Technique: SModelCBS1Prelit_DX9_VS1_PS20 
+2021-07-27 16:26:47	RenderEffects\SPL/SModelCBSG1.fxo is using Technique: SModelCBSG1Prelit_DX9_VS1_PS20 
+2021-07-27 16:26:47	RenderEffects\SPL/SModelCBSGE1.fxo is using Technique: SModelCBSGE1Prelit_DX9_VS1_PS20 
+2021-07-27 16:26:47	RenderEffects\SPL/SModelC1_2UV.fxo is using Technique: SModelC1_2UVPrelit_DX6_VS1_PS0 
+2021-07-27 16:26:47	RenderEffects\SPL/SModelCB1_2UV.fxo is using Technique: SModelCB1_2UVPrelit_DX8_VS1_PS14 
+2021-07-27 16:26:47	RenderEffects\SPL/SModelCBSG1_2UV.fxo is using Technique: SModelCBSG1_2UVPrelit_DX9_VS1_PS20 
+2021-07-27 16:26:47	RenderEffects\SPL/SModelLava.fxo is using Technique: SModelLavaPrelit_DX8_VS1_PS14 
+2021-07-27 16:26:47	RenderEffects\SPL/SModelLava2.fxo is using Technique: SModelLava2Prelit_DX9_VS1_PS20 
+2021-07-27 16:26:47	RenderEffects\SPL/SkinMeshC1.fxo is using Technique: SkinMeshC1_DX6_VS1_PS0 
+2021-07-27 16:26:47	RenderEffects\SPL/SkinMeshCG1.fxo is using Technique: SkinMeshCG1_DX6_VS1_PS0 
+2021-07-27 16:26:47	RenderEffects\SPL/SkinMeshCE1.fxo is using Technique: SkinMeshCE1_DX9_VS2_PS20 
+2021-07-27 16:26:47	RenderEffects\SPL/SkinMeshCB1.fxo is using Technique: SkinMeshCB1_DX8_VS1_PS14 
+2021-07-27 16:26:47	RenderEffects\SPL/SkinMeshCBS1.fxo is using Technique: SkinMeshCBS1_DX9_VS2_PS20 
+2021-07-27 16:26:47	RenderEffects\SPL/SkinMeshCBSG1.fxo is using Technique: SkinMeshCBSG1_DX9_VS2_PS20 
+2021-07-27 16:26:47	RenderEffects\SPL/SkinMeshCBSGE1.fxo is using Technique: SkinMeshCBSGE1_DX9_VS2_PS20 
+2021-07-27 16:26:47	RenderEffects\SPL/SkinMeshLava.fxo is using Technique: SkinMeshLava_DX9_VS2_PS14 
+2021-07-27 16:26:47	RenderEffects\SPL/SkinMeshLava2.fxo is using Technique: SkinMeshLava2_DX9_VS2_PS20 
+2021-07-27 16:26:47	RenderEffects\SPL/SkinMeshOld.fxo is using Technique: SkinMeshOld_DX6_VS1_PS0 
+2021-07-27 16:26:47	RenderEffects\SPL/SkinMeshLuclin.fxo is using Technique: SkinMeshLuclin_DX8_VS1_PS11 
+2021-07-27 16:26:47	RenderEffects\SPL/SkinMeshLuclinT1.fxo is using Technique: SkinMeshLuclinT1_DX6_VS1_PS0_1Pass 
+2021-07-27 16:26:47	RenderEffects\SPL/RegionOldA.fxo is using Technique: RegionOldA_DX6_VS1_PS0 
+2021-07-27 16:26:47	RenderEffects\SPL/RegionWater.fxo is using Technique: RegionWater_DX9_VS1_PS20 
+2021-07-27 16:26:47	RenderEffects\SPL/RegionWaterFall.fxo is using Technique: RegionWaterFall_DX8_VS1_PS11 
+2021-07-27 16:26:47	RenderEffects\SPL/RegionLavaH.fxo is using Technique: RegionLava_DX9_VS1_PS20 
+2021-07-27 16:26:47	RenderEffects\SPL/SModelWater.fxo is using Technique: SModelWater_DX9_VS1_PS20 
+2021-07-27 16:26:47	RenderEffects\SPL/SkinMeshWater.fxo is using Technique: SkinMeshCBSGE1_DX9_VS2_PS20 
+2021-07-27 16:26:47	RenderEffects\SPL/Region_Basic.fxo is using Technique: RegionBasic_DX6_VS1_PS0 
+2021-07-27 16:26:47	RenderEffects\SPL/Region_Blend.fxo is using Technique: RegionBlnd_DX8_VS1_PS20 
+2021-07-27 16:26:47	RenderEffects\SPL/Region_BlendNoBump.fxo is using Technique: RegionBlndNoBump_DX8_VS1_PS11 
+2021-07-27 16:26:47	RenderEffects\SPL/Region_Full.fxo is using Technique: RegionFull_DX8_VS1_PS14_Norm_Pow 
+2021-07-27 16:26:47	RenderEffects\SPL/Region_Full_2UV.fxo is using Technique: RegionFull2UV_DX8_VS1_PS14_Norm_Pow 
+2021-07-27 16:26:47	RenderEffects\SPL/Region_Bump.fxo is using Technique: RegionBump_DX8_VS1_PS11 
+2021-07-27 16:26:47	RenderEffects\SPL/Region_Bump_2UV.fxo is using Technique: RegionBump2UV_DX8_VS1_PS11 
+2021-07-27 16:26:47	RenderEffects\SPL/Region_SB.fxo is using Technique: RegionSB_DX8_VS1_PS14_Norm_Pow 
+2021-07-27 16:26:47	RenderEffects\SPL/Region_SB_2UV.fxo is using Technique: RegionSB2UV_DX8_VS1_PS14_Norm_Pow 
+2021-07-27 16:26:47	RenderEffects\SPL/Region_GB.fxo is using Technique: RegionGB_DX8_VS1_PS11_NoGlow 
+2021-07-27 16:26:47	RenderEffects\SPL/Region_GB_2UV.fxo is using Technique: RegionGB2UV_DX8_VS1_PS11_NoGlow 
+2021-07-27 16:26:47	RenderEffects\SPL/Region_RB.fxo is using Technique: RegionRB_DX8_VS1_PS14 
+2021-07-27 16:26:47	RenderEffects\SPL/Region_RB_2UV.fxo is using Technique: RegionRB2UV_DX8_VS1_PS14 
+2021-07-27 16:26:47	RenderEffects\SPL/SModel_Basic.fxo is using Technique: SModelBasic_DX6_VS1_PS0 
+2021-07-27 16:26:47	RenderEffects\SPL/SModel_Blend.fxo is using Technique: SModelBlnd_DX8_VS1_PS20 
+2021-07-27 16:26:47	RenderEffects\SPL/SModel_BlendNoBump.fxo is using Technique: SModelBlndNoBump_DX8_VS1_PS11 
+2021-07-27 16:26:47	RenderEffects\SPL/SModel_Full.fxo is using Technique: SModelFull_DX8_VS1_PS14_Norm_Pow 
+2021-07-27 16:26:47	RenderEffects\SPL/SModel_Full_2UV.fxo is using Technique: SModelFull2UV_DX8_VS1_PS14_Norm_Pow 
+2021-07-27 16:26:47	RenderEffects\SPL/SModel_Bump.fxo is using Technique: SModelBump_DX8_VS1_PS11 
+2021-07-27 16:26:47	RenderEffects\SPL/SModel_Bump_2UV.fxo is using Technique: SModelBump2UV_DX8_VS1_PS11 
+2021-07-27 16:26:47	RenderEffects\SPL/SModel_SB.fxo is using Technique: SModelSB_DX8_VS1_PS14_Norm_Pow 
+2021-07-27 16:26:47	RenderEffects\SPL/SModel_SB_2UV.fxo is using Technique: SModelSB2UV_DX8_VS1_PS14_Norm_Pow 
+2021-07-27 16:26:47	RenderEffects\SPL/SModel_GB.fxo is using Technique: SModelGB_DX8_VS1_PS11 
+2021-07-27 16:26:47	RenderEffects\SPL/SModel_GB_2UV.fxo is using Technique: SModelGB2UV_DX8_VS1_PS11_NoGlow 
+2021-07-27 16:26:47	RenderEffects\SPL/SModel_RB.fxo is using Technique: SModelRB_DX8_VS1_PS14 
+2021-07-27 16:26:47	RenderEffects\SPL/SModel_RB_2UV.fxo is using Technique: SModelRB2UV_DX8_VS1_PS14 
+2021-07-27 16:26:47	RenderEffects\SPL/Terrain_Bump3Detail.fxo is using Technique: RegionC1_DX6_VS1_PS0 
+2021-07-27 16:26:47	RenderEffects\SPL/Terrain_3Detail.fxo is using Technique: RegionC1_DX6_VS1_PS0 
+2021-07-27 16:26:47	RenderEffects\SPL/Terrain_Bump2Detail.fxo is using Technique: RegionC1_DX6_VS1_PS0 
+2021-07-27 16:26:47	RenderEffects\SPL/Terrain_2Detail.fxo is using Technique: RegionC1_DX6_VS1_PS0 
+2021-07-27 16:26:47	RenderEffects\SPL/Terrain_Bump1Detail.fxo is using Technique: RegionC1_DX6_VS1_PS0 
+2021-07-27 16:26:47	RenderEffects\SPL/Terrain_1Detail.fxo is using Technique: RegionC1_DX6_VS1_PS0 
+2021-07-27 16:26:47	RenderEffects\SPL/Terrain_NoDetail.fxo is using Technique: RegionC1_DX6_VS1_PS0 
+2021-07-27 16:26:47	RenderEffects\MPL/Terrain_Base.fxo is using Technique: TerrainBase_DX6_VS1_PS0 
+2021-07-27 16:26:47	RenderEffects\MPL/Terrain_LightB3SVS1.fxo is using Technique: TerrainLightB3SVS1_DX9_VS1_PS20 
+2021-07-27 16:26:47	RenderEffects\MPL/Terrain_LightB2SVS1.fxo is using Technique: TerrainLightB2SVS1_DX9_VS1_PS20 
+2021-07-27 16:26:47	RenderEffects\MPL/Terrain_LightB1SVS1.fxo is using Technique: TerrainLightB1SVS1_DX9_VS1_PS20 
+2021-07-27 16:26:47	RenderEffects\MPL/Terrain_LightVS1.fxo is using Technique: TerrainLightVS1_DX9_VS1_PS20 
+2021-07-27 16:26:47	RenderEffects\MPL/Terrain_TextureD3SC1T.fxo is using Technique: TerrainTextureD3SC1T_DX8_VS1_PS14 
+2021-07-27 16:26:47	RenderEffects\MPL/Terrain_TextureD2SC1T.fxo is using Technique: TerrainTextureD2SC1T_DX8_VS1_PS11 
+2021-07-27 16:26:47	RenderEffects\MPL/Terrain_TextureD1SC1T.fxo is using Technique: TerrainTextureD1SC1T_DX8_VS1_PS11 
+2021-07-27 16:26:47	RenderEffects\MPL/Terrain_TextureC1T.fxo is using Technique: TerrainTextureC1T_DX8_VS1_PS11 
+2021-07-27 16:26:47	RenderEffects\MPL/Region_Base.fxo is using Technique: RegionBase_DX6_VS1_PS0 
+2021-07-27 16:26:47	RenderEffects\MPL/Region_BaseB.fxo is using Technique: RegionBaseB_DX8_VS1_PS11_Norm 
+2021-07-27 16:26:47	RenderEffects\MPL/Region_BaseG.fxo is using Technique: RegionBaseG_DX6_VS1_PS0 
+2021-07-27 16:26:47	RenderEffects\MPL/Region_BaseGA.fxo is using Technique: RegionBaseGA_DX8_VS1_PS11_Norm 
+2021-07-27 16:26:47	RenderEffects\MPL/Region_BaseGB.fxo is using Technique: RegionBaseGB_DX8_VS1_PS11_Norm 
+2021-07-27 16:26:47	RenderEffects\MPL/Region_Light1.fxo is using Technique: RegionLight1_DX8_VS1_PS11_Norm 
+2021-07-27 16:26:47	RenderEffects\MPL/Region_LightB1.fxo is using Technique: RegionLightB1_DX8_VS1_PS11_Norm 
+2021-07-27 16:26:47	RenderEffects\MPL/Region_LightBS1.fxo is using Technique: RegionLightBS1_DX9_VS2_PS20 
+2021-07-27 16:26:47	RenderEffects\MPL/Region_LightBSF1.fxo is using Technique: RegionLightBSF1_DX9_VS2_PS20 
+2021-07-27 16:26:47	RenderEffects\MPL/Region_LightBVS1.fxo is using Technique: RegionLightBVS1_DX9_VS2_PS20 
+2021-07-27 16:26:47	RenderEffects\MPL/Region_LightB2VS1.fxo is using Technique: RegionLightB2VS1_DX9_VS2_PS20 
+2021-07-27 16:26:47	RenderEffects\MPL/Region_TextureD1.fxo is using Technique: RegionTextureD1_DX6_VS1_PS0 
+2021-07-27 16:26:47	RenderEffects\MPL/Region_TextureD1T.fxo is using Technique: RegionTextureD1T_DX6_VS1_PS0 
+2021-07-27 16:26:47	RenderEffects\MPL/Region_TextureD1C1.fxo is using Technique: RegionTextureD1C1_DX6_VS1_PS0 
+2021-07-27 16:26:47	RenderEffects\MPL/Region_TextureD1C1T.fxo is using Technique: RegionTextureD1C1T_DX6_VS1_PS0 
+2021-07-27 16:26:47	RenderEffects\MPL/Region_TextureD1C1ST.fxo is using Technique: RegionTextureD1C1ST_DX6_VS1_PS0 
+2021-07-27 16:26:47	RenderEffects\MPL/Region_TextureD1R1.fxo is using Technique: RegionTextureD1R1_DX8_VS1_PS11 
+2021-07-27 16:26:47	RenderEffects\MPL/Region_TextureD1C1R1T.fxo is using Technique: RegionTextureD1C1R1T_DX8_VS1_PS11 
+2021-07-27 16:26:47	RenderEffects\MPL/Region_TextureD1C1SR1T.fxo is using Technique: RegionTextureD1C1SR1T_DX8_VS1_PS11 
+2021-07-27 16:26:47	RenderEffects\MPL/Region_TextureD2C1ST.fxo is using Technique: RegionTextureD2C1ST_DX8_VS1_PS11 
+2021-07-27 16:26:47	RenderEffects\MPL/SModel_Base.fxo is using Technique: SModelBase_DX6_VS1_PS0 
+2021-07-27 16:26:47	RenderEffects\MPL/SModel_BaseB.fxo is using Technique: SModelBaseB_DX8_VS1_PS11_Norm 
+2021-07-27 16:26:47	RenderEffects\MPL/SModel_BaseG.fxo is using Technique: SModelBaseG_DX6_VS1_PS0 
+2021-07-27 16:26:47	RenderEffects\MPL/SModel_BaseGA.fxo is using Technique: SModelBaseGA_DX8_VS1_PS11_Norm 
+2021-07-27 16:26:47	RenderEffects\MPL/SModel_BaseGB.fxo is using Technique: SModelBaseGB_DX8_VS1_PS11_Norm 
+2021-07-27 16:26:47	RenderEffects\MPL/SModel_Light1.fxo is using Technique: SModelLight1_DX8_VS1_PS11_Norm 
+2021-07-27 16:26:47	RenderEffects\MPL/SModel_LightB1.fxo is using Technique: SModelLightB1_DX8_VS1_PS11_Norm 
+2021-07-27 16:26:47	RenderEffects\MPL/SModel_LightBS1.fxo is using Technique: SModelLightBS1_DX9_VS2_PS20 
+2021-07-27 16:26:47	RenderEffects\MPL/SModel_LightBSF1.fxo is using Technique: SModelLightBSF1_DX9_VS2_PS20 
+2021-07-27 16:26:47	RenderEffects\MPL/SModel_LightBVS1.fxo is using Technique: SModelLightBVS1_DX9_VS2_PS20 
+2021-07-27 16:26:47	RenderEffects\MPL/SModel_LightB2VS1.fxo is using Technique: SModelLightB2VS1_DX9_VS2_PS20 
+2021-07-27 16:26:47	RenderEffects\MPL/SModel_TextureD1.fxo is using Technique: SModelTextureD1_DX6_VS1_PS0 
+2021-07-27 16:26:47	RenderEffects\MPL/SModel_TextureD1T.fxo is using Technique: SModelTextureD1T_DX6_VS1_PS0 
+2021-07-27 16:26:47	RenderEffects\MPL/SModel_TextureD1C1.fxo is using Technique: SModelTextureD1C1_DX6_VS1_PS0 
+2021-07-27 16:26:47	RenderEffects\MPL/SModel_TextureD1C1T.fxo is using Technique: SModelTextureD1C1T_DX6_VS1_PS0 
+2021-07-27 16:26:47	RenderEffects\MPL/SModel_TextureD1C1ST.fxo is using Technique: SModelTextureD1C1ST_DX6_VS1_PS0 
+2021-07-27 16:26:47	RenderEffects\MPL/SModel_TextureD1R1.fxo is using Technique: SModelTextureD1R1_DX8_VS1_PS11 
+2021-07-27 16:26:47	RenderEffects\MPL/SModel_TextureD1C1R1T.fxo is using Technique: SModelTextureD1C1R1T_DX8_VS1_PS11 
+2021-07-27 16:26:47	RenderEffects\MPL/SModel_TextureD1C1SR1T.fxo is using Technique: SModelTextureD1C1SR1T_DX8_VS1_PS11 
+2021-07-27 16:26:47	RenderEffects\MPL/SModel_TextureD2C1ST.fxo is using Technique: SModelTextureD2C1ST_DX6_VS1_PS11 
+2021-07-27 16:26:47	RenderEffects\MPL/FinalBlend.fxo is using Technique: Final_DX8_VS1_PS11 
+2021-07-27 16:26:47	Initializing engine internals.
+2021-07-27 16:26:47	CRender::InitDevice completed successfully.
+2021-07-27 16:26:47	Display options set, return code 1.
+2021-07-27 16:26:47	AutoMipMapping set to 1.
+2021-07-27 16:26:47	Camera created.
+2021-07-27 16:26:47	Storing display options.
+2021-07-27 16:26:47	Initializing fonts.
+2021-07-27 16:26:47	Loading string tables.
+2021-07-27 16:26:47	Initializing UI.
+2021-07-27 16:26:47	Initializing UI manager.
+2021-07-27 16:26:47	Initializing fonts.
+2021-07-27 16:26:47	Parsing UI XML.
+2021-07-27 16:26:48	Loading default UI resources.
+2021-07-27 16:26:48	Initializing Music.
+2021-07-27 16:26:48	Activating Load Screen.
+2021-07-27 16:26:49	Display initialized.
+2021-07-27 16:26:49	Initializing global data.
+2021-07-27 16:26:49	Loading GEquip6
+2021-07-27 16:26:49	Loading Global7_chr
+2021-07-27 16:26:49	Loading 
+2021-07-27 16:26:49	Failed to open C:\Users\MD\Desktop\NostalgiaEQ Client BETA\.s3d.
+2021-07-27 16:26:49	
+2021-07-27 16:26:49	Loading GEquip
+2021-07-27 16:26:49	Loading GEquip8
+2021-07-27 16:26:50	Loading GEquip2
+2021-07-27 16:26:50	Loading GEquip4
+2021-07-27 16:26:50	Loading GEquip3
+2021-07-27 16:26:50	Loading Global4_chr
+2021-07-27 16:26:50	Loading Global_chr
+2021-07-27 16:26:51	Loading GEquip5
+2021-07-27 16:26:51	Initializing sky system.
+2021-07-27 16:26:51	Global data initialized.
+2021-07-27 16:26:51	Starting process game.
+2021-07-27 16:26:51	Starting network game.
+2021-07-27 16:26:51	
+2021-07-27 16:26:51	Starting load.
+2021-07-27 16:26:51	
+2021-07-27 16:26:51	Attempting to load clz.EQG.
+2021-07-27 16:26:51	Loaded clz.EQG.
+2021-07-27 16:26:51	Verifying world files.
+2021-07-27 16:26:51	Loading zone specific files.
+2021-07-27 16:26:51	Initializing cameras.
+2021-07-27 16:26:51	Initializing lights.
+2021-07-27 16:26:51	Initializing visual effects.
+2021-07-27 16:26:51	Initializing target indicator.
+2021-07-27 16:26:51	Initializing player path.
+2021-07-27 16:26:51	Performing post-load operations.
+2021-07-27 16:26:51	Initializing precipitation system.
+2021-07-27 16:26:51	World initialized: clz
+2021-07-27 16:26:51	load done.
+2021-07-27 16:26:51	
+2021-07-27 16:26:51	Starting char select.
+2021-07-27 16:26:51	
+2021-07-27 16:26:51	Clearing display buffers.
+2021-07-27 16:26:51	
+2021-07-27 16:26:51	Display buffers cleared.
+2021-07-27 16:26:51	
+2021-07-27 16:26:51	Initializing character select UI.
+2021-07-27 16:26:51	Resetting game UI.
+2021-07-27 16:26:55	Zone Connect -- 0 -- Received MSG_ZONE_ADDRESS
+2021-07-27 16:26:55	Zone addr [45.33.18.111:29211] received...
+2021-07-27 16:26:55	ZONING
+2021-07-27 16:26:55	Networking: Connection Closed [0] with 0 pending bytes.
+2021-07-27 16:26:55	Networking: using port [52819].
+2021-07-27 16:26:55	Networking: Connection Established [1]
+2021-07-27 16:26:55	Connected to 45.33.18.111:29211...
+2021-07-27 16:26:55	
+2021-07-27 16:26:55	Zone Connect -- 2 -- Sending MSG_EQ_ADDPLAYER
+2021-07-27 16:26:56	Zone Connect -- 3 -- Received MSG_SEND_PC
+2021-07-27 16:26:56	Zone Connect -- 4 -- Received MSG_EQ_ADDPLAYER
+2021-07-27 16:26:56	Received our EQPlayer from zone. MSG_EQ_NETPLAYERBUFF is next.
+2021-07-27 16:26:56	Player = Giver, zone = North Karana
+2021-07-27 16:26:56	MSG_EQ_NETPLAYERBUFF received started.
+2021-07-27 16:26:56	MSG_EQ_NETPLAYERBUFF finished.
+2021-07-27 16:26:56	MSG_EQ_NETPLAYERBUFF received started.
+2021-07-27 16:26:56	MSG_EQ_NETPLAYERBUFF finished.
+2021-07-27 16:26:56	MSG_TIME_STAMP received.
+2021-07-27 16:26:56	
+2021-07-27 16:26:56	MSG_TIME_STAMP received. (Items inc).
+2021-07-27 16:26:56	
+2021-07-27 16:26:56	Item done, MSG_WEATHER_EVENT received.
+2021-07-27 16:26:56	
+2021-07-27 16:26:56	Initializing zone.
+2021-07-27 16:26:56	Initializing world.
+2021-07-27 16:26:56	Attempting to load northkarana.EQG.
+2021-07-27 16:26:56	Verifying world files.
+2021-07-27 16:26:56	Loading zone specific files.
+2021-07-27 16:26:56	Loading northkarana_obj2
+2021-07-27 16:26:56	Loading northkarana_obj
+2021-07-27 16:26:56	Loading northkarana_chr2
+2021-07-27 16:26:56	Loading northkarana_chr
+2021-07-27 16:26:56	Loading northkarana
+2021-07-27 16:26:56	Loading objects
+2021-07-27 16:26:56	Loading lights
+2021-07-27 16:26:56	Initializing cameras.
+2021-07-27 16:26:56	Initializing lights.
+2021-07-27 16:26:56	Initializing visual effects.
+2021-07-27 16:26:56	Initializing target indicator.
+2021-07-27 16:26:56	Initializing player path.
+2021-07-27 16:26:56	Performing post-load operations.
+2021-07-27 16:26:56	Initializing precipitation system.
+2021-07-27 16:26:56	World initialized: northkarana
+2021-07-27 16:26:56	Requesting zone data.
+2021-07-27 16:26:56	Resetting cameras.
+2021-07-27 16:26:56	Resetting vision.
+2021-07-27 16:26:56	Resetting overlays.
+2021-07-27 16:26:56	Zone initialized.
+2021-07-27 16:26:56	Creating INI files.
+2021-07-27 16:26:56	Requesting AA data.
+2021-07-27 16:26:56	Requesting Skill rank data.
+2021-07-27 16:26:56	Loading UI.
+2021-07-27 16:26:56	Deactivating previous UI.
+2021-07-27 16:26:56	Unloading previous textures.
+2021-07-27 16:26:56	Resetting UI.
+2021-07-27 16:26:56	Resetting character select UI.
+2021-07-27 16:26:56	Resetting game UI.
+2021-07-27 16:26:57	UI Reset.
+2021-07-27 16:26:57	Initializing UI.
+2021-07-27 16:26:57	Initializing UI manager.
+2021-07-27 16:26:57	Initializing fonts.
+2021-07-27 16:26:57	Parsing UI XML.
+2021-07-27 16:26:57	Parsing INI file .\UI_Giver_Nostalgia.ini
+2021-07-27 16:26:57	INI file .\UI_Giver_Nostalgia.ini loaded.
+2021-07-27 16:26:57	Loading default UI resources.
+2021-07-27 16:26:57	Initializing game UI.
+2021-07-27 16:26:57	Parsing INI file .\Giver_Nostalgia.ini
+2021-07-27 16:26:57	INI file .\Giver_Nostalgia.ini loaded.
+2021-07-27 16:26:57	Loading Icons.
+2021-07-27 16:26:58	Resetting viewport.
+2021-07-27 16:26:58	Game UI Initialized.
+2021-07-27 16:26:58	Entering main loop.
+2021-07-27 16:26:58	Loading game sounds.
+2021-07-27 16:26:58	Requesting initialization data.
+2021-07-27 16:26:58	DoMainLoop: just before first while(!ReadyEnterWorld).
+2021-07-27 16:26:58	Zone Connect -- Received MSG_READY_ENTER_WORLD
+2021-07-27 16:26:58	DoMainLoop: complete after first while(!ReadyEnterWorld).
+2021-07-27 16:26:58	DoMainLoop: just before second while(!ReadyEnterWorld).
+2021-07-27 16:26:58	Zone Connect -- Sending out a MSG_READY_ENTER_WORLD.
+2021-07-27 16:26:58	Zone Connect -- Received MSG_READY_ENTER_WORLD
+2021-07-27 16:26:58	DoMainLoop: completed second while(!ReadyEnterWorld).
+2021-07-27 16:26:58	Setting up models.
+2021-07-27 16:26:58	Setting up character.
+2021-07-27 16:26:58	Activating music.
+2021-07-27 16:26:58	Initialization complete.
+2021-07-27 16:26:58	Entering main loop.
+2021-07-27 16:26:59	Item done, MSG_WEATHER_EVENT received.
+2021-07-27 16:26:59	
+2021-07-27 16:27:12	Networking: Connection Closed [0] with 0 pending bytes.
+2021-07-27 16:27:12	Stopping world display.
+2021-07-27 16:27:12	Attempt to send message 30546 on a void connection.
+2021-07-27 16:27:12	Beginning EnterZone block.
+2021-07-27 16:27:12	
+2021-07-27 16:27:12	Calling WorldAuthenticate.  Countdown is 4
+2021-07-27 16:27:12	
+2021-07-27 16:27:12	Networking: using port [51557].
+2021-07-27 16:27:12	Networking: Connection Established [1]
+2021-07-27 16:27:12	WorldAuthenticate: Initiating Login.
+2021-07-27 16:27:12	WorldAuthenticate.  I got a message of type 0xfa6 (4006).
+2021-07-27 16:27:12	WorldRPServer message: server name Nostalgia
+2021-07-27 16:27:12	
+2021-07-27 16:27:12	WorldAuthenticate.  I got a message of type 0x3c25 (15397).
+2021-07-27 16:27:12	WorldAuthenticate.  I got a message of type 0x7cba (31930).
+2021-07-27 16:27:12	WorldAuthenticate.  I got a message of type 0x52a4 (21156).
+2021-07-27 16:27:12	WorldAuthenticate.  Access granted.
+2021-07-27 16:27:12	
+2021-07-27 16:27:13	Check 1sa. 0x6d366059
+2021-07-27 16:27:13	
+2021-07-27 16:27:13	Check 1x. 0x9e15bc94
+2021-07-27 16:27:13	
+2021-07-27 16:27:13	Waiting to connect to zone... Character Giver
+2021-07-27 16:27:13	
+2021-07-27 16:27:13	Zone Connect -- 0 -- Received MSG_ZONE_ADDRESS
+2021-07-27 16:27:13	Zone addr [45.33.18.111:29979] received...
+2021-07-27 16:27:13	ZONING
+2021-07-27 16:27:13	Networking: Connection Closed [0] with 0 pending bytes.
+2021-07-27 16:27:13	Networking: using port [51560].
+2021-07-27 16:27:13	Networking: Connection Established [1]
+2021-07-27 16:27:13	Connected to 45.33.18.111:29979...
+2021-07-27 16:27:13	
+2021-07-27 16:27:13	Zone Connect -- 2 -- Sending MSG_EQ_ADDPLAYER
+2021-07-27 16:27:14	Zone Connect -- 3 -- Received MSG_SEND_PC
+2021-07-27 16:27:14	Zone Connect -- 4 -- Received MSG_EQ_ADDPLAYER
+2021-07-27 16:27:14	Received our EQPlayer from zone. MSG_EQ_NETPLAYERBUFF is next.
+2021-07-27 16:27:14	Player = Giver, zone = West Karana
+2021-07-27 16:27:14	MSG_TIME_STAMP received.
+2021-07-27 16:27:14	
+2021-07-27 16:27:14	MSG_TIME_STAMP received. (Items inc).
+2021-07-27 16:27:14	
+2021-07-27 16:27:14	Item done, MSG_WEATHER_EVENT received.
+2021-07-27 16:27:14	
+2021-07-27 16:27:14	Initializing zone.
+2021-07-27 16:27:14	Initializing world.
+2021-07-27 16:27:14	Attempting to load qey2hh1.EQG.
+2021-07-27 16:27:14	Verifying world files.
+2021-07-27 16:27:14	Loading zone specific files.
+2021-07-27 16:27:14	Loading qey2hh1_obj2
+2021-07-27 16:27:14	Loading qey2hh1_obj
+2021-07-27 16:27:14	Loading qey2hh1_chr2
+2021-07-27 16:27:14	Loading qey2hh1_chr
+2021-07-27 16:27:14	Loading qey2hh1
+2021-07-27 16:27:14	Loading objects
+2021-07-27 16:27:14	Loading lights
+2021-07-27 16:27:14	Initializing cameras.
+2021-07-27 16:27:14	Initializing lights.
+2021-07-27 16:27:14	Initializing visual effects.
+2021-07-27 16:27:14	Initializing target indicator.
+2021-07-27 16:27:14	Initializing player path.
+2021-07-27 16:27:14	Performing post-load operations.
+2021-07-27 16:27:14	Initializing precipitation system.
+2021-07-27 16:27:15	World initialized: qey2hh1
+2021-07-27 16:27:15	Requesting zone data.
+2021-07-27 16:27:15	Resetting cameras.
+2021-07-27 16:27:15	Resetting vision.
+2021-07-27 16:27:15	Resetting overlays.
+2021-07-27 16:27:15	Zone initialized.
+2021-07-27 16:27:15	Creating INI files.
+2021-07-27 16:27:15	Requesting AA data.
+2021-07-27 16:27:15	Requesting Skill rank data.
+2021-07-27 16:27:15	Entering main loop.
+2021-07-27 16:27:15	Loading game sounds.
+2021-07-27 16:27:15	Requesting initialization data.
+2021-07-27 16:27:15	DoMainLoop: just before first while(!ReadyEnterWorld).
+2021-07-27 16:27:15	Zone Connect -- Received MSG_READY_ENTER_WORLD
+2021-07-27 16:27:15	DoMainLoop: complete after first while(!ReadyEnterWorld).
+2021-07-27 16:27:15	DoMainLoop: just before second while(!ReadyEnterWorld).
+2021-07-27 16:27:15	Zone Connect -- Sending out a MSG_READY_ENTER_WORLD.
+2021-07-27 16:27:15	Zone Connect -- Received MSG_READY_ENTER_WORLD
+2021-07-27 16:27:15	DoMainLoop: completed second while(!ReadyEnterWorld).
+2021-07-27 16:27:15	Setting up models.
+2021-07-27 16:27:15	Setting up character.
+2021-07-27 16:27:15	Activating music.
+2021-07-27 16:27:15	Initialization complete.
+2021-07-27 16:27:15	Entering main loop.
+2021-07-27 16:27:16	Item done, MSG_WEATHER_EVENT received.
+2021-07-27 16:27:16	
+2021-07-27 16:27:35	Networking: Connection Closed [0] with 0 pending bytes.
+2021-07-27 16:27:35	Stopping world display.
+2021-07-27 16:27:36	Attempt to send message 30546 on a void connection.
+2021-07-27 16:27:36	Beginning EnterZone block.
+2021-07-27 16:27:36	
+2021-07-27 16:27:36	Calling WorldAuthenticate.  Countdown is 4
+2021-07-27 16:27:36	
+2021-07-27 16:27:36	Networking: using port [51565].
+2021-07-27 16:27:36	Networking: Connection Established [1]
+2021-07-27 16:27:36	WorldAuthenticate: Initiating Login.
+2021-07-27 16:27:36	WorldAuthenticate.  I got a message of type 0xfa6 (4006).
+2021-07-27 16:27:36	WorldRPServer message: server name Nostalgia
+2021-07-27 16:27:36	
+2021-07-27 16:27:36	WorldAuthenticate.  I got a message of type 0x3c25 (15397).
+2021-07-27 16:27:36	WorldAuthenticate.  I got a message of type 0x7cba (31930).
+2021-07-27 16:27:36	WorldAuthenticate.  I got a message of type 0x52a4 (21156).
+2021-07-27 16:27:36	WorldAuthenticate.  Access granted.
+2021-07-27 16:27:36	
+2021-07-27 16:27:36	Check 1sa. 0x6d366059
+2021-07-27 16:27:36	
+2021-07-27 16:27:36	Check 1x. 0x9e15bc94
+2021-07-27 16:27:36	
+2021-07-27 16:27:36	Waiting to connect to zone... Character Giver
+2021-07-27 16:27:36	
+2021-07-27 16:27:36	Zone Connect -- 0 -- Received MSG_ZONE_ADDRESS
+2021-07-27 16:27:36	Zone addr [45.33.18.111:29211] received...
+2021-07-27 16:27:36	ZONING
+2021-07-27 16:27:37	Networking: Connection Closed [0] with 0 pending bytes.
+2021-07-27 16:27:37	Networking: using port [51568].
+2021-07-27 16:27:37	Networking: Connection Established [1]
+2021-07-27 16:27:37	Connected to 45.33.18.111:29211...
+2021-07-27 16:27:37	
+2021-07-27 16:27:37	Zone Connect -- 2 -- Sending MSG_EQ_ADDPLAYER
+2021-07-27 16:27:37	Zone Connect -- 3 -- Received MSG_SEND_PC
+2021-07-27 16:27:37	Zone Connect -- 4 -- Received MSG_EQ_ADDPLAYER
+2021-07-27 16:27:37	Received our EQPlayer from zone. MSG_EQ_NETPLAYERBUFF is next.
+2021-07-27 16:27:37	Player = Giver, zone = North Karana
+2021-07-27 16:27:37	MSG_EQ_NETPLAYERBUFF received started.
+2021-07-27 16:27:37	MSG_EQ_NETPLAYERBUFF finished.
+2021-07-27 16:27:37	MSG_EQ_NETPLAYERBUFF received started.
+2021-07-27 16:27:37	MSG_EQ_NETPLAYERBUFF finished.
+2021-07-27 16:27:37	MSG_TIME_STAMP received.
+2021-07-27 16:27:37	
+2021-07-27 16:27:37	MSG_TIME_STAMP received. (Items inc).
+2021-07-27 16:27:37	
+2021-07-27 16:27:37	Item done, MSG_WEATHER_EVENT received.
+2021-07-27 16:27:37	
+2021-07-27 16:27:37	Initializing zone.
+2021-07-27 16:27:37	Initializing world.
+2021-07-27 16:27:37	Attempting to load northkarana.EQG.
+2021-07-27 16:27:37	Verifying world files.
+2021-07-27 16:27:37	Loading zone specific files.
+2021-07-27 16:27:37	Loading northkarana_obj2
+2021-07-27 16:27:37	Loading northkarana_obj
+2021-07-27 16:27:37	Loading northkarana_chr2
+2021-07-27 16:27:37	Loading northkarana_chr
+2021-07-27 16:27:37	Loading northkarana
+2021-07-27 16:27:38	Loading objects
+2021-07-27 16:27:38	Loading lights
+2021-07-27 16:27:38	Initializing cameras.
+2021-07-27 16:27:38	Initializing lights.
+2021-07-27 16:27:38	Initializing visual effects.
+2021-07-27 16:27:38	Initializing target indicator.
+2021-07-27 16:27:38	Initializing player path.
+2021-07-27 16:27:38	Performing post-load operations.
+2021-07-27 16:27:38	Initializing precipitation system.
+2021-07-27 16:27:38	World initialized: northkarana
+2021-07-27 16:27:38	Requesting zone data.
+2021-07-27 16:27:38	Resetting cameras.
+2021-07-27 16:27:38	Resetting vision.
+2021-07-27 16:27:38	Resetting overlays.
+2021-07-27 16:27:38	Zone initialized.
+2021-07-27 16:27:38	Creating INI files.
+2021-07-27 16:27:38	Requesting AA data.
+2021-07-27 16:27:38	Requesting Skill rank data.
+2021-07-27 16:27:38	Entering main loop.
+2021-07-27 16:27:38	Loading game sounds.
+2021-07-27 16:27:38	Requesting initialization data.
+2021-07-27 16:27:38	DoMainLoop: just before first while(!ReadyEnterWorld).
+2021-07-27 16:27:38	Zone Connect -- Received MSG_READY_ENTER_WORLD
+2021-07-27 16:27:38	DoMainLoop: complete after first while(!ReadyEnterWorld).
+2021-07-27 16:27:38	DoMainLoop: just before second while(!ReadyEnterWorld).
+2021-07-27 16:27:38	Zone Connect -- Sending out a MSG_READY_ENTER_WORLD.
+2021-07-27 16:27:38	Zone Connect -- Received MSG_READY_ENTER_WORLD
+2021-07-27 16:27:38	DoMainLoop: completed second while(!ReadyEnterWorld).
+2021-07-27 16:27:38	Setting up models.
+2021-07-27 16:27:38	Setting up character.
+2021-07-27 16:27:38	Activating music.
+2021-07-27 16:27:38	Initialization complete.
+2021-07-27 16:27:38	Entering main loop.
+2021-07-27 16:27:39	Item done, MSG_WEATHER_EVENT received.
+2021-07-27 16:27:39	
+2021-07-27 16:29:22	*** EXITING: I have completed camping.
+2021-07-27 16:29:22	
+2021-07-27 16:29:23	Networking: connection terminated [client:DisconnectReasonOtherSideTerminated,server:DisconnectReasonNone]
+2021-07-27 16:29:23	Networking: Connection Closed [0] with 0 pending bytes.
+2021-07-27 16:29:23	Attempt to send message 29547 on a void connection.
+2021-07-27 16:29:23	Cleaning up groups.
+2021-07-27 16:29:23	Attempt to send message 3702 on a void connection.
+2021-07-27 16:29:23	Stopping world display.
+2021-07-27 16:29:23	Attempt to send message 30546 on a void connection.
+2021-07-27 16:29:23	Cleaning up.
+2021-07-27 16:29:23	Sending Logout.
+2021-07-27 16:29:23	Attempt to send message 3942 on a void connection.
+2021-07-27 16:29:23	Networking: using port [51463].
+2021-07-27 16:29:23	Networking: Connection Established [1]
+2021-07-27 16:29:23	WorldAuthenticate: Initiating Login.
+2021-07-27 16:29:23	WorldAuthenticate.  I got a message of type 0x6957 (26967).
+2021-07-27 16:29:23	WorldAuthenticate.  I got a message of type 0xfa6 (4006).
+2021-07-27 16:29:23	WorldRPServer message: server name Nostalgia
+2021-07-27 16:29:23	
+2021-07-27 16:29:23	WorldAuthenticate.  I got a message of type 0x3c25 (15397).
+2021-07-27 16:29:23	WorldAuthenticate.  I got a message of type 0x7cba (31930).
+2021-07-27 16:29:23	WorldAuthenticate.  I got a message of type 0x52a4 (21156).
+2021-07-27 16:29:23	WorldAuthenticate.  Access granted.
+2021-07-27 16:29:23	
+2021-07-27 16:29:23	WorldAuthenticate.  I got a message of type 0x4ec (1260).
+2021-07-27 16:29:23	WorldAuthenticate.  I got a message of type 0x4513 (17683).
+2021-07-27 16:29:23	Check 1sa. 0x6d366059
+2021-07-27 16:29:23	
+2021-07-27 16:29:23	Check 1x. 0x9e15bc94
+2021-07-27 16:29:23	
+2021-07-27 16:29:23	Starting network game.
+2021-07-27 16:29:23	
+2021-07-27 16:29:23	Starting load.
+2021-07-27 16:29:23	
+2021-07-27 16:29:23	Attempting to load clz.EQG.
+2021-07-27 16:29:23	Loaded clz.EQG.
+2021-07-27 16:29:23	Verifying world files.
+2021-07-27 16:29:23	Loading zone specific files.
+2021-07-27 16:29:24	Initializing cameras.
+2021-07-27 16:29:24	Initializing lights.
+2021-07-27 16:29:24	Initializing visual effects.
+2021-07-27 16:29:24	Initializing target indicator.
+2021-07-27 16:29:24	Initializing player path.
+2021-07-27 16:29:24	Performing post-load operations.
+2021-07-27 16:29:24	Initializing precipitation system.
+2021-07-27 16:29:24	World initialized: clz
+2021-07-27 16:29:24	load done.
+2021-07-27 16:29:24	
+2021-07-27 16:29:24	Starting char select.
+2021-07-27 16:29:24	
+2021-07-27 16:29:24	Clearing display buffers.
+2021-07-27 16:29:24	
+2021-07-27 16:29:24	Display buffers cleared.
+2021-07-27 16:29:24	
+2021-07-27 16:29:24	Initializing character select UI.
+2021-07-27 16:29:24	Resetting game UI.
+2021-07-27 16:29:32	Quitting normally.
+2021-07-27 16:29:32	
+2021-07-27 16:29:32	Cleanup 1
+2021-07-27 16:29:32	
+2021-07-27 16:29:32	Cleanup 4
+2021-07-27 16:29:32	
+2021-07-27 16:29:32	Cleanup 5
+2021-07-27 16:29:32	
+2021-07-27 16:29:32	Cleanup 6
+2021-07-27 16:29:32	
+2021-07-27 16:29:32	Cleanup 7
+2021-07-27 16:29:32	
+2021-07-27 16:29:32	Cleanup 8
+2021-07-27 16:29:32	
+2021-07-27 16:29:32	Cleanup 9
+2021-07-27 16:29:32	
+2021-07-27 16:29:32	Cleanup 10
+2021-07-27 16:29:32	
+2021-07-27 16:29:32	Resetting UI.
+2021-07-27 16:29:32	Resetting character select UI.
+2021-07-27 16:29:32	Resetting game UI.
+2021-07-27 16:29:33	UI Reset.
+2021-07-27 16:29:33	Cleanup 11
+2021-07-27 16:29:33	
+2021-07-27 16:29:33	Picking a default resolution, desktop is 2560 x 1440, 32 bits
+2021-07-27 16:29:33	Ratio is 1.78
+2021-07-27 16:29:33	Resolution was capped at 1280 x 720
+2021-07-27 16:29:33	Resolution verified 1280 x 720, 32 bits ... diff was 1000 from 0 modes
+2021-07-27 16:29:33	Resolution selected 1280 x 720, 32 bits
+2021-07-27 16:29:33	CRender::InitDevice: Using 32bit mode.
+2021-07-27 16:29:33	CRender::InitDevice: Using vsync 0.
+2021-07-27 16:29:33	CRender::InitDevice: Using 24bit depth buffer with 8 bit stencil.
+2021-07-27 16:29:33	CRender::InitDevice: HardwareTnL Enabled.  
+2021-07-27 16:29:33	Using hardware vertex shaders. 
+2021-07-27 16:29:33	Initializing render system.
+2021-07-27 16:29:33	Trilinear Mipmapping available.
+2021-07-27 16:29:33	Vertex Shader Version: 3.0 
+2021-07-27 16:29:33	Pixel Shader Version: 3.0 
+2021-07-27 16:29:33	Initializing engine internals.
+2021-07-27 16:29:33	CRender::InitDevice completed successfully.
+2021-07-27 16:29:33	Parsing INI file ./eqlsUIConfig.ini
+2021-07-27 16:29:33	INI file ./eqlsUIConfig.ini loaded.
