@@ -1,0 +1,47 @@
+[01:25:02] Log Session Open
+[01:25:02] EverQuest EtN Patcher version 1.0.1
+[01:25:02] System Date is: 09/17/2016 01:25:02am
+[01:25:02] Command Line: "E:\EverQuest Titanium RetroEQ\EscapeToNorrath.exe" 
+[01:25:02] ---------------------------------------
+[01:25:02] Client IP is 192.168.2.3
+[01:25:02] == System Language: English. ==
+[01:25:02] == Language initialized. ======
+[01:25:02] ---------------------------------------
+[01:25:02] Setting initial cwd to E:\EverQuest Titanium RetroEQ
+[01:25:02] Self-Patch Check. Begin initialization.
+[01:25:02] Patcher: Checking Old Handles...
+[01:25:02] Patcher: Creating Thread...
+[01:25:02] Patcher: Done with Thread Creation Routine...
+[01:25:02] Patcher: Thread Start
+[01:25:02] Patcher: Memory Download Internet Type 0 Begin...
+[01:25:02] Patcher: Initializing Get
+[01:25:02] Patcher: Get Initialized
+[01:25:02] Patcher: InternetOpen()...
+[01:25:02] Patcher: InternetCrackURL()...
+[01:25:02] Patcher: InternetConnect()...
+[01:25:02] Patcher: HttpOpenRequest()...
+[01:25:02] Patcher: HttpSendRequest()...
+[01:25:05] Patch Cancelled
+[01:25:05] Made it to the deletion state
+[01:25:12] Patcher: Http get error 28: HttpSendRequest() failed: 12152
+
+[01:25:12] Patcher: Memory Download of XML Operation Complete.
+[01:25:12] Patcher: Memory Download Internet Type 0 Unsuccessful.
+[01:25:12] Patcher: Memory Download Internet Type 1 Begin...
+[01:25:12] Patcher: Initializing Get
+[01:25:12] Patcher: Get Initialized
+[01:25:12] Patcher: Memory Download of XML Operation Complete.
+[01:25:12] Patcher: Memory Download Internet Type 1 Unsuccessful.
+[01:25:12] Patcher: Memory Download Internet Type 2 Begin...
+[01:25:12] Patcher: Initializing Get
+[01:25:12] Patcher: Get Initialized
+[01:25:12] Patcher: Memory Download of XML Operation Complete.
+[01:25:12] Patcher: Memory Download Internet Type 2 Unsuccessful.
+[01:25:12] Patcher: Memory Download Internet Type 3 Begin...
+[01:25:12] Patcher: Initializing Get
+[01:25:12] Patcher: Get Initialized
+[01:25:12] Patcher: Memory Download of XML Operation Complete.
+[01:25:12] Patcher: Memory Download Internet Type 3 Unsuccessful.
+[01:25:12] Patcher: Memory Download Operation Failed.
+[01:25:15] Patcher: Thread Finish
+[01:25:15] Log Session Closed
