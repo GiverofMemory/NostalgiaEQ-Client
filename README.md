@@ -1,7 +1,7 @@
 # NostalgiaEQ-Client
 Client used by the Nostlagia EQ Project, which is a fully open source Classic Everquest project for hosting your own servers.
 
-#Instructions for use:
+# Instructions for use:
 
 Download
 1. Download zip archive
