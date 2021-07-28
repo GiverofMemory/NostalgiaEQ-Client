@@ -1,5 +1,5 @@
 # NostalgiaEQ-Client
-Client used by the Nostlagia EQ Project, which is a fully open source Classic EverQuest project for hosting your own servers.  EverQuest is a trademark of Darkpaw Games, NostalgiaEQ is not affiliated with Darkpaw.
+Client used by the Nostlagia EQ Project, which is a fully open source Classic EverQuest project for hosting your own emulated servers.  EverQuest is a trademark of Darkpaw Games, NostalgiaEQ is not affiliated with Darkpaw.
 
 # Instructions for use:
 
