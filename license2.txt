@@ -1,0 +1,12 @@
+Welcome to NostalgiaEQ!
+<BR><BR>
+You hereby certify that you legally own a copy of EverQuest Titanium and 989 Studio's original 1999 release version of EverQuest so that you are legally able to use this custom client. 
+If you do not agree with this please exit and legally obtain a copy of Titanium which will work on this server as well.
+This client was made by taking a copy of Titanium and removing everything extra besides the DLL's, exe's, and M3D's ect. required for it to work and replacing the other files with
+files from the original 989 release of EverQuest.  This means all the maps and sounds and character models and starting cities from the original 1999 launch are used.  
+Since the plane of fear and hate were added later, they are not included here.  Also a few new files were used from titanium like the s3d and txt file from the character select screen and the s3d files for skeletons.  For some reason these needed to be added for them to work.
+<BR><BR>
+Please Visit NostalgiaEQ.com for more info, rules, forums, and updates! Email NostalgiaEQ@gmail.com with questions.
+<BR><BR>
+This is a Fan Project and is intended to learn from and relive the nostalgia of the summer of 1999 and is not intended for making a profit or commercial use.
+EverQuest emulators are not affiliated with DayBreak Games who is the current owner of EverQuest and all trademarks associated.
