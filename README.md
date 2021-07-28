@@ -18,4 +18,4 @@ Play!
 
 Support and Community:
 
-Please join our discord! https://discord.gg/QCCRXrqjYU
+# Please join our discord! https://discord.gg/QCCRXrqjYU
