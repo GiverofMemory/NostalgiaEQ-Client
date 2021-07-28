@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="us-ascii"?>
+<XML ID="EQInterfaceDefinitionLanguage">
+  <Schema xmlns="EverQuestData" xmlns:dt="EverQuestDataTypes" />
+
+  <Gauge item="Casting_Gauge">
+    <ScreenID>Gauge</ScreenID>
+    <Font>6</Font>
+    <RelativePosition>true</RelativePosition>
+    <Location>
+      <X>22</X>
+      <Y>40</Y>
+    </Location>
+    <Size>
+      <CX>200</CX>
+      <CY>18</CY>
+    </Size>
+    <GaugeOffsetY>0</GaugeOffsetY>
+    <Style_VScroll>false</Style_VScroll>
+    <Style_HScroll>false</Style_HScroll>
+    <Style_Transparent>false</Style_Transparent>
+    <!--<TooltipReference/>-->
+    <FillTint>
+	  <Alpha>255</Alpha>
+      <R>255</R>
+      <G>255</G>
+      <B>255</B>
+    </FillTint>
+    <EQType>7</EQType>
+    <GaugeDrawTemplate>
+      <Background>A_GaugeBackground</Background>
+      <Fill>A_PinkGaugeFill</Fill>
+    </GaugeDrawTemplate>
+  </Gauge>
+
+  <Label item="Casting_SpellName">
+    <ScreenID />
+    <EQType>134</EQType>
+    <Font>5</Font>
+    <RelativePosition>true</RelativePosition>
+    <AutoStretch>true</AutoStretch>
+    <LeftAnchorOffset>0</LeftAnchorOffset>
+    <TopAnchorOffset>0</TopAnchorOffset>
+    <RightAnchorOffset>0</RightAnchorOffset>
+    <BottomAnchorOffset>20</BottomAnchorOffset>
+    <TopAnchorToTop>true</TopAnchorToTop>
+    <BottomAnchorToTop>true</BottomAnchorToTop>
+    <LeftAnchorToLeft>true</LeftAnchorToLeft>
+    <RightAnchorToLeft>false</RightAnchorToLeft>
+    <Text />
+    <TextColor>
+      <R>255</R>
+      <G>255</G>
+      <B>255</B>
+    </TextColor>
+    <NoWrap>true</NoWrap>
+    <AlignCenter>true</AlignCenter>
+    <AlignRight>false</AlignRight>
+  </Label>
+
+  <Screen item="CastingWindow">
+    <!--<ScreenID/>-->
+    <!--<Font/>-->
+    <RelativePosition>false</RelativePosition>
+    <Location>
+      <X>580</X>
+      <Y>100</Y>
+    </Location>
+    <Size>
+      <CX>260</CX>
+      <CY>100</CY>
+    </Size>
+    <Text></Text>
+    <Style_VScroll>false</Style_VScroll>
+    <Style_HScroll>false</Style_HScroll>
+    <Style_Transparent>false</Style_Transparent>
+    <TooltipReference>The Breath Meter</TooltipReference>
+    <DrawTemplate>WDT_RoundedNoTitle</DrawTemplate>
+    <Style_Titlebar>true</Style_Titlebar>
+    <Style_Closebox>false</Style_Closebox>
+    <Style_Minimizebox>false</Style_Minimizebox>
+    <Style_Border>true</Style_Border>
+    <Style_Sizable>false</Style_Sizable>
+    <Pieces>Casting_Gauge</Pieces>
+    <Pieces>Casting_SpellName</Pieces>
+  </Screen>
+</XML>

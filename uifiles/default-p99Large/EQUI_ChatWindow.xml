@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="us-ascii"?>
+<XML ID="EQInterfaceDefinitionLanguage">
+  <Schema xmlns="EverQuestData" xmlns:dt="EverQuestDataTypes" />
+  
+
+<!-- Delete when done but I need to get the CWDummy bit added and do a bit more but I like it so far. 4/20/21 -->
+
+
+  <Editbox item="CW_ChatInput">
+    <ScreenID>CWChatInput</ScreenID>
+    <DrawTemplate>WDT_RoundedNoTitle3</DrawTemplate>
+    <RelativePosition>true</RelativePosition>
+    <AutoStretch>true</AutoStretch>
+    <Style_Border>true</Style_Border>
+    <Location>
+      <X>2</X>
+      <Y>44</Y>
+    </Location>
+    <LeftAnchorOffset>0</LeftAnchorOffset>
+    <TopAnchorOffset>49</TopAnchorOffset>
+    <RightAnchorOffset>0</RightAnchorOffset>
+    <BottomAnchorOffset>0</BottomAnchorOffset>
+
+    <TopAnchorToTop>false</TopAnchorToTop>
+    <RightAnchorToLeft>false</RightAnchorToLeft>
+    <BottomAnchorToTop>false</BottomAnchorToTop>
+    <Style_Transparent>false</Style_Transparent>
+	<Font>6</Font>
+  </Editbox>
+
+
+  <STMLbox item="CW_ChatOutput">
+    <ScreenID>CWChatOutput</ScreenID>
+    <DrawTemplate>WDT_RoundedNoTitle</DrawTemplate>
+    <RelativePosition>true</RelativePosition>
+    <Style_VScroll>true</Style_VScroll>
+    <AutoStretch>true</AutoStretch>
+    <LeftAnchorOffset>0</LeftAnchorOffset>
+    <TopAnchorOffset>0</TopAnchorOffset>
+    <RightAnchorOffset>0</RightAnchorOffset>
+    <BottomAnchorOffset>35</BottomAnchorOffset>
+    <RightAnchorToLeft>false</RightAnchorToLeft>
+    <BottomAnchorToTop>false</BottomAnchorToTop>
+    <Style_Border>true</Style_Border>
+    <Style_Transparent>true</Style_Transparent>
+  </STMLbox>
+
+  <Screen item="ChatWindow">
+    <ScreenID />
+    <Font>5</Font>
+    <Text> check</Text>
+    <RelativePosition>false</RelativePosition>
+    <Location>
+      <X>95</X>
+      <Y>280</Y>
+    </Location>
+    <Size>
+      <CX>421</CX>
+      <CY>200</CY>
+    </Size>
+    <Style_VScroll>false</Style_VScroll>
+    <Style_HScroll>false</Style_HScroll>
+    <Style_Transparent>false</Style_Transparent>
+    <DrawTemplate>WDT_RoundedNoTitle</DrawTemplate>
+    <Style_Titlebar>true</Style_Titlebar>
+    <Style_Closebox>true</Style_Closebox>
+    <Style_Minimizebox>false</Style_Minimizebox>
+    <Style_Border>true</Style_Border>
+    <Style_Sizable>true</Style_Sizable>
+    <Pieces>CW_ChatOutput</Pieces>
+    <Pieces>CW_ChatInput</Pieces>
+  </Screen>
+</XML>
