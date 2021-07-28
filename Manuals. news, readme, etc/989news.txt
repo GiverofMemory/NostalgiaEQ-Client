@@ -1,0 +1,11 @@
+For internal Use only:
+
+Please register a brand new account.
+At this time you do not need to access the billing system.
+
+When you log in you will automatically have staff privileges set up.
+You will, however, want to rename your chat username to a 989-one.
+
+E.g.: If your chat username is Etnom, use:
+
+#rename Etnom 989-Etnom

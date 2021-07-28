@@ -1,0 +1,1262 @@
+EverQuest Beta Manual – Phase 4 - 2/9/99
+
+[DISCLAIMER: During the Beta, many of the functions and abilities 
+listed here will change without notice.  Some will be added, some will 
+be removed.  This document is designed to provide a high level overview 
+of getting started to make your transition into the EverQuest testing 
+environment as easy as possible.]
+
+** About GMs **
+We are starting to build up the Game Master (GM) infrastructure for 
+EverQuest.  If you require assistance in-game, use the /petition <msg> 
+command -- all GMs online will receive your message and you will be 
+helped as soon as possible -- using the /tell command to solicit help 
+from a GM is no longer legal.  Note that there are several kinds of GMs 
+you might encounter in-game, but there are only two kinds responsible 
+for helping testers -- GUIDES, and GM-Admin GMs.  Other GMs (coders, 
+areas, etc.) are development team members and are not there to help you 
+(sorry -- but they need to finish the game).  GUIDES are external (non-
+Sony) GMs who are there to help you and answer questions, but their 
+power is limited (meaning they will often refer you to a GM-Admin).  
+Our plan is to have GM-Admins in-game most of the time, all week, but 
+it may take some time for this coverage to become complete.
+
+SOME IMPORTANT POLICIES:
+-- NO reimbursals of lost items, money, or experience will be made 
+(sorry, but this is a BETA).
+-- Using the /tell command to solicit help from a GM is no longer legal 
+use the /petition command.
+-- Using 'safe' (i.e. areas where NPCs can't or won't go, even though 
+it makes sense they could) is illegal.  Fighting NPCs, or using those 
+areas to rest and heal, is not allowed.  An example would be areas near 
+zone transition sections.  These problem areas are being fixed as 
+quickly as possible, but in the meantime, testers caught abusing these 
+areas won't be testers for long.  
+
+-----------------
+
+Step 1 - Creating Your First Character
+
+When you first enter the game, you will be prompted to create a new 
+character. Your first decisions will be race, class, gender, stats, 
+facial aspect and name.
+
+The race chosen will define the classes available to you.  Certain 
+races have advantages that are fairly obvious when you go cycling 
+through the various combinations of race and class.  As you select a 
+race, the picture changes, the classes available change, and the base 
+stats change.  One of the differences between the characters is the use 
+of infravision or ultravision... i.e. the ability to see in the dark.  
+Humans, Erudites, and Barbarians do not have this ability, all other 
+races do in some form or another.
+
+The classes available vary with the race chosen.  Not all classes are 
+available to every race.  Changing the class chosen changes the base 
+stats of the character.  A brief description of each class is included 
+in Appendix A below.
+
+Gender is a personal preference and has no bearing on any aspect of the 
+character beyond appearance.
+
+Statistics are broken into two categories, primary and secondary.  The 
+primary stats are the brighter colored stats that are the most 
+important to the class chosen.  The secondary stats are the less bright 
+ones that still effect your character, but are not as important to your 
+class.  Once you've decided upon your race and class, you have a group 
+of bonus points to spend, located at the top of your stats, to increase 
+selected stats.  The stats can not be lowered beyond their initial 
+values, but can be raised as high as desired.  It is recommended that 
+the primary stats be focused on, as increasing those will be most 
+beneficial to your character's profession.
+
+A general view of the stats:
+
+Strength:
+This is the physical power of the character.  It determines how much 
+the character can carry without being encumbered and is figured into 
+the character's ability to do damage to an opponent in melee.
+
+Stamina:	
+This is your health and constitution.  It reflects your ability to 
+perform strenuous tasks without becoming exhausted.  It is also used in 
+calculating your hit points.
+
+Agility:	
+This is your physical dexterity and is used to determine your defensive 
+abilities.  The higher your Agility, the less likely you are to be hit 
+by melee combat.
+
+Dexterity:	
+This is your hand/eye coordination and is used in combat accuracy and 
+spell casting capability.  This is used in calculating your missile 
+combat skills and aids in determining if you are interrupted when you 
+are hit while casting a spell.
+
+Wisdom:		
+This is willpower and faith and is used to determine the casting 
+abilities of Shaman, Druids, Rangers, Clerics, and Paladins.  It is 
+also involved in resisting magical spells that effect the mind.
+
+Intelligence:	
+This is intellect and is used to determine the casting abilities of 
+Wizards, Enchanters, Magicians, Necromancers, Shadowknights, and Bards.
+
+Charisma:	
+This is a combination of the physical beauty and charm of the character 
+and is used primarily to calculate how various NPC factions react to 
+the character.  The higher the charisma, the less likely they will be 
+adversely effected by actions that will lower the characters standing 
+with a group, though this modification is very limited (i.e. a pretty 
+and charming murderer is still a murderer).  Charisma also can cause 
+merchants to alter their pricing to the character, again depending upon 
+the character's standing in the merchant's faction.
+
+Spending the bonus points is the one and only time that a character's 
+stats change throughout the life of the character.  Certain spells and 
+magical items may cause temporary changes to a character's stats, but 
+these initial values will otherwise remain the character's permanent 
+stats for their entire life.
+
+Pressing the Face button allows the player to change the character's 
+facial aspect, customizing the character's appearance somewhat.
+
+The character's name must be suitable to a fantasy genre and not be a 
+direct plagiarism of an existing literary character.  The best solution 
+is to allow the character generator to create a name for the player, or 
+for the player to create a name on their own instead of borrowing from 
+an existing character.  Creating an offensive name or a name that is 
+distracting or non-fantasy can result in the GM's changing the name or 
+deleting the character with or without notifying the player. 
+
+After selecting the above characteristics, the player will be prompted 
+for a Deity. It is not required to pick a Deity, unless the character 
+is of a religious profession (Cleric, Shaman, etc).  The choice of a 
+Deity is an important one, as the character will have this Deity for 
+the full of it's life, and that Deity brings with it certain faction 
+assumptions.  For example, choosing Innoruuk, the Prince of Hate, will 
+most certainly not make your character popular around the temple Rodcet 
+Nife, the Prime Healer.  And, being human and choosing Innoruuk will 
+not necessarily make you welcome in Neriak, the home of the Dark Elves.  
+For further discussion on the Deities, it is best do research on them 
+at www.everquest.com. 
+
+
+Step 2 - Customizing Your Playing
+
+After making a character and Entering the World, you will need to make 
+yourself "comfortable".  You do this by adjusting your view and 
+settings to give you the greatest amount of flexibility to your style 
+of playing.
+
+
+I.  VIEW- you arrive in EverQuest with a small viewscreen boxed in by 
+utility keys, etc. They are mostly self-explanatory, but we will cover 
+a couple of them here. 
+
+The first view you see is called "Windowed" and offers the best 
+performance on slower machines.  In your upper left corner are your 
+Options and Persona buttons.  Lower left has a rectangle of 6 empty 
+buttons.  This is your Hot Button keypad.  It allows you to have this 
+view and keep needed skill or function buttons readily available (more 
+on this later).  The bottom center is your text box.  This window or 
+box is where you interact with other players (by speaking), transact 
+with NPCs, and receive information about monsters (such as keeping 
+track of your combat).  On the upper right hand side is your vital 
+signs (hit points (red bar), manna (blue bar) and stamina (yellow bar) 
+) and below that is the space for your party member's vital signs.  On 
+the right hand side are a series of menu buttons and below them are the 
+menus that these buttons bring up.  
+
+Press F10 once, and you should have a full-screen view with your Hot 
+Button keypad in the bottom left hand corner, your text box is now 
+translucent in the bottom center, and your vital signs top right 
+corner. This is the "Half Screen" view.  It allows you to keep track of 
+your vital signs and gives you a wider field of view, but can be a bit 
+sluggish on slower machines.  In the upper left corner are 4 green 
+numbers. The first is your "ping" time to the EQ servers, the second is 
+packet loss out, the third is packet loss in, and the fourth is data 
+throughput to the server.  When the 1st number goes up, your response 
+time is slowed.  If the 2nd and 3rd numbers turn yellow and then red, 
+be prepared, your connection could be in trouble (server down, ISP, 
+etc.).  
+
+Pressing F10 again gives you a full-screen view without any buttons, 
+bars, or text. Press F10 once more and you're back to the "Windowed" 
+view. 
+
+Pressing the Options button allows you to customize your game settings. 
+Here is a brief overview of the settings that can be adjusted:
+
+General:  allows you to change the sound & music volume of the game.
+Display:  allows you to change display specific to your monitor, as 
+well as show PC and NPC names (see the /shownames command below). It 
+also allows you to alter your 3dfx Glide settings if your graphics 
+drivers are Glide3 3.0 compatible.
+
+Chat Filter: allows you to turn on or off things in your text box that 
+you do or do not want to see (such as /shouts and other peoples combat 
+information).
+
+
+II.   HOT BUTTON KEYPAD - the rectangle in the lower left of your 
+screen (in the first 2 views) is a place to put skills or commands that 
+you would like to use often.  To transfer buttons to the Hot Button 
+Keypad, left click on the desired button and hold the button down.  A 
+floating button will appear on top of your cursor. Move it to the 
+desired position on the Hot Button Keypad, and left click again to 
+secure it there.  Left clicking on the left and right arrows above the 
+Hot Button Keypad will cycle through the 6 sets of buttons.  Pressing 
+the numbers 1-6 will activate the buttons without clicking on them, and 
+pressing Shift-1-6 will change through the different sets of buttons.
+
+To remove a button from the Keypad, left click on it and hold to pick 
+it up, move the button to the middle of your screen, then right click.  
+The button will vanish.
+
+A.   Two basic command buttons that are usually transferred there are 
+the Sit/Stand button and the Run/Walk button.  From the "windowed" 
+view, there are 3 of 4 buttons on the right hand side, Abilities, 
+Combat, Main, and Socials.  If Main is on the list, press it.  This 
+brings up the main menu.  Move the button labeled "Walk" to the Keypad.
+
+B.   To do this for secondary combat skills, click on the Combat button 
+in the middle right side of your screen.  The Combat skill buttons will 
+appear to the right of the text box.  The two buttons in the bottom 
+right corner of the screen are available for combat skill assignment.  
+Right clicking on either of these buttons will bring up a list of your 
+current available combat skills.  Which skills appear is dependant upon 
+your Class.  To choose a skill to be assigned, left click on it.  This 
+places that skill on that button. Then move it as above.  These 
+assigned skills are used in combat by clicking on them during combat. 
+Combat skills each have their own duration for re-use and the button 
+will stay depressed until you can use the skill again. Some of these 
+skills have a short duration of only a few moments, while others can 
+remain depressed for as long as a full game day (there are 4 game days 
+in a real day).
+
+C.   To use various other non-combat skills, press the Abilities button 
+on the center right of your "Windowed" view.  Assign skills to these 
+buttons in the same way you do the combat skills.  Skills that are not 
+listed in these areas are either not attainable by your current level 
+or are practiced automatically by other means.
+
+D.   Spells can also be copied from the Spell Button bar to a Hot 
+Button Keypad in the same manner, allowing them to be used in the "Half 
+Screen" view.  See the section on Magic below on how to memorize 
+spells.
+
+E.   The Persona button (the button that takes you to the 
+inventory/skill screen) can also be dragged to your Hot Button Keypad.  
+This allows the character's inventory to be brought up from the Keypad.
+
+F.   Under the Socials menu, there are several pre-programmed text 
+macros with some of the more commonly used commands.  These can be 
+moved like the above buttons to the Hotkey Button Bar.  In addition, 
+they can be reprogrammed to provide your own customized text macros.  
+Right click on the button you want to program.  A typing box will 
+appear in your text window; simply click on the top slot to rename the 
+button, and type below it what you want your character to say, using 
+the appropriate "/" commands (Appendix C below).  Click Done and 
+Control click to move as above.
+
+
+III.   TEXT BOX - Right click on the text that appears at the center 
+bottom of your screen in the Windowed and Half Screen views.  This is 
+your Language box and your Current Language should say Common tongue. 
+If it says anything else, no one else except others who speak that 
+language will understand you and will perceive your speech as 
+gibberish.  Click on it to see what other languages (if any) you know.  
+Then right click again to return to the text box.
+
+To speak to another character that is near by, hit Enter or "/" and 
+type your message.  You are automatically defaulted to /say, which 
+means only people around you hear you.  In the language box, you can 
+choose to default to Group, which means only people you are grouped 
+with hear you, or default to Tell, which targets only a specific person 
+to hear you. These allow you to set a default instead of typing /tell 
+or /gsay before every line of text.  You can also default to speak Out 
+of Character, or to default to speak only to members of your Guild.  
+
+
+Step 3 - First Play Session
+
+Now you have your character and are ready to play, but there are some 
+basics that need to be covered.  How do you move around?  How do you 
+buy things you need or interact with other players?  What is combat 
+like?  If you are a spellcaster, how do you get spells?  It's a lot 
+easier to begin playing if you don't have to worry about answering 
+these questions, so they are provided here.
+
+I.   NAVIGATION - Use your arrow keys on the keyboard to move your 
+character around the world.  A more detailed listing of the keys that 
+are used to move about are included in Appendix B below.
+
+A.   Click the Run button on the bottom right of your screen (on the 
+Main menu of your "Windowed" view or on your Hot Button Keypad if you 
+put it there) to run and again to resume walking.  If you have a long 
+way to go, you may want to Auto-Run.  To start this, press on the 
+Forward arrow to run.  Then press and hold the Alt key.  Let up on the 
+Forward arrow key, then the Alt key.  You are now running until you 
+press either the Forward or Backward arrows.  You can adjust direction 
+with the Right or Left arrow while still running.  
+
+The Page Up and Page Down buttons will allow you to look up and down, 
+and the Home key will center your view again.  
+
+Holding down the Spacebar will allow your character to crouch, and 
+releasing the Spacebar will allow you to jump.  To running broad jump, 
+lightly tap the space bar while running.
+
+B.   Swimming is pretty much the same as running. Use the arrow keys to 
+move forward, back, right or left and the Page Up and Page Down to face 
+up and down.  You will swim in the direction you are facing.  Remember 
+to keep an eye on your air supply in the top left of your screen while 
+submerged or you may find yourself in a watery grave. It's sometimes 
+best to skim the surface while swimming. Tapping gently on the Page Up 
+key while pressing your Forward arrow key will create a nice dog paddle 
+effect and keep your head above water.  You can Auto-Swim using the 
+same process as Auto-Run. 
+
+C.   While moving about, you may want to change camera views.  You 
+enter the world with a first-person view.  Pressing F9 will change your 
+camera view.  You can view yourself from directly above, from behind, 
+and from various angles.  There are 5 different possible views. The 
+first view is 1st person, as if looking from the character's eyes.  The 
+2nd is top down, from directly above the character's head.  The 3rd 
+view is Chase Camera, which follows from behind and turns when the 
+character does, looking over the character's shoulder.  The other two 
+are static cameras that do not turn with the character but keep a 
+constant position (facing east, etc).  
+
+To adjust your view, you can hold down the ALT key and then use the 
+arrow keys to move the camera to the right and left, and up and down.  
+To zoom the camera in and out, use the 7 and 1 key, respectively, on 
+your numeric keypad.  These settings will remain throughout a playing 
+session, but will need to be reset after logging out and back in.
+
+
+II.   STARTING EQUIPMENT - Your character starts with certain items, 
+depending upon your character's profession.  To find out what you have, 
+go to the "Windowed" view.  To view your inventory, click on either 
+your Persona button on the left of your screen or the animated icon 
+underneath it. A front view of your character appears in the upper 
+right corner and underneath are the items you are carrying. To view all 
+the equipment you are currently wearing, click on the front view of 
+your character or click on the button above it.  Here is a basic 
+outline of what these items are for. 
+
+A.   Most characters start with 2 notes, and spellcasters will usually 
+have a scroll of their basic beginning spell.  One note is a "tattered 
+note-rolled up".  Right click on this to read it and find out the name 
+of the NPC to give it to.  This is your first quest: to join your 
+profession's guild.  
+
+[Note: Some PC's do not start with this note, as their Guildmaster has 
+not yet been added to the world.  Not having a note does not is not a 
+disadvantage, as membership to your profession's Guild is not required 
+to receive training]
+
+Once you've read it, proceed to your guildhall, which may or may not be 
+somewhere in the vicinity of your starting point.  To give the note to 
+them, left click on the note, then release, and it will float with your 
+cursor.  Click on the NPC to give it to them.  If you give this note to 
+anyone other than who it's intended for, they will say "Thank You" and 
+the note is irretrievable.  When you give the note to the correct NPC, 
+you will receive a small amount of experience, and a usable item of 
+some sort.  Put the item in your inventory, or on your person by 
+dropping it on the picture of yourself in the upper right hand corner. 
+
+B.   The second note is a PK note.  If you want to be able to fight 
+other players, read this note and follow the instructions therein.  If 
+you do not ever want to fight another player, click on the note, and 
+move it to the Destroy button right above your inventory items.  Click 
+there, and the PK note is gone forever.  Another option is to put it in 
+the bank for possible future use.
+
+C.   If you are a spellcaster, you will begin with a basic spell which 
+you will need to scribe in your spellbook.  Other spells are also 
+available to buy in or around your guildmaster.  See section VII below 
+on Spells to find out more about preparing your spells for casting.
+
+D.   When in the Guildhall, at first level, you have skill practice 
+points and can train with the Master or other NPC members of your 
+guild.  Double clicking on the guildmaster or trainer will bring up a 
+Training Menu, with the skills available to you and their cost, if any.  
+You can come back to train at any time, spending practice points you 
+have earned by gaining levels.  To spend your points, highlight the 
+skill desired on the left by clicking on it and click on the Practice 
+button at the bottom left of the skills list.  
+
+Some skills are labeled with a level number and cannot be practiced 
+until you reach the level listed with that skill.  Once this level is 
+reached, you will need to spend at least one practice on it to learn 
+the basics.  
+
+Your first few practices in your skills are free, but more advanced 
+training will eventually require payment to the Trainer.  To view all 
+of your skills and their rankings, click the animated icon or Persona 
+button on the left of the screen and then the Skills button at the top 
+left.  As you move about the world and fight, the skills you use will 
+advance on their own, without training, as long as the basics of the 
+skill are known.  The maximum a skill will rise on it's own is 
+dependant upon your level.  As you advance in level, this "ceiling" 
+will rise as well.  There is no "cap" or maximum total number of skills 
+a character can have.  Each skill has it's own "ceiling", based solely 
+upon the character's race/class/level.
+
+E.   Most towns will have a bank or Vault where you can deposit money, 
+make change, or store items you want to keep but don't want to carry. 
+It is strongly recommended that you cache your starting weapon, once 
+you get a better one.  It is not worth any money at any merchant, and 
+it's always nice to have a back-up.  
+
+
+III.   PC INTERACTION - Inspecting, Trading and Grouping
+
+A.   To target another player, click on them.  You will see their name 
+on the middle right of your screen with a red hit points bar behind 
+their name.  Double clicking on the player will /consider them, telling 
+you how difficult they would be for you to defeat, and will show you 
+their Inventory if you are close enough to inspect them. Underneath the 
+view of their character will be a brief player-generated description. 
+To create your own description, press F9 to change to a view that you 
+can see yourself, then inspect yourself by double clicking on you.  
+Click on the box that will contain the text and start typing.  This 
+text is visible to anyone that inspects you. 
+
+B.   To trade with another player, click on the item you want to give 
+to them in your inventory to pick it up, then click on the other 
+character to "drop" it on them.  The Trade Menu will come up and you 
+will be able to drop additional items for trade into one of the slots 
+under your name.  To complete the trade, press the Trade button (your 
+name will turn bright green on the trade screen).  The trade will be 
+completed when the target player also ok's the trade.  You may also add 
+other items to the trade, but if you do it will reset the trade switch 
+and both members must ok the trade again.  If more items are traded 
+than the recipient has empty slots (including within bags and 
+backpacks), the excess items will fall to the ground at the recipient's 
+feet and need to be retrieved.
+
+C.   To group with another player, target them and hit the Invite 
+button on the Main menu of the "Windowed" view.  If the player accepts 
+your invitation, you will see the character's name and life gauge (red 
+HP bar) appear in the party window on the center right of your screen. 
+If another player invites you to join a group, the Invite button will 
+change to say "Follow".  Clicking Follow will add you to that group.  
+To leave a group, hit the Disband button.  If you are the leader of a 
+group, you can selectively remove group members by clicking on the 
+member's name in the party window screen and clicking on Disband.  If 
+you target yourself or have no target and click Disband, the entire 
+group will disband.
+
+While grouped, any experience gained from any member of the group 
+killing a monster is divided up among the party members, regardless of 
+the amount of participation of those members.  If all of the characters 
+are of the same level, then the experience points are divided up 
+evenly.  If there is some disparity in the levels of the characters, 
+then the higher level characters get a larger share than the lower 
+level ones.  How the shares are determined is a complex calculation 
+that will shift and alter throughout the course of the Beta.  The 
+important thing to note is higher level characters get more experience 
+points in a group than lower level ones.
+
+Note on Grouping: To prevent "twinking", or higher level players 
+carrying lower level players around and killing monsters for them to 
+get experience from, there is a limit to the maximum distance in levels 
+between the highest level player and the lowest level player in a 
+group.  At the lower levels, (< 10th or so), that maximum is around 3.  
+So if a 10th and a 7th level character are grouped, the 7th level will 
+get some (but a lot less than the 10th will get) experience from 
+monsters killed.  However, if a 6th and a 10th level character are 
+grouped, the 6th will get little to no experience.  The pretense for 
+this is because the lower level character is not experienced enough to 
+even understand what the higher level character is doing.  As 
+characters advance in levels, this maximum increases, so that a 35th 
+and a 27th could adventure together and the 27th could still get 
+experience.
+
+
+IV.   NPC INTERACTION - Interaction
+
+A.   To target any NPC, click on them.  Double clicking on Merchants 
+will bring up the Merchant menu and Guildmasters will bring up the 
+Training menu (see II.D above).  When in the Merchant menu, you may buy 
+any equipment the Merchant offers in the left-hand menu, provided you 
+have enough money for it and space in your inventory. To make a 
+purchase, click on the item of interest and click the purchase button 
+underneath.  
+
+The price you are offered will be determined by many factors: How your 
+race is viewed by that of the merchant, your charisma, your 
+"reputation" based upon offenses you have committed.  For example, Dark 
+Elves may be able to purchase items from a Human merchant, but the 
+prices will be extremely high as there is no love lost between Humans 
+and Dark Elves.
+
+B.   To sell an item to the Merchant, (such as loot taken off monsters 
+killed) click on it and then click the sell button underneath (if you 
+agree to his price).
+
+C.   Double clicking on any other NPC or monster will give you a very 
+general assessment of its level of difficulty compared to you.  In the 
+case of NPC's, these individuals may have information for you, or be 
+involved in some form of quest.  Try to talk to them (using normal /say 
+text) and see what they offer.  For monsters, the assessment can be 
+done at a range to allow you to decide whether or not you want to 
+engage it.  The text of the messages gives an indicator the relative 
+danger of the monster and the color of the text represents the relative 
+amount of experience points you will gain by killing it. For example, 
+Green text indicates that no experience points will be gained, as the 
+monster is too easy for the character to kill.
+
+
+V. NPC INTERACTION - Alignments and Factions
+
+A.	Norrath is a world full of NPCs, and many are important members 
+of that world. Interacting with them will reveal the rich history of 
+the world, including the many factions that exist. NPCs will typically 
+belong to a faction, and that faction has both enemies and allies. If 
+you do something for an NPC (a quest, perhaps), that act will typically 
+raise your standing in their faction (as well as lower your standing in 
+those factions opposed to the NPC's). Similarly, killing that NPC can 
+dramatically affect your standing with that NPC's factions and other 
+associated factions. 
+
+B.	When you enter the world of EverQuest with a new character, he or 
+she begins their journey with an initial faction standing -- these are 
+determined by the character's race, class, and deity. This is very 
+important to keep in mind -- for example, if you begin your life as a 
+Human Shadowknight in the city of Qeynos, you shouldn't expect most of 
+its citizens to treat you very well. In fact, several might attack you 
+on sight. Qeynos, being a city primarily of 'good' alignment, doesn't 
+react well to Shadow Knights, whom they consider 'evil'. Also, keep in 
+mind that the world is dynamic -- some NPCs only appear during the 
+night, or after certain events. It is important to be aware of this, in 
+that an area might be safe to certain classes or races at times, yet 
+unsafe at others. 
+
+C.	After character creation, it is your character's deeds that 
+modify his or her factions. It is important to keep in mind that 
+alignments in EverQuest are relative, not absolute. Dark Elves do not 
+view themselves as evil, whereas Wood Elves certainly believe they are. 
+It would therefore be possible (albeit difficult) for a Troll to 
+perform deeds and quests for the Humans (let's say, for example, the 
+Qeynos Guards, which are a faction in and of themselves), and 
+eventually gain their favor. And then, while almost every Troll would 
+be attacked on sight by those guards, that Troll in particular wouldn't 
+be.
+
+D.	If a character is attacked by an NPC, it is typically due to one 
+of two reasons: either that NPC is just inherently aggressive, or that 
+NPC's factions are diametrically opposed to the character's. If it is 
+because of the latter, the NPC (if capable of speech) should say why 
+he, she, or it, is so upset. For example, an NPC Necromancer that hates 
+Paladins should, upon encountering a Paladin, both attack him and 
+mutter something like 'I hate those holier than thou Paladins!' It is 
+important to pay attention to what the NPC says.
+
+E.	If the player encounters an NPC and his or her character is not 
+attacked, it is still possible to ascertain how that NPC feels about 
+the character, based on factions. Double clicking on that NPC will 
+display one of several sentences, each describing to what severity the 
+NPC either hates you or likes you, or is indifferent (double clicking 
+also reveals other information not related to factions -- please see 
+section IV above).  After performing quests, or attacking various NPCs, 
+it is very useful to double click on other NPCs to determine if your 
+actions have changed the way they feel about your character.
+
+F.	Determining if an NPC is a Key Member of Norrathean society or 
+not is very important. Key Members almost always have proper names 
+and/or titles, while non-key NPCs have more generic names. An example 
+would be B'ranick Notai, a gnoll that is known to hang out in the 
+vicinity of the Qeynos Hills. He is a Key Member, while another gnoll 
+called perhaps 'a patrolling gnoll' or 'a gnoll scout' is not. 
+Killing B'ranick will significantly affect your faction standings, 
+while killing a non-key member will either affect your standings to a 
+significantly lesser degree, or very often not at all.
+
+G.	EverQuest has a great deal of quests (and more and more are being 
+added every day). It is very important to understand the faction 
+system, as well as the concept of Key Members, if the player wishes to 
+interact with the game's quest system. In addition to determining 
+whether an NPC will attack a character, the faction system is also used 
+to determine what, if any, quest information an NPC will give to a 
+character. The best way to find quests is to interact with Key Members 
+(a non-key member will rarely if ever reveal quest information). First 
+target the NPC, and then communicate with them using the '/say' 
+command. Perhaps your character encounters an NPC named Lisara who 
+periodically says she is looking for a lost necklace. The player should 
+target that NPC, and then enter '/say Lisara where is your necklace?' 
+If you've said the right words, the NPC might respond and give you 
+additional information regarding the necklace, leading you hopefully to 
+taking part in its recovery (thereby solving the quest). Note that it 
+is important that you include the NPC's first name in your sentence. 
+Also remember that the NPC will consider your factions, and might give 
+a different quest to different character, or perhaps no quest at all. 
+
+H.	Understanding the faction system, and using the double click 
+method of determining how an NPC feels about your character (or noting 
+what the NPC says if it's attacking your character) is clearly and for 
+obvious reasons an important part of playing EverQuest. If your play 
+style is such that you enjoy quests and learning about the history and 
+details behind the world of Norrath, then interacting with Key Members 
+(NPCs with proper names and/or titles) is essential. And if your play 
+style is more focussed on character advancement and combat, it is 
+important that you avoid attacking or otherwise interfering with Key 
+Members, in that doing so can drastically change your faction standings 
+and significantly alter the way NPCs react to your character's presence 
+(for example, doing something to upset the Guards of Qeynos could make 
+it very difficult to enter the city, in that they might attack you on 
+sight). 
+
+VI.   EQUIPPING YOURSELF - Weapons, Armor & Clothing
+
+A.   To pick up a piece of equipment you see, simply left click on it, 
+then release.  To add it to your inventory, either click on to an 
+inventory slot or just click on your player view window.  When using 
+the player view window for adding equipment, the item will 
+automatically be equipped on the appropriate body position if your 
+character can use the selected item and that slot is empty.  When 
+picking up something from the ground or while looting a body, you can 
+right-click on it and it will automatically be placed into your 
+inventory.
+
+B.   To inspect any item, right click on it and hold the button down to 
+bring up it's properties screen.  This can be done anywhere, including 
+your inventory, a merchants inventory, in the trade window, etc.  The 
+information available will include weight, classes/races that can use 
+it, damage and speed, etc.  The amount of information gleaned will vary 
+based upon where the item is (i.e. looking at someone else's inventory 
+will give you less information than looking at your own.)
+
+C.   If you're buying weapons or armor, you will need to equip yourself 
+after purchasing, which means removing the item from an inventory slot 
+and clicking on your character in the player view window to "put it 
+on", so to speak.  Weapons, armor and clothing are all done this same 
+way.  Before purchasing items, right-click on them and hold the button 
+down to inspect them and make sure that they are wearable/usable by 
+members of both your race and your class.  Wearable items come in 3 
+sizes, Small, Medium, and Large, and certain races are limited to 
+certain sized items.
+
+D.   To use any consumable item (potions, liquor, etc), right-click on 
+it. Caution must be used when consuming excessive amounts alcohol as 
+the results may be random and somewhat erratic...similar to real life.
+
+E.   Food and Water are an important part of your adventuring life.  If 
+you do not have food and water, you will become thirsty and starve.  
+Thirsty or starving characters do not regenerate stamina, health, or 
+mana.  They move slower and are less effective in combat.  To prevent 
+this, always have enough food and water in your inventory.  
+
+Food comes in many forms: Rations, Iron Rations, Meat, Muffins, etc. 
+and can be found in many ways.  It is purchasable from many types of 
+vendors, can be fished for with the Fishing skill (assuming you have a 
+fishing pole and bait), foraged for with the Foraging skill, or found 
+as loot on some animals (in the form of meat).  
+
+Water comes in Flasks of Water that can be purchased or found through 
+foraging, and Globes of Water, which are summoned by casters for their 
+use..  Contrary to some dwarven beliefs, Alcohol is not a substitute 
+for water in EverQuest ;)
+
+F.   Craft items are partially implemented and come in a variety of 
+forms, but all have similar functions.  
+
+An example of a Craft Item is a Sewing Kit.  To use a Sewing Kit, you 
+must first buy one from a Leather Armor Merchant.  From this same 
+merchant can be purchased various patterns for pieces of rough leather 
+armor.  When hunting animals and looting them, Ruined Pelts will be 
+found.  Place a Ruined Pelt and a Pattern into the Sewing Kit and press 
+the Combine button.  A skill check will be made against the appropriate 
+Craft Skill (Tailoring, in this case) and, if this check is successful, 
+an item will be made, and the skill might also improve.  If the check 
+fails, both the pattern and the hide will be lost.  Different animal 
+pelts result in different sized items. Ruined wolf hides produce small 
+sized items, ruined cat/lion hides produce medium sized, and ruined 
+bear hides produce large sized item.
+
+Experimentation is the key to this and other Craft items that may be 
+found.
+
+
+VII.   SPELLS - If you are capable of using spells, you will have a 
+Spellbook symbol underneath the animated icon on the left center of 
+your screen in the "Windowed" view.  Click on this icon and you will be 
+brought into the Spellbook screen.  
+
+A.   Scribing - All spell casters start with a single spell scroll in 
+their inventory.  To scribe the scroll into your spellbook, click on 
+the scroll to pick it up, then drop it onto one of the empty squares in 
+your spell book.  The gauge on the bottom right of your spellbook 
+screen is the time it takes to scribe the scroll.  
+
+B.   Memorizing - Once you have the spell written in your book, you can 
+memorize it for use by clicking on it to pick it up and clicking to 
+drop it onto one of the 8 memory notches, which are the horseshoe 
+shaped indentations on the left side of the spellbook screen.  The 
+gauge on the bottom left of the spellbook screen is the time it takes 
+to memorize the spell.  Once the spell is memorized, it appears as a 
+"spell gem" in one of the horseshoe shaped notches.  The gems are color 
+coded to give a general indication of the type of spell.  Here is the 
+legend:
+
+YELLOW:
+The spell will be cast on you. 
+RED:
+The spell will be cast on who you have targeted. 
+GREEN:
+The spell is area effect, and will radiate out from who you have 
+targeted. 
+BLUE:
+The spell has no range, and will radiate out from you. 
+ORANGE:	
+The spell is area effect, and will radiate out from who you have 
+targeted. It will also effect everybody (usually for spells like Rain 
+of Fire) 
+PURPLE:
+The spell is area effect, but will only affect people in your party. 
+
+C.   Casting - To cast the spell, click on the intended target, then 
+click on the spell icon in your memory slot (or on the Hotkey Button if 
+it you moved it there).  A time gauge will appear in the upper lefthand 
+corner of your screen, indicating the casting time.  If the caster is 
+struck or moves during this time, the spell can be interrupted, causing 
+it to fail.  The Channeling skill gives the caster a chance of 
+recovering from such interruptions.  Many casting classes do not get 
+this skill until later in their career, and the chance of success is 
+VERY small at the lower skill levels..
+
+Spells will cast successfully according to your skill in the 
+appropriate skill area.  The better you get at the linked skill 
+(Abjuration, Divination, Evocation, etc), the more successful your 
+casting will be.  Failure to cast a spell results in a fizzle, which 
+costs mana and produces no effect.
+
+Once the spell is cast, it may or may not affect the target.  If the 
+target is of a much higher level than the caster, or is especially 
+resistant to magic, they may resist the spell.  Casting a spell upon 
+someone, seeing it successfully complete, but seeing no effect means 
+they resisted it.  The greater the distance in levels between the 
+caster and the target, the greater the chance of resisting the spell 
+each time it is cast.
+
+To remove a spell from your memory, right click on it.  To determine 
+what a memorized spell is, right click on the icon in the notch and 
+hold the button down.  The Spell Properties box will appear in your 
+text box.
+
+D.   Meditating - Clicking the Meditate button in the bottom center of 
+the Spellbook screen may speed up the scribing and memorizing process.  
+This is a skill-based ability and will speed up scribing, memorizing, 
+and mana regeneration as the Meditate skill rises.  The longer a person 
+meditates, the faster things regenerate.  This represents a "deeper 
+trance" and encourages players to meditate for longer periods instead 
+of "quick hit" meditations.  While meditating, you can hear what's 
+going around, but cannot speak or do anything else.  If the button will 
+not remain pressed down, that means that the character does not yet 
+have the meditate skill.
+
+
+VIII.   COMBAT - To initiate combat, left click on what you want to 
+attack to target it, then press the Z key (or whatever key you've 
+assigned to that function).  This will put you into attack mode using 
+the weapon in your right hand.  If there is a weapon in your left hand 
+(many combat classes get the Dual Wield skill at higher levels), 
+pressing the X key activates the attack mode for that weapon as well.
+
+If you are out of range of your target you will be informed in the chat 
+window.  You may move freely while engaged in combat, but you will only 
+make effective attacks while facing your target and staying within 
+attack range.  Your attack will automatically stop once your target is 
+vanquished.  If you are attacked by another creature during combat, you 
+must make sure that creature is targeted and again press the Z key in 
+order to take up battle anew.  Most NPCs don't take being attacked very 
+kindly and if you target someone while in combat mode they will turn on 
+you.
+
+In addition to weapon attacks, many classes get non-weapon attacks, 
+such as Kick, Bash, Slam to name a few.  These cause damage in addition 
+to the weapon attacks and require pressing the button for them each 
+time an attack needs to be made instead of being automatic, like the 
+weapon attacks.  Taunt is also a Combat skill that has an important 
+role in protecting the more vulnerable casters in the party.  By 
+targeting an opponent and using the Taunt skill, you attempt to enrage 
+the monster to force them to focus upon you instead of upon another 
+player.  This is a critical skill for keeping the unarmored spell 
+casters alive in a group of adventurers.
+
+IX.   REPORTING BUGS - Throughout your gameplay, you will discover 
+graphics glitches, broken spells, and other such anomalies.  These 
+issues need to be brought to the attention of the development team.  As 
+you find them, you have two avenues of reporting them.
+
+The first is the in-game mechanism that is monitored by the development 
+team.  To use it, type /bug and type in the description of the problem 
+in as much detail as possible.  If it can be duplicated, please 
+indicate how. If it's location specific (a graphics problem, for 
+example), please type /loc before entering the bug and include this 
+information into the report.  Use the buttons at the bottom 
+appropriately (crash vs. non-crash, duplicable vs. non).  Keep in mind 
+that, while you are typing in the bug, your character will not fight or 
+cast, so it is best done while sitting in a safe place. For more 
+information please read ReportingBugs.txt.  Please do NOT give us 
+feedback or comments with the /bug command -- use the /feedback command 
+for this.
+
+The other tool to use is the web-based Bug Database.  This database 
+contains a list of the current bugs that have been found by testers and 
+is also used by the development team.  When you find a bug, document as 
+much about it as you can on paper and take the information to the Bug 
+Board, located http://www.sonyinteractive.com/eqbugs/. NOTE: At this 
+time, the Bug Board is only available to Phase 1 & 2 testers - until we 
+can update the site, we cannot handle any more traffic.
+
+It is imperative that the maximum amount of information be collected 
+for each bug before it is reported.  Partial reports, conjecture, and 
+opinions do not assist the development team.  The kinds of information 
+that should be included in a Bug Report are location (both the zone 
+name and the /loc info), levels and classes of PC's and NPC's that are 
+involved, and detailed steps that can allow the development team to 
+duplicate the bug in their labs, thereby allowing them to fix it more 
+easily.
+
+Before reporting a bug in the online Bug Database, please verify that 
+the bug has not already been reported in the necessary category.  If 
+the bug already exists, please read the existing bug report and only 
+post a followup if you have additional information to provide.
+
+
+X.   FEEDBACK - If you'd like to give us feedback regarding the game or 
+to comment on something, please use the /feedback command.  This will 
+bring up a screen identical in functionality to the /bug screen.  
+Please only use /feedback for feedback and comments, and /bug for bugs.
+
+
+APPENDIX A - CHARACTER CLASSES
+
+I.   WARRIOR - Warriors are the masters of armed combat, in all its 
+many forms. They are at home on the battlefield, and are trained to 
+take punishment as much as dole it out, so their Hit Points are the 
+highest of any class.
+
+II.   CLERIC - The Cleric is a holy man endowed by his patron deity 
+with the power to heal, and, to a lesser extent, call upon the wrath of 
+his deity to smite his foes. Prayer is how the Cleric gains his 
+ability.
+
+III.   PALADIN - Paladins are the very picture of a holy knight, 
+fighting for the cause of good in all aspects of life.  They share some 
+of the power of a Cleric, and a good deal of the fighting ability of a 
+Warrior, but have a few powers all their own.  Paladins have the innate 
+ability to Lay on Hands.
+
+IV.   RANGER - The Ranger is a meld between a Warrior and a Druid, 
+sharing some of the skills of both.  They are at home in the outdoors.
+
+V.   SHADOW KNIGHT - The dark reflection to the Paladin class, Shadow 
+Knights derive all of their powers from the evil gods whom they serve.  
+They are a meld of Warrior and Necromancer, and share some of their 
+abilities and spells.  Shadow Knights have the innate ability to Harm 
+Touch.
+
+VI.   DRUID - A Druid is the complete master of his domain: the 
+outdoors.  He is a friend to all flora and fauna and due to this, 
+animals rarely ever attack him unless first attacked by the Druid.  
+They are Clerical spellcasters whose focus are all things natural, 
+allowing them to call upon the forces of nature for their aid and 
+defense.  They share some woodland skills with their Ranger brothers, 
+but are much more limited to their choice of equipment. 
+
+VII.   MONK - Monks are dedicated to the pursuit of honing their bodies 
+into a pure weapon, shunning nearly all weapons and most forms of 
+armor.  They are very religious as well, and the gods are known to 
+bless them not by prayers and spells, but by magically enhancing their 
+attacks.
+
+VIII.   BARD - The Bard's stock-in-trade is his ability to play songs. 
+His songs are actually spells of a sort, and their magical affects last 
+as long as the Bard continues to sing and play the correct instrument.  
+They have some passing knowledge of the Warrior ways (mainly for self-
+defense), but their main focus is always their art, and so they will 
+never be as skillful as Warriors.
+
+IX.   ROGUE - Rogues are the secretive, mysterious class of Norrath,.  
+Some say they are assassins, others say that they are nothing but 
+common thieves, but the truth lies somewhere in the shadows between, 
+for they are capable of both.  They are quite skilled with many 
+weapons, but they cannot stand toe to toe with a Warrior, preferring to 
+make the kill by a sudden attack from behind, at which they are 
+extremely skilled. They would rather not be discovered at all or if 
+they are, not be there when opponent's blows land. The shadier skills 
+of picking locks and stealing are also their forte.
+
+X.   SHAMAN - Similar to the Cleric, but are more of a tribal witch 
+doctor, the Shaman are typically found amongst the more primitive 
+races.  Their primary focus is the healing of Clerical renown, but they 
+also employ a variety of augmentation and offensive spells. 
+
+XI.   NECROMANCER - These are the dark brotherhood of the arcane arts, 
+dabbling in death.  Through evil spiritually based spells, they are 
+able to animate dead bodies and skeletons to do their bidding, as well 
+as having spells which leach life from their victims. 
+
+XII.   WIZARD -  Wizards are the master seekers of knowledge, and their 
+talents and spells focus on this goal.  They use powerful spells to not 
+only see things from afar, but to transport them there as well.  This 
+thirst for arcane knowledge has also made them the true masters of the 
+strongest form of defense: offensive spells of pure destruction. In 
+their ability to do magical damage, they have no rival. 
+
+XIII.   MAGICIAN - Magicians are the summoner of the arcane arts, and 
+wield the power to call forth everything from a loaf of bread to a huge 
+Fire Elemental to fight for them.  While not as adept at offensive 
+spells as Wizards, Magicians still wield considerable power in this 
+area as well.
+
+XIV.   ENCHANTER - The primary focus of this art can be summed up by 
+the name of the arcane order to which it belongs: Enchantment. Their 
+spells are crafted to enchant people, places, and things allowing them 
+to charm beings and make them fight for their new master, or magically 
+enhance the capabilities of a sword.  They have some proficiency in 
+offensive spells, but cannot match a Wizard's skill.
+
+
+APPENDIX B - KEYBOARD COMMANDS
+
+To begin with, your keyboard will have the following commands pre-
+programmed.  To change these from the default, go to the "Windowed" 
+view, and click the Options button in the top left corner.  From the 
+choices available, pick Keyboard.  Click on the function you want to 
+customize, and press the key you wish to change it to.
+
+Keyboard Commands
+
+Character Movement
+
+Numpad 8 - Move Forward 
+Numpad 2 - Move Back 
+Numpad 4 - Move Left 
+Numpad 6 - Move Right 
+Right Control Key – Strafe (in conjunction with left and right movement 
+keys)
+Space Bar - Jump 
+Num Lock - Auto Run Toggle 
+
+Alternate Movement Keys 
+Up Arrow – Forward
+Down Arrow – Backward 
+Left Arrow – Left
+Right Arrow - Right
+
+Camera Controls
+
+F9 - Camera Toggle 
+F10 - Full/Partial Screen Toggle 
+F11 - Toggle Lag Meter 
+F12 - Toggle Mouse Look 
+Numpad 9 – Pitch up
+Numpad 3 – Pitch Down
+Numpad 7 – Zoom In
+Numpad 1 – Zoom Out
+Home Key – Center View
+Right Alt Key + Movement Keys – Pan Camera
+
+Alternate Camera Controls
+Page Up – Pitch Up
+Page Down – Pitch Down
+Insert – Zoom In
+Delete – Zoom Out
+
+Hot box Commands
+
+The hotkey banks contain six slots, all of which are activated by using 
+the 1-6 keys, or by left-clicking on the desired slot with the mouse.  
+To place a skill, spell, combat, ability or social action into a hotkey 
+slot, center the mouse icon over the desired key then press and hold 
+the left mouse button for approximately 2 seconds.  The selected button 
+will appear on the mouse icon, which may then be dragged over an empty 
+hotkey and placed by left-clicking over the desired slot.
+
+Change Hotkey bank – Shift + 1-6 keys
+
+Targeting
+
+F1 – Self
+F2 - Party Member 1 
+F3 - Party Member 2 
+F4 - Party Member 3 
+F5 - Party Member 4 
+F6 - Party Member 5 
+F7 - Nearest PC 
+F8 - Nearest NPC
+Esc - Cancel Target
+
+
+Combat
+
+A - Auto-attack
+C – Consider
+D – Duck/Crouch
+I – Inventory
+T – Tell
+H – Hail
+
+
+Chat Commands
+
+Enter – Toggle Chat bar On/Off
+Shift + Up Arrow – Chat History Forward
+Shift + Down – Chat History Back
+Shift + Left – Cursor Left
+Shift + Right – Cursor Right
+Shift + Delete – Delete a line of text
+Shift + Insert – Replace Line of text
+Shift + Home – Places the cursor at the beginning of the chat line.
+Shift + End – Places cursor at the end of the chat line.
+Shift + Page Up – Scroll text window up.
+Shift + Page Down – Scroll text window down.
+
+Other Commands
+
+"-" on the numerical keypad – screenshot(the bmp file will be written 
+to the EverQuest directory).
+U – Use Center
+
+APPENDIX C - / COMMANDS
+	
+/shout - text is seen across entire zone
+/tell (player name) - text is seen by named player anywhere in the game
+/ignore (player name) - turns off all text from that player
+/bug or /b - takes you to a bug-reporting screen
+/feedback - takes you to the feedback/comments screen
+/shownames (ON or OFF) - turns on or off visible names above PC's and 
+NPC's heads.  Red names are PvP, Blue names are -PvP
+/gsay or /g - text is seen by all in your group
+/consider (con) - gives vital statistics of a targeted PC or NPC
+/consent (player name) - gives player permission to loot your corpse
+/d - challenges targeted PC to a duel - to accept, they type /d with 
+you targeted as well. Duel is in effect until one "dies" (is knocked 
+unconscious) or flees the zone
+/ooc - allows you to say something as yourself, not as your character, 
+heard throughout the zone
+/anon or /a - Makes you Anonymous in /who and /who all, preventing 
+other players from seeing your class, level, and current location.
+/loc - gives the location in numeric coordinates (essential for 
+location-based bug reports) of the current target.  If nothing is 
+targeted, it gives your coordinates.
+/time - gives you the time of day in Norrath
+/played - gives you the birthdate & hours played w/ your character
+/split # # # # - splits a defined amount of money with your group: 
+plat, gold, silver, & copper respectively...i.e. /split 4 3 2 0 splits 
+4 plat, 3 gold, 2 silver, and 0 copper with the rest of the group.  All 
+numbers must be present, use 0 for coins to not be split.
+/autosplit - automatically splits any loot you get with the rest of 
+your part.  Each member must do this to split all loot evenly (this 
+feature is currently disabled, but will be reactivated prior to 
+commercial release).
+/assist - if you target a player who is engaged in combat, the /assist 
+command will automatically target for you whoever that player is 
+fighting at the moment -- this can be very useful in heavy combat.  To 
+be most effective, it is best to set this as a Social (see IV.F above)
+/em (text) or : (text) - emotes the text.  Some emotes have animations 
+associated with them, most do not.  Other Emotes include:
+
+/wave - waves at the targeted individual
+/cry - cries
+/nod - nods
+/panic - screams in panic
+/bow - bows to the targeted individual
+/cheer - cheers
+/rofl - roll on the floor laughing
+
+/pet <command> - gives orders to a charmed or summoned pet.  Sample pet 
+commands:
+
+/pet guard here - tells the pet to guard its current location.
+/pet guard me - tells the pet to attack anyone that attacks it's 
+master, or that it's master attacks.
+/pet follow me - tells the pet to follow you, but ends when you cross a 
+zone line.
+/pet attack <target> - tells the pet to attack the designated target.
+/pet back off - tells the pet to stop its attack.
+/pet as you were - returns the pet to neutral, belaying all prior 
+orders.
+
+/who - lists all player characters in your zone
+/who all - lists all player characters in the world
+
+[Note: /who and /who all are also usable with masks to look for certain 
+players or classes online.  For example:
+
+/who wiz all - generates a list of all Wizards online in all zones
+/who ae all - generates a list of all characters whose names begin with 
+Ae
+/who gm all - generates a list of all the GM's that are online
+
+Please also note that the GM's are grouped into differing types.
+GM-Admins are Sony Administrators that can answer your questions and 
+resolve issues.
+GM-Coders and GM-Areas are Sony developers and artists that are 
+resolving game issues and are not available for questions.
+GUIDES are fellow testers that are there to answer gameplay questions, 
+but have no "powers".]
+
+
+APPENDIX D - Use of the Chat Screen and Chat Channels
+
+Names in red in the player list are 989 Staff personal
+Names proceeded by 989- are official Technical Support staff.
+Names in blue are official non-staff Guides.
+
+Private Messages
+You can send a private message to another player, unseen by anyone 
+else. Type a '/' and the player's name and then your message.
+
+E.g.: To type a private message to Fred, type:
+
+/Fred Hello Fred!
+
+Emoticons
+You can send emoticons (means of expressing actions without 
+"speaking".)
+Type a ':' before your message.
+
+E.g.:	if your name is Fred and you type   :laughs out loud
+Appears as:    Fred laughs out loud.
+
+"Pound" Commands
+
+#goto <handle>
+Go to wherever channel/game player <handle> is in.
+ 
+#ignore
+Lists all the players you are ignoring
+
+#ignore <handle>
+Start ignoring a player
+
+#make
+Make your own Chat Channel
+
+#myip
+Reports YOUR IP address
+
+#pagehelp
+Pages all staff on the system, if you require help.
+
+#priv
+Find out your Privilege Status Level
+
+#report
+Report bad language/behavior/harrassment
+
+#channel allow <handle>
+Allow player <handle> access to this channel.
+
+#channel kick <handle>
+Bar player <handle> from this channel. Unbar using #allow
+
+#squelch
+Alias for #ignore
+
+#tell on/off
+Ignore private messages (tell) using #tell off
+Turn them on again using #tell on
+
+#unignore <handle>
+Stop ignoring a player
+
+#unsquelch
+Alias for #unignore
+
+#whereis <handle
+Find out what channel/game player <handle> is in.
+
+Section III.  Known Spell Bugs
+
+In an effort to alleviate some of the painful spell purchases and 
+/petitions, I am posting (and will continue to post) a list of spells 
+that do not work, or that have the bugs associated with them. 
+
+-- Geoffrey Z.
+
+
+BUGGED SPELLS
+
+
+CLERIC (up to spell circle 6 / Level 24)
+
+Sense Magic – No additional information on some items
+Halo of Light – Does not work
+
+
+DRUID (up to spell circle 6 / Level 24)
+
+Sense Magic – No additional information on some items
+Dance of the Fireflies – Does not work
+Starshine – Does not work
+Halo of Light – Does not work
+Wind Strike – Creatures are not marked as "Flying" yet, so the spell 
+does not work
+Wind Blast – See Above
+Forest – Occasionally has bugs & does not change you to a tree / back 
+to normal
+
+
+SHAMAN (up to spell circle 6 / Level 24)
+
+Sense Magic – No additional information on some items
+
+
+NECROMANCER (up to Rank 7 / Level 24)
+
+Coldlight – Does not work
+Sense Magic – No additional information on some items
+Corpse Bomb – Does not work
+Grim Aura – Does not work
+Vampiric Touch – Does not Work
+
+
+WIZARD (up to Rank 7 / Level 24)
+
+Sense Magic – No additional information on some items
+Fade – Does not work
+Halo of Light – Does not work
+
+
+MAGICIAN (up to Rank 7 / Level 24)
+
+Sense Magic – No additional information on some items
+Summon Wisp – Does not work
+Summon Heatstone – Heatstone does not work
+Summon Coldstone – Coldstone does not work
+
+
+ENCHANTER (up to Rank 7 / Level 24)
+
+Sense Magic – No additional information on some items
+Pendril's Animation – Does not work
+Enchantment of Light – Does not work
+Mircyl's Animation – Does not work
+Eye of Confusion – Does not work
+Sentinel – Does not work
+Enchamtment of Brillince – Does not work
+
+ISSUE OF NOTE
+
+When you initially get a spell, do not expect it to be noticeably more 
+effective then the spell you have been practicing for the past few 
+levels.  Each spell takes time to 'grow in to' – as you gain experience 
+your higher levels spells will fizzle less and have a greater effect.
+
+
+SPELL ISSUES
+
+Pet commands still need some work
+Spell Specialization has not yet been implemented – don't worry if your 
+specialization has no effect (yet)
+
+
+
+
