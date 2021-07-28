@@ -5,7 +5,7 @@ Client used by the Nostlagia EQ Project, which is a fully open source Classic Ev
 
 Download
 * Download zip archive (click the green "code" button and select "download zip file")
-* Unzip archive into a folder
+* Unzip archive into the destination of your choice (I like to extract to Desktop)
 
 Create patchme shortcut
 * Open folder and find eqgame.exe
