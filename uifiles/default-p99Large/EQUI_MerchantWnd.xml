@@ -1,0 +1,324 @@
+<?xml version="1.0" encoding="us-ascii"?>
+<XML ID="EQInterfaceDefinitionLanguage">
+  <Schema xmlns="EverQuestData" xmlns:dt="EverQuestDataTypes" />
+
+
+
+  <Label item="MW_MerchantName">
+    <ScreenID>MW_MerchantName</ScreenID>
+    <Font>5</Font>
+    <RelativePosition>true</RelativePosition>
+    <AutoStretch>true</AutoStretch>
+    <TopAnchorToTop>true</TopAnchorToTop>
+    <BottomAnchorToTop>false</BottomAnchorToTop>
+    <LeftAnchorToLeft>true</LeftAnchorToLeft>
+    <RightAnchorToLeft>false</RightAnchorToLeft>
+    <LeftAnchorOffset>4</LeftAnchorOffset>
+    <TopAnchorOffset>4</TopAnchorOffset>
+    <RightAnchorOffset>4</RightAnchorOffset>
+    <BottomAnchorOffset>24</BottomAnchorOffset>
+    <Text>Bob the Merchant</Text>
+    <TextColor>
+      <R>255</R>
+      <G>255</G>
+      <B>255</B>
+    </TextColor>
+    <NoWrap>false</NoWrap>
+    <AlignCenter>true</AlignCenter>
+    <AlignRight>false</AlignRight>
+  </Label>
+
+
+  <Listbox item="MW_ItemList">
+    <ScreenID>ItemList</ScreenID>
+    <Font>5</Font>
+    <DrawTemplate>WDT_Inner2</DrawTemplate>
+    <AutoStretch>true</AutoStretch>
+    <TopAnchorToTop>true</TopAnchorToTop>
+    <BottomAnchorToTop>false</BottomAnchorToTop>
+    <BottomAnchorToBottom>true</BottomAnchorToBottom>
+    <LeftAnchorToLeft>true</LeftAnchorToLeft>
+    <RightAnchorToLeft>false</RightAnchorToLeft>
+    <LeftAnchorOffset>4</LeftAnchorOffset>
+    <TopAnchorOffset>28</TopAnchorOffset>
+    <RightAnchorOffset>4</RightAnchorOffset>
+    <BottomAnchorOffset>84</BottomAnchorOffset>
+    <TextColor>
+      <R>255</R>
+      <G>255</G>
+      <B>255</B>
+    </TextColor>
+    <Style_Border>true</Style_Border>
+    <Style_VScroll>true</Style_VScroll>
+    <Columns>
+      <Width>88</Width>
+      <Heading>Img</Heading>
+    </Columns>
+    <Columns>
+      <Width>200</Width>
+      <Heading>Item Name</Heading>
+    </Columns>
+    <Columns>
+      <Width>28</Width>
+      <Heading>Qty</Heading>
+    </Columns>
+    <Columns>
+      <Width>48</Width>
+      <Header>Header_PlatCoin</Header>
+    </Columns>
+    <Columns>
+      <Width>24</Width>
+      <Header>Header_GoldCoin</Header>
+    </Columns>
+    <Columns>
+      <Width>24</Width>
+      <Header>Header_SilvCoin</Header>
+    </Columns>
+    <Columns>
+      <Width>24</Width>
+      <Header>Header_CoppCoin</Header>
+    </Columns>
+  </Listbox>
+
+
+<!-- Bottom bit after you click the item above goes below and displays price etc --> 
+
+  <Button item="MW_SelectedItem">
+    <ScreenID>MW_SelectedItem</ScreenID>
+    <Font>5</Font>
+    <RelativePosition>true</RelativePosition>
+    <AutoStretch>true</AutoStretch>
+    <TopAnchorToTop>false</TopAnchorToTop>
+    <BottomAnchorToTop>false</BottomAnchorToTop>
+    <LeftAnchorToLeft>true</LeftAnchorToLeft>
+    <RightAnchorToLeft>true</RightAnchorToLeft>
+    <LeftAnchorOffset>10</LeftAnchorOffset>
+    <TopAnchorOffset>86</TopAnchorOffset>
+    <RightAnchorOffset>92</RightAnchorOffset>
+    <BottomAnchorOffset>4</BottomAnchorOffset>
+    <Style_Transparent>false</Style_Transparent>
+    <Style_Checkbox>false</Style_Checkbox>
+    <ButtonDrawTemplate>
+      <Normal>A_RecessedBox</Normal>
+      <NormalDecal>A_DragItem</NormalDecal>
+    </ButtonDrawTemplate>
+    <DecalOffset>
+      <X>2</X>
+      <Y>2</Y>
+    </DecalOffset>
+    <DecalSize>
+      <CX>80</CX>
+      <CY>80</CY>
+    </DecalSize>
+  </Button>
+
+
+  <Label item="MW_SelectedItemLabel">
+    <ScreenID>MW_SelectedItemLabel</ScreenID>
+    <Style_Border>true</Style_Border>
+    <DrawTemplate>WDT_Inner2</DrawTemplate>
+    <Font>5</Font>
+    <RelativePosition>true</RelativePosition>
+    <AutoStretch>true</AutoStretch>
+    <TopAnchorToTop>false</TopAnchorToTop>
+    <BottomAnchorToTop>false</BottomAnchorToTop>
+    <LeftAnchorToLeft>true</LeftAnchorToLeft>
+    <RightAnchorToLeft>false</RightAnchorToLeft>
+    <LeftAnchorOffset>90</LeftAnchorOffset>
+    <TopAnchorOffset>92</TopAnchorOffset>
+    <RightAnchorOffset>150</RightAnchorOffset>
+    <BottomAnchorOffset>28</BottomAnchorOffset>
+    <Text>Item Being Considered</Text>
+    <TextColor>
+      <R>255</R>
+      <G>255</G>
+      <B>255</B>
+    </TextColor>
+    <NoWrap>false</NoWrap>
+    <AlignCenter>false</AlignCenter>
+    <AlignRight>false</AlignRight>
+  </Label>
+
+
+  <Label item="MW_SelectedPriceLabel">
+    <ScreenID>MW_SelectedPriceLabel</ScreenID>
+    <Style_Border>true</Style_Border>
+    <DrawTemplate>WDT_Inner2</DrawTemplate>
+    <Font>5</Font>
+    <RelativePosition>true</RelativePosition>
+    <AutoStretch>true</AutoStretch>
+    <TopAnchorToTop>false</TopAnchorToTop>
+    <BottomAnchorToTop>false</BottomAnchorToTop>
+    <LeftAnchorToLeft>true</LeftAnchorToLeft>
+    <RightAnchorToLeft>false</RightAnchorToLeft>
+    <LeftAnchorOffset>90</LeftAnchorOffset>
+    <TopAnchorOffset>35</TopAnchorOffset>
+    <RightAnchorOffset>150</RightAnchorOffset>
+    <BottomAnchorOffset>-2</BottomAnchorOffset>
+    <Text>Price</Text>
+    <TextColor>
+      <R>255</R>
+      <G>255</G>
+      <B>255</B>
+    </TextColor>
+    <NoWrap>false</NoWrap>
+    <AlignCenter>false</AlignCenter>
+    <AlignRight>false</AlignRight>
+  </Label>
+
+
+  <Button item="MW_Buy_Button">
+    <ScreenID>MW_Buy_Button</ScreenID>
+    <Font>5</Font>
+    <RelativePosition>true</RelativePosition>
+    <AutoStretch>true</AutoStretch>
+	<TopAnchorToTop>false</TopAnchorToTop>
+    <BottomAnchorToTop>false</BottomAnchorToTop>
+    <LeftAnchorToLeft>false</LeftAnchorToLeft>
+    <RightAnchorToLeft>false</RightAnchorToLeft>
+    <LeftAnchorOffset>150</LeftAnchorOffset>
+    <TopAnchorOffset>85</TopAnchorOffset>
+    <RightAnchorOffset>14</RightAnchorOffset>
+    <BottomAnchorOffset>45</BottomAnchorOffset>
+    <Style_Transparent>false</Style_Transparent>
+    <TooltipReference>Click here to buy the selected item</TooltipReference>
+    <Style_Checkbox>false</Style_Checkbox>
+    <Text>Buy</Text>
+    <TextColor>
+      <R>51</R>
+      <G>51</G>
+      <B>51</B>
+    </TextColor>
+    <ButtonDrawTemplate>
+      <Normal>A_BtnNormal</Normal>
+      <Pressed>A_BtnPressed</Pressed>
+      <Flyby>A_BtnFlyby</Flyby>
+      <Disabled>A_BtnDisabled</Disabled>
+      <PressedFlyby>A_BtnPressedFlyby</PressedFlyby>
+    </ButtonDrawTemplate>
+  </Button>
+
+
+  <Button item="MW_Done_Button">
+    <ScreenID>MW_Done_Button</ScreenID>
+    <Font>5</Font>
+    <RelativePosition>true</RelativePosition>
+    <AutoStretch>true</AutoStretch>
+    <TopAnchorToTop>false</TopAnchorToTop>
+    <BottomAnchorToTop>false</BottomAnchorToTop>
+    <LeftAnchorToLeft>false</LeftAnchorToLeft>
+    <RightAnchorToLeft>false</RightAnchorToLeft>
+    <LeftAnchorOffset>84</LeftAnchorOffset>
+    <TopAnchorOffset>42</TopAnchorOffset>
+    <RightAnchorOffset>14</RightAnchorOffset>
+    <BottomAnchorOffset>4</BottomAnchorOffset>
+    <Style_Transparent>false</Style_Transparent>
+    <TooltipReference>Click here to close the merchant window</TooltipReference>
+    <Style_Checkbox>false</Style_Checkbox>
+    <Text>Done</Text>
+    <TextColor>
+      <R>51</R>
+      <G>51</G>
+      <B>51</B>
+    </TextColor>
+    <ButtonDrawTemplate>
+      <Normal>A_BtnNormal</Normal>
+      <Pressed>A_BtnPressed</Pressed>
+      <Flyby>A_BtnFlyby</Flyby>
+      <Disabled>A_BtnDisabled</Disabled>
+      <PressedFlyby>A_BtnPressedFlyby</PressedFlyby>
+    </ButtonDrawTemplate>
+  </Button>
+
+
+  <Button item="MW_Sell_Button">
+    <ScreenID>MW_Sell_Button</ScreenID>
+    <Font>5</Font>
+    <RelativePosition>true</RelativePosition>
+    <AutoStretch>true</AutoStretch>
+	<TopAnchorToTop>false</TopAnchorToTop>
+    <BottomAnchorToTop>false</BottomAnchorToTop>
+    <LeftAnchorToLeft>false</LeftAnchorToLeft>
+    <RightAnchorToLeft>false</RightAnchorToLeft>
+    <LeftAnchorOffset>150</LeftAnchorOffset>
+    <TopAnchorOffset>85</TopAnchorOffset>
+    <RightAnchorOffset>14</RightAnchorOffset>
+    <BottomAnchorOffset>45</BottomAnchorOffset>
+    <Style_Transparent>false</Style_Transparent>
+    <TooltipReference>Click here to sell the selected item</TooltipReference>
+    <Style_Checkbox>false</Style_Checkbox>
+    <Text>Sell</Text>
+    <TextColor>
+      <R>51</R>
+      <G>51</G>
+      <B>51</B>
+    </TextColor>
+    <ButtonDrawTemplate>
+      <Normal>A_BtnNormal</Normal>
+      <Pressed>A_BtnPressed</Pressed>
+      <Flyby>A_BtnFlyby</Flyby>
+      <Disabled>A_BtnDisabled</Disabled>
+      <PressedFlyby>A_BtnPressedFlyby</PressedFlyby>
+    </ButtonDrawTemplate>
+  </Button>
+
+
+  <Button item="MW_DoneButton">
+    <ScreenID>DoneButton</ScreenID>
+    <Font>5</Font>
+    <RelativePosition>true</RelativePosition>
+    <AutoStretch>true</AutoStretch>
+    <LeftAnchorOffset>5</LeftAnchorOffset>
+    <TopAnchorOffset>27</TopAnchorOffset>
+    <RightAnchorOffset>115</RightAnchorOffset>
+    <BottomAnchorOffset>2</BottomAnchorOffset>
+    <TopAnchorToTop>false</TopAnchorToTop>
+    <BottomAnchorToTop>false</BottomAnchorToTop>
+    <Style_Transparent>false</Style_Transparent>
+    <!--<TooltipReference/>-->
+    <Style_Checkbox>false</Style_Checkbox>
+    <Text>Done</Text>
+    <TextColor>
+      <R>51</R>
+      <G>51</G>
+      <B>51</B>
+    </TextColor>
+    <ButtonDrawTemplate>
+      <Normal>A_BtnNormal</Normal>
+      <Pressed>A_BtnPressed</Pressed>
+      <Flyby>A_BtnFlyby</Flyby>
+      <Disabled>A_BtnDisabled</Disabled>
+      <PressedFlyby>A_BtnPressedFlyby</PressedFlyby>
+    </ButtonDrawTemplate>
+  </Button>
+
+
+  <Screen item="MerchantWnd">
+    <RelativePosition>false</RelativePosition>
+    <Font>5</Font>
+    <Location>
+      <X>0</X>
+      <Y>25</Y>
+    </Location>
+    <Size>
+      <CX>500</CX>
+      <CY>700</CY>
+    </Size>
+    <Text>Merchant</Text>
+    <Style_Transparent>false</Style_Transparent>
+    <DrawTemplate>WDT_RoundedNoTitle</DrawTemplate>
+    <Style_Titlebar>true</Style_Titlebar>
+    <Style_Closebox>true</Style_Closebox>
+    <Style_Minimizebox>false</Style_Minimizebox>
+    <Style_Border>true</Style_Border>
+    <Style_Sizable>false</Style_Sizable>
+    <Pieces>MW_MerchantName</Pieces>
+    <Pieces>MW_ItemList</Pieces>
+    <Pieces>MW_SelectedItemLabel</Pieces>
+    <Pieces>MW_SelectedPriceLabel</Pieces>
+    <Pieces>MW_SelectedItem</Pieces>
+    <Pieces>MW_Buy_Button</Pieces>
+    <Pieces>MW_Sell_Button</Pieces>
+    <Pieces>MW_Done_Button</Pieces>
+  </Screen>
+</XML>

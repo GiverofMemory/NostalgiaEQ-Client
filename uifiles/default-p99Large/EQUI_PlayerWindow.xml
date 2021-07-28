@@ -1,0 +1,279 @@
+<?xml version="1.0" encoding="us-ascii"?>
+<XML ID="EQInterfaceDefinitionLanguage">
+  <Schema xmlns="EverQuestData" xmlns:dt="EverQuestDataTypes" />
+
+  <StaticAnimation item="PWDummy">
+    <ScreenID>PWDummy</ScreenID>
+    <Location>
+      <X>-2</X>
+      <Y>-2</Y>
+    </Location>
+    <Size>
+      <CX>16</CX>
+      <CY>16</CY>
+    </Size>
+    <Animation>A_CornerSquare</Animation>
+  </StaticAnimation>
+
+<!-- Attack Indicator -->
+
+  <TextureInfo item="AttackIndicator.tga">
+    <Size>
+      <CX>512</CX>
+      <CY>512</CY>
+    </Size>
+  </TextureInfo>
+
+  <Ui2DAnimation item="A_AttackIndicator">
+    <Cycle>false</Cycle>
+    <Frames>
+      <Texture>AttackIndicator.tga</Texture>
+      <Location>
+        <X>0</X>
+        <Y>0</Y>
+      </Location>
+    <Size>
+      <CX>288</CX>
+      <CY>210</CY>
+    </Size>
+    </Frames>
+  </Ui2DAnimation>
+
+  <StaticAnimation item="A_AttackIndicatorAnim">
+    <ScreenID>A_AttackIndicatorAnim</ScreenID>
+    <Animation>A_AttackIndicator</Animation>
+  </StaticAnimation>
+
+
+<!-- GAUGES -->
+
+  <Gauge item="Player_HP">
+    <ScreenID>PlayerHP</ScreenID>
+    <Font>1</Font>
+    <TextColor>
+      <R>240</R>
+      <G>240</G>
+      <B>240</B>
+    </TextColor>
+    <RelativePosition>true</RelativePosition>
+    <Location>
+      <X>30</X>
+      <Y>0</Y>
+    </Location>
+    <Size>
+      <CX>200</CX>
+      <CY>120</CY>
+    </Size>
+    <TextOffsetX>-80</TextOffsetX>
+    <TextOffsetY>0</TextOffsetY>
+    <GaugeOffsetY>80</GaugeOffsetY>
+    <GaugeOffsetX>0</GaugeOffsetX>
+    <Style_VScroll>false</Style_VScroll>
+    <Style_HScroll>false</Style_HScroll>
+    <Style_Transparent>true</Style_Transparent>
+    <TooltipReference />
+    <FillTint>
+		<Alpha>255</Alpha>
+      <R>255</R>
+      <G>255</G>
+      <B>255</B>
+    </FillTint>
+    <LinesFillTint>
+      <R>0</R>
+      <G>0</G>
+      <B>0</B>
+    </LinesFillTint>
+    <DrawLinesFill>true</DrawLinesFill>
+    <EQType>1</EQType>
+    <GaugeDrawTemplate>
+      <Background>A_GaugeBackground</Background>
+      <Fill>A_RedGaugeFill</Fill>
+    </GaugeDrawTemplate>
+  </Gauge>
+
+
+  <Label item="Player_NameLabel">
+	<Font>6</Font>
+	<TextColor>
+      <R>255</R>
+      <G>255</G>
+      <B>255</B>
+    </TextColor>
+    <ScreenID>HPLabel</ScreenID>
+    <EQType>1</EQType>
+    <Location>
+      <X>20</X>
+      <Y>20</Y>
+    </Location>
+    <Size>
+      <CX>200</CX>
+      <CY>120</CY>
+    </Size>
+  </Label>
+
+
+
+  <Gauge item="Pet_HP">
+    <ScreenID>PetHP</ScreenID>
+    <Font>5</Font>
+    <TextColor>
+      <R>0</R>
+      <G>0</G>
+      <B>0</B>
+    </TextColor>
+    <RelativePosition>true</RelativePosition>
+    <Location>
+      <X>30</X>
+      <Y>0</Y>
+    </Location>
+    <Size>
+      <CX>200</CX>
+      <CY>14</CY>
+    </Size>
+    <TextOffsetX>35</TextOffsetX>
+    <TextOffsetY>0</TextOffsetY>
+    <GaugeOffsetY>80</GaugeOffsetY>
+    <GaugeOffsetX>0</GaugeOffsetX>
+    <Style_VScroll>false</Style_VScroll>
+    <Style_HScroll>false</Style_HScroll>
+    <Style_Transparent>false</Style_Transparent>
+    <!--<TooltipReference/>-->
+    <FillTint>
+      <R>51</R>
+      <G>192</G>
+      <B>51</B>
+    </FillTint>
+    <LinesFillTint>
+      <R>255</R>
+      <G>0</G>
+      <B>0</B>
+    </LinesFillTint>
+    <DrawLinesFill>true</DrawLinesFill>
+    <EQType>16</EQType>
+    <GaugeDrawTemplate>
+      <Background>A_GaugeBackground</Background>
+      <Fill>A_GaugeFill</Fill>
+      <!--<Lines>A_GaugeLines</Lines>-->
+      <LinesFill>A_GaugeLinesFill</LinesFill>
+      <EndCapLeft>A_GaugeEndCapLeft</EndCapLeft>
+      <EndCapRight>A_GaugeEndCapRight</EndCapRight>
+    </GaugeDrawTemplate>
+  </Gauge>
+
+
+
+  <Gauge item="Player_Mana">
+    <ScreenID>PlayerMana</ScreenID>
+    <Font>5</Font>
+    <RelativePosition>true</RelativePosition>
+    <Location>
+      <X>30</X>
+      <Y>110</Y>
+    </Location>
+    <Size>
+      <CX>200</CX>
+      <CY>18</CY>
+    </Size>
+    <TextOffsetX>0</TextOffsetX>
+    <GaugeOffsetY>0</GaugeOffsetY>
+    <GaugeOffsetX>0</GaugeOffsetX>
+    <Style_VScroll>false</Style_VScroll>
+    <Style_HScroll>false</Style_HScroll>
+    <Style_Transparent>false</Style_Transparent>
+    <!--<TooltipReference/>-->
+    <FillTint>
+	  <Alpha>255</Alpha>
+      <R>255</R>
+      <G>255</G>
+      <B>255</B>
+    </FillTint>
+    <LinesFillTint>
+      <R>0</R>
+      <G>220</G>
+      <B>220</B>
+    </LinesFillTint>
+    <DrawLinesFill>true</DrawLinesFill>
+    <EQType>2</EQType>
+    <GaugeDrawTemplate>
+      <Background>A_GaugeBackground</Background>
+      <Fill>A_BlueGaugeFill</Fill>
+    </GaugeDrawTemplate>
+  </Gauge>
+
+  <Gauge item="Player_Fatigue">
+    <ScreenID>PlayerFatigue</ScreenID>
+    <Font>5</Font>
+    <RelativePosition>true</RelativePosition>
+    <Location>
+      <X>30</X>
+      <Y>140</Y>
+    </Location>
+    <Size>
+      <CX>200</CX>
+      <CY>18</CY>
+    </Size>
+    <TextOffsetX>0</TextOffsetX>
+    <GaugeOffsetY>0</GaugeOffsetY>
+    <GaugeOffsetX>0</GaugeOffsetX>
+    <Style_VScroll>false</Style_VScroll>
+    <Style_HScroll>false</Style_HScroll>
+    <Style_Transparent>false</Style_Transparent>
+    <!--<TooltipReference/>-->
+    <FillTint>
+	  <Alpha>255</Alpha>
+      <R>255</R>
+      <G>255</G>
+      <B>255</B>
+    </FillTint>
+    <LinesFillTint>
+      <R>0</R>
+      <G>220</G>
+      <B>0</B>
+    </LinesFillTint>
+    <DrawLinesFill>false</DrawLinesFill>
+    <EQType>3</EQType>
+    <GaugeDrawTemplate>
+      <Background>A_GaugeBackground</Background>
+      <Fill>A_YellowGaugeFill</Fill>
+    </GaugeDrawTemplate>
+  </Gauge>
+
+<!-- Labels were here.. They were obsolete -->
+
+
+
+
+<!-- PlayerWindow -->
+
+  <Screen item="PlayerWindow">
+    <!--<ScreenID/>-->
+    <Font>6</Font>
+    <RelativePosition>false</RelativePosition>
+    <Location>
+      <X>516</X>
+      <Y>0</Y>
+    </Location>
+    <Size>
+      <CX>288</CX>
+      <CY>214</CY>
+    </Size>
+    <Text>Player</Text>
+    <Style_VScroll>false</Style_VScroll>
+    <Style_HScroll>false</Style_HScroll>
+    <Style_Transparent>false</Style_Transparent>
+    <TooltipReference>The Player Window</TooltipReference>
+    <DrawTemplate>WDT_RoundedNoTitle</DrawTemplate>
+    <Style_Titlebar>false</Style_Titlebar>
+    <Style_Closebox>false</Style_Closebox>
+    <Style_Minimizebox>false</Style_Minimizebox>
+    <Style_Border>true</Style_Border>
+    <Style_Sizable>false</Style_Sizable>
+    <Pieces>PWDummy</Pieces>
+    <Pieces>Player_NameLabel</Pieces>
+    <Pieces>Player_HP</Pieces>
+    <Pieces>Player_Mana</Pieces>
+    <Pieces>Player_Fatigue</Pieces>
+    <Pieces>Pet_HP</Pieces>
+    <Pieces>A_AttackIndicatorAnim</Pieces>
+  </Screen>
+</XML>
