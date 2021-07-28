@@ -1,0 +1,62 @@
+
+
+2/10/99  10:41am
+----------------
+Welcome to Phase 4 of the EverQuest BETA Test!
+
+You are connecting to the EverQuest test server.  The test server is where code and data will be tested first, and is more prone to problems and bugs than the other servers.  PLAY HERE AT YOUR OWN RISK.  The chances of a bug or other error affecting your character and/or gameplay is significantly higher here.
+
+Because we will be updating code and data to this server often, connecting will be PATCH HEAVY.  If you do not have either a lot of bandwidth or a lot of patience (or both), we don't reccomend playing on the test server.
+
+Phase 3.0 and 3.5 testers wishing their accounts restored MUST play on this server.  Please read the instructions below.  The GMs will be overwhelmed with this process at first -- IT COULD TAKE UP TO ONE WEEK TO GET YOUR ACCOUNT RESTORED.  We will expedite this process as best as we are able, but please be patient.  Thank you.
+
+-Brad McQuaid
+ Producer, EverQuest
+
+ATTENTION! Phase 3.0/3.5 Players PLEASE READ:
+
+3.0 and 3.5 Server Character Restoration Procedure.
+
+After you have successfully created a Station account, please logon and enter 
+the Test server. You will find that all slots in the Character Selection Screen 
+are empty. Create a character (any race/class) and enter the game. From in game, 
+please petition to have your characters restored. A GM will ask you to provide 
+you Phase 3.0/3.5 account name and password. After the GM has accepted and 
+confirmed your account name and password, please log off from the test server.
+Copying the files may take some time, so we ask that you bear with us in the 
+process. We will make every effort to expedite the restoration of characters so 
+that you may return to the test. 
+
+*NOTE: This is a special version that will only work with the EverQuest Test Server.  You must run "EverQuest.exe" if you want to connect to one of the regular servers.
+
+EverQuest Phase 4 Beta News
+
+2/15/99 12:30am
+---------------
+We have added the EverQuest tutorial, which is recommended for new players getting started in the world of Norrath.  To patch the tutorial, you will need to patch using the "testeverquest.exe" to receive all of the required files, then run "tutorial.exe".  Please give us any feedback that you may have for improvments that should be made.  All of the character restorations from phases 3 and 3.5 to the "Test" server should be completed by the end of the day.  Also, please note that the "News" window will only contain information regarding the current additions and bug fixes, all past news can be read from the "revision.txt" file located in your EverQuest directory.
+
+
+Bug Fixes
+
+ - The "Backstab" and "Bind Wound" skills should be working as intended.
+ - We believe we have solved one of the problems that occurs when people
+   would get booted at the EverQuest loading screen (with the Elf woman on it).
+ - We should very shortly have fixed all of the registration problems. Try back
+   later tonight if you haven't successfully registered.
+ - Zones should be MUCH, MUCH more stable now. We fixed a major crash problem with them.
+ - New Banshee drivers should be up on www.everquest.com - These are EverQuest specific.
+   Thanks to 3dfx for giving us these drivers before they are generally released.
+ - If you have a Voodoo2 and you have THE latest drivers from 3dfx, you will have
+   a problem switching resolutions. Please use the drivers off of www.everquest.com, as they
+   work properly.
+ - The "Backstab" and "Bind Wound" skills should be working as intended.
+
+2/16/99 11:40am
+-----------------
+This patch fixes some server bugs, which should make zones much more stable.  We also added more debug information to the client to help us track down the remaining lockup problems that some people are having.
+
+
+***** If you are having account problems, please direct e-mail to everquest@989studios.com *******
+****** If this is your first time playing, read everquest_manual.txt FIRST! *******
+****** If this is your first time playing, read everquest_manual.txt FIRST! *******
+-----------
