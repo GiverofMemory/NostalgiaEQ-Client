@@ -1,0 +1,18 @@
+2/10/99 10:41am
+---------------
+Welcome to Phase 4 of the EverQuest BETA Test!
+
+Thank you for participating in the final EverQuest beta phase.
+
+Please keep in mind that this is still BETA.  There will be bugs, there will be problems. 
+
+With 25,000 of you entering the game these next few days there will undoubtedly be difficulties.  We will resolve them as quickly as possible, but we ask for your patience and help, especially during this time.  Expectations are high, and while I don't think you'll be disappointed, please remember this is still a test, and we are all here to help in this process.
+
+With that said, welcome to our world -- I'll see you in-game :)
+
+-Brad McQuaid
+ Producer, EverQuest
+
+*NOTE* Phase 3.0 and 3.5 testers wishing to have their accounts restored MUST use the test server.
+
+If you wish to connect to the EverQuest Test Server, you must run "testEverQuest.exe" instead of "EverQuest.exe".

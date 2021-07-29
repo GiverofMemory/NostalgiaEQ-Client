@@ -1,0 +1,27 @@
+<body link="#B4B400" mlink="#ffffcc">
+<c "#ffff00">"Welcome to the world of Norrath! </c><br>
+<br>
+You are almost there. Just complete these three simple steps:<br>
+<br>
+<c "#ffff00">1. Enter your billing information:  </c><br>
+Click on the following link to enter your information.  This will launch an internet browser in a separate window, your screen may go black while the internet browser window opens.<br>
+<br>
+<c "#fbffa0"><A HREF="https://login.station.sony.com/login/launchpad/everquest/login2.jsp?lang=en&returnURL=https://eqbl.station.sony.com/launchpad/index.jsp">Enter my billing information</A><BR></c>
+<br>
+<br>
+<c "#ffff00">Step 2. Choose your Play Server (Optional): </c><br>
+If you would like the character you are using on Escape to Norrath to be transferred to an EverQuest server:<br>
+<br>
+- Login on that character (Note: if you are coming directly from Escape to Norrath, you can hit the alt tab keys to quickly go back to game)<br>
+- Type "/movelog" in your chat window.<br>
+- Select the server your character will be moved to and that character will be available on that server in twenty minutes. <br>
+<br>
+<br>
+<c "#ffff00">Step 3 Download EverQuest: </c> <br>
+To download the rest of EverQuest and play on a live server: <br>
+<br>
+- Go to the directory where Escape to Norrath is installed. (By default this is C:\Program Files\Sony\EverQuest) <br>
+- Locate the file: EverQuest.exe.  <br>
+- Double click this file to download all the necessary files to play on a live server and we'll see you on Norrath!<br>
+<br>
+</body>
