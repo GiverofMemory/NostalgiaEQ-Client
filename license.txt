@@ -1,5 +1,7 @@
 Welcome to NostalgiaEQ!
 <BR><BR>
+You must set this shortcut to run in compatibility mode for Windows XP Service Pack 3 to prevent crashes
+<BR><BR>
 WRITE DOWN YOUR PASSWORD, and make it strong!  Passwords cannot be changed or given back, if you loose your password you loose your account!  To create an account simply click "login" and enter any username and password you want.  
 <BR><BR>
 Account data (along with everything else in NEQ) is open source and released; however your password is encrypted strongly and perfectly safe.  The only way someone could hack your account is if your password is weak, so make it strong.  Also make it different than anything associated with your account name or character names.
@@ -9,7 +11,7 @@ NostalgiaEQ is a totally free, 100% open source, unique EverQuest server that is
 You hereby certify that you legally own a copy of EverQuest Titanium and 989 Studio's original 1999 release version of EverQuest so that you are legally able to use this custom client. 
 If you do not agree with this please exit and legally obtain a copy of Titanium which will mostly work for this server as well.
 <BR><BR>
-Please Visit NostalgiaEQ.com for more info, rules, forums, and updates, and join our Discord while you are there!  Our community is focused on Discord.
+Please Visit NostalgiaEQ.com and join our Discord while you are there!  Our community is focused on Discord.
 <BR><BR>
 This is a Fan Project and is intended to learn from and relive the nostalgia of the summer of 1999 and is not intended for making a profit or commercial use.
 EverQuest emulators are not affiliated with DayBreak Games who is the current owner of EverQuest and all trademarks associated.
