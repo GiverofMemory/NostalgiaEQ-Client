@@ -6,7 +6,7 @@ WRITE DOWN YOUR PASSWORD, and make it strong!  Passwords cannot be changed or gi
 <BR><BR>
 Account data (along with everything else in NEQ) is open source and released; however your password is encrypted strongly and perfectly safe.  The only way someone could hack your account is if your password is weak, so make it strong.  Also make it different than anything associated with your account name or character names.
 <BR><BR>
-NostalgiaEQ is a totally free, 100% open source, unique EverQuest server that is dedicated to Classic EverQuest.  Right now we are in Classic and we intend to support Kunark and Velious.
+NostalgiaEQ is a totally free, 100% Open Source and Public Domain, unique EverQuest server that is dedicated to Classic EverQuest.  Right now we are in Classic and we intend to support Kunark and Velious.
 <BR><BR>
 You hereby certify that you legally own a copy of EverQuest Titanium and 989 Studio's original 1999 release version of EverQuest so that you are legally able to use this custom client. 
 If you do not agree with this please exit and legally obtain a copy of Titanium which will mostly work for this server as well.
