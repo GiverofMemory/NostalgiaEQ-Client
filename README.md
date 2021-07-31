@@ -15,12 +15,12 @@ Client used by the Nostlagia EQ Project, which is a fully open source Classic Ev
 * Find the "target:" box and scroll to the end and click there, then click spacebar once, and type the word: patchme then click ok or apply or hit enter
 
 ### Run program in compatibility mode
-*Right click the shortcut you just created and go to "properties"
-*Click the "Compatibility" tab
-*Under "compatibility mode" check the box next to "Run this program in compatibility mode for:"
-*Choose Windows XP (Service Pack 3)
-*Click Apply and OK.
-*__Doing this will eliminate certain crashes including on log-out.__
+* Right click the shortcut you just created and go to "properties"
+* Click the "Compatibility" tab
+* Under "compatibility mode" check the box next to "Run this program in compatibility mode for:"
+* Choose Windows XP (Service Pack 3)
+* Click Apply and OK.
+* __Doing this will eliminate certain crashes including on log-out.__
 
 ### Play!
 * Double click the shortcut and see you in game!
