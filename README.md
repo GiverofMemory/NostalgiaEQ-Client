@@ -6,7 +6,7 @@ Client used by the Nostlagia EQ Project, which is a fully open source Classic Ev
 ### Download
 * Download zip archive (click the green "code" button and select "download zip file")
 * Unzip archive into the destination of your choice (I like to extract to Desktop)
-* **Power Users:** Alternatively you can  [Clone this repository](https://docs.github.com/en/github/creating-cloning-and-archiving-repositories/cloning-a-repository-from-github/cloning-a-repository) and then use [Git Bash] (https://gitforwindows.org/) to navigate to the folder you created and enter the words: 'git pull' which will update your client.  I suggest you do not use the repository folder directly to play the game with, but make a copy of it to use - and just keep the clone to get updates.
+* **Power Users:** Alternatively you can  [Clone this repository](https://docs.github.com/en/github/creating-cloning-and-archiving-repositories/cloning-a-repository-from-github/cloning-a-repository) and then use [Git Bash](https://gitforwindows.org/) to navigate to the folder you created and enter the words: 'git pull' which will update your client.  I suggest you do not use the repository folder directly to play the game with, but make a copy of it to use - and just keep the clone to get updates.
 
 ### Create patchme shortcut
 * Open folder and find eqgame.exe
