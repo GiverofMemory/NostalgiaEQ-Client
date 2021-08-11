@@ -1,9 +1,7 @@
 1,0,TFFF,ecommons_chr,Loading Characters
-1,1,TFFF,Global_obj,Loading Character Equipment Files
 1,1,TFTF,GEquip,Loading Character Equipment Files
 2,0,TFFF,GEquip8,Loading Character Equipment Files
 2,0,TFFF,GEquip2,Loading Character Equipment Files
-2,0,TFFF,grass,Loading Character Equipment Files
 2,0,TFFF,GEquip4,Loading Character Equipment Files
 2,0,TFFF,GEquip3,Loading Character Equipment Files
 3,0,TFFF,Global4_chr,Loading Characters
