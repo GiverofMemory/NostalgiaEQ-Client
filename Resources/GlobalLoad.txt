@@ -6,4 +6,4 @@
 3,0,TFFF,Global4_chr,Loading Characters
 3,1,TFFF,Global_chr,Loading Characters
 2,0,TFFF,GEquip5,Loading Character Equipment Files
-3,1,TFTF,fearplane_chr,Loading Character Equipment Files
+1,0,TFFF,growthplane_chr,Loading Characters
