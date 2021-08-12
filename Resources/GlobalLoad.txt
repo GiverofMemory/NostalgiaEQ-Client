@@ -1,4 +1,3 @@
-1,0,TFFF,ecommons_chr,Loading Characters
 1,1,TFTF,GEquip,Loading Character Equipment Files
 2,0,TFFF,GEquip8,Loading Character Equipment Files
 2,0,TFFF,GEquip2,Loading Character Equipment Files
@@ -7,3 +6,4 @@
 3,0,TFFF,Global4_chr,Loading Characters
 3,1,TFFF,Global_chr,Loading Characters
 2,0,TFFF,GEquip5,Loading Character Equipment Files
+3,1,TFTF,fearplane_chr,Loading Character Equipment Files
