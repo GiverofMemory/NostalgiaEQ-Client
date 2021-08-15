@@ -394,8 +394,8 @@
 			<Y>393</Y>
 		</Location>
 		<Size>
-			<CX>0</CX>
-			<CY>0</CY>
+			<CX>100</CX>
+			<CY>32</CY>
 		</Size>
 		<Style_VScroll>false</Style_VScroll>
 		<Style_HScroll>false</Style_HScroll>
@@ -426,8 +426,8 @@
 			<Y>393</Y>
 		</Location>
 		<Size>
-			<CX>0</CX>
-			<CY>0</CY>
+			<CX>100</CX>
+			<CY>32</CY>
 		</Size>
 		<Style_VScroll>false</Style_VScroll>
 		<Style_HScroll>false</Style_HScroll>
