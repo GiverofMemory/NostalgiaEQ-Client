@@ -544,13 +544,13 @@
       <Y>400</Y>
     </Location>
     <Size>
-      <CX>102</CX>
-      <CY>32</CY>
+      <CX>2</CX>
+      <CY>2</CY>
     </Size>
     <Style_VScroll>false</Style_VScroll>
     <Style_HScroll>false</Style_HScroll>
     <Style_Transparent>false</Style_Transparent>
-    <TooltipReference>Click here to log in this character, sending him to his home city. (Available after 6 hours offline)</TooltipReference>
+    <TooltipReference>disabled</TooltipReference>
     <Style_Checkbox>false</Style_Checkbox>
     <!--<RadioGroup/>-->
     <Text>Return Home</Text>
@@ -576,13 +576,13 @@
       <Y>400</Y>
     </Location>
     <Size>
-      <CX>100</CX>
-      <CY>32</CY>
+      <CX>2</CX>
+      <CY>2</CY>
     </Size>
     <Style_VScroll>false</Style_VScroll>
     <Style_HScroll>false</Style_HScroll>
     <Style_Transparent>false</Style_Transparent>
-    <TooltipReference>Click here to Enter the tutorial with the selected character (Level 10 and under only)</TooltipReference>
+    <TooltipReference>disabled</TooltipReference>
     <Style_Checkbox>false</Style_Checkbox>
     <!--<RadioGroup/>-->
     <Text>Enter Tutorial</Text>
