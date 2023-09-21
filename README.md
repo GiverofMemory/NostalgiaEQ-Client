@@ -1,3 +1,5 @@
+May move to [Bitbucket](https://bitbucket.org/naturevault/) or [Gitlab](https://gitlab.com/giverofmemory/) due to mandatory 2FA here.
+
 # NostalgiaEQ-Client
 Client used by the Nostlagia EQ Project, which is a fully open source Classic EverQuest project for hosting your own emulated classic servers.  Gives the full visual experience of p99 Green on any NostalgiaEQ compatible emulated server.  No exe's or dll's have been either modified or added, this is just the base titanium client with added/subtracted files and some files replaced with earlier versions from old install disks. EverQuest is a trademark of Darkpaw Games, NostalgiaEQ is not affiliated with Darkpaw.
 
